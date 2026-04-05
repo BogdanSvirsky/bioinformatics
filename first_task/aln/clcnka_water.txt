@@ -1,0 +1,1391 @@
+########################################
+# Program: water
+# Rundate: Sun  5 Apr 2026 18:25:11
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20260405-182504-0028-86504075-p1m.asequence
+#    -bsequence emboss_water-I20260405-182504-0028-86504075-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 16022036-16034050
+# 2: c141126017-141111922
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16866
+# Identity:    7455/16866 (44.2%)
+# Similarity:  7455/16866 (44.2%)
+# Gaps:        7625/16866 (45.2%)
+# Score: 17892.0
+# 
+#
+#=======================================
+
+16022036-1603      2 GTT----------CAGCC--GCAGCA---------GGAGGACTGACAGGT     30
+                     |||          |||||  ||||.|         ||.||||.|..||||
+c141126017-14      3 GTTAGAGAAGCACCAGCCAGGCAGGACCTCTACAGGGTGGACCGGGAGGT     52
+
+16022036-1603     31 GAGGGGTCTCTGGGCGTGG-ACTGGAGTATGAACCT-GGAAGGGCCAGGC     78
+                     .|||.|   ||||||..|| ||| ||.| |||||.| ||..|||||.|.|
+c141126017-14     53 AAGGAG---CTGGGCCAGGCACT-GACT-TGAACTTGGGTGGGGCCTGCC     97
+
+16022036-1603     79 AGG--CAGGGCA--TAGG--GGATG---------GTAGGGGCAGTAGC-C    112
+                     |||  |||||||  ||||  |||||         |.||.|.|||.||| |
+c141126017-14     98 AGGATCAGGGCAGGTAGGGAGGATGCGGATAGAAGCAGTGACAGAAGCTC    147
+
+16022036-1603    113 AGCACC--TCACTTTGGCTTTGCAGAGGCCTTCT-----GGTCCTGGGGT    155
+                     |.||||  |||              |||.|.|||     ||||.||.|| 
+c141126017-14    148 ATCACCCATCA--------------AGGACCTCTTTCTGGGTCTTGAGG-    182
+
+16022036-1603    156 TTTCCTGC-CTCTGT-GACCTGAGCTGTCGGGGA-GAAAGGAGGGTGCTC    202
+                     .||||||| .||||| ||.|||||||      || |||.|.|||||.||.
+c141126017-14    183 CTTCCTGCTTTCTGTGGAACTGAGCT------GAGGAACGCAGGGTACTG    226
+
+16022036-1603    203 CGAGATTGGCA-GGGAGAGTCGGAGCCATCCAT-GGGACTCTGCAGTGAG    250
+                     .|.|||.||.| |||..|.| .||.|..||||| |||||    ||     
+c141126017-14    227 AGGGATAGGTATGGGGCACT-AGAACTGTCCATGGGGAC----CA-----    266
+
+16022036-1603    251 AGAGTCA----CAGCCCTGGGCAGA--GACTGCTCCCAGTAGTGGAAGCA    294
+                     ||||.||    ||.||||..|||.|  ||.||||||         |||||
+c141126017-14    267 AGAGACAGGGTCATCCCTAAGCAAAATGAGTGCTCC---------AAGCA    307
+
+16022036-1603    295 -CCAAGCGACCCAGGAGGGT------GGGAGCGGTGTCCACAGTCTG---    334
+                      ||.||.|.|||||||||||      |||||      ||.|||...|   
+c141126017-14    308 GCCTAGAGTCCCAGGAGGGTGCAGCAGGGAG------CCCCAGCACGGAA    351
+
+16022036-1603    335 ---CTGCTGGACACAGGGGGA-CACCTAGGAATCCCACCCTCATCCCACA    380
+                        ||.|||     |..|||| .|||     ||||.|||||||||||||.
+c141126017-14    352 AAACTTCTG-----AAAGGGATTACC-----ATCCTACCCTCATCCCACC    391
+
+16022036-1603    381 AAATGACACACACAGG--------------CAC-ACACCC--TCAGTG--    411
+                     ...|..|||.|..|.|              ||| .|||||  .|||||  
+c141126017-14    392 TGCTTTCACGCGGATGGGATTTAGACGTTCCACTCCACCCATGCAGTGTA    441
+
+16022036-1603    412 AC-GGAACCTCAGGGAT-----------------GAGGGCACACACAGAC    443
+                     || ||.|||||..||.|                 |||.|||||||..|| 
+c141126017-14    442 ACAGGCACCTCCTGGGTATCAGAGCCTTTGTAGAGAGAGCACACAGTGA-    490
+
+16022036-1603    444 CTAGTGTG--------ATAACA------------------CACACACACA    467
+                     ||.|||.|        ||||||                  |||||.|||.
+c141126017-14    491 CTGGTGAGCCCTCCACATAACACCCTACACGCCAGCAACCCACACCCACC    540
+
+16022036-1603    468 C----GCACAATCCTTCCT--CTTCATTTGGGTGGGGAGAGCACTGGAAG    511
+                     |    |||.||.|||  ||  |||||.|||||..||..|||.|.||||||
+c141126017-14    541 CAACAGCATAAGCCT--CTGCCTTCAGTTGGGAAGGCGGAGTATTGGAAG    588
+
+16022036-1603    512 GGCCCAGAGG-------------CAGCGCGAGGACGTGC--------AGC    540
+                     ..||||||.|             |||.|||       ||        |||
+c141126017-14    589 AACCCAGAAGAGGGACACAGTCACAGAGCG-------GCTGTCACCAAGC    631
+
+16022036-1603    541 AGCTCACCCGGGTCCTTCCCTCCATCTGCTTCT-CCAGGGGCCTGATGGA    589
+                     ||||               .||||.||| ||.| |||  ||.|.||||||
+c141126017-14    632 AGCT---------------GTCCACCTG-TTATCCCA--GGACGGATGGA    663
+
+16022036-1603    590 GGAGTTGGTGGGGCTGCGTGAGGGCTTCTCAGGGGACCCTGTGACTCTGC    639
+                     .|||.|||||||||||||||||||||.|||.|||.|.||.||||||||||
+c141126017-14    664 AGAGCTGGTGGGGCTGCGTGAGGGCTCCTCCGGGAAGCCGGTGACTCTGC    713
+
+16022036-1603    640 AGGAGCTGTGGGGCCCCTGTCCCCACATCCGCCGAGCCATCCAAGGTGAG    689
+                     |.|||||.|||||.||.|||||.|.|||||||||||.||||..|||||||
+c141126017-14    714 AAGAGCTATGGGGTCCGTGTCCACGCATCCGCCGAGGCATCAGAGGTGAG    763
+
+16022036-1603    690 AGCCAGGT--CCTCTTCCCTACCCGCGGGGGACCACTCAGGACATCATTC    737
+                     |||..|||  |||||  |||.|||.|                        
+c141126017-14    764 AGCTGGGTGCCCTCT--CCTCCCCTC------------------------    787
+
+16022036-1603    738 CTGCCTGGCTCCCACCCCACCTCTCTGCCCAGGAACCACCCTCCTGTCAT    787
+                             ||||..||||||            |||               
+c141126017-14    788 --------CTCCTCCCCCAC------------GAA---------------    802
+
+16022036-1603    788 TTGTCC----AGGACATGACTGCCCAAAGTCTCCTGGGTGGCAGGGAGGG    833
+                       ||||    |||||||                        |||.||   
+c141126017-14    803 --GTCCCCTTAGGACAT------------------------CAGTGA---    823
+
+16022036-1603    834 AAGGGGTCTGTCTGTCCAGCTGTCTGTGGGTCAGATGGGCCAGGCATCTG    883
+                                                                       
+c141126017-14    824 --------------------------------------------------    823
+
+16022036-1603    884 CCCTCTGCCTTTCAGGAGATACAGCCCAAGGCCTGGTCACTGTGCCTATC    933
+                           ||||    |||       ||||||.|     ||||.||      
+c141126017-14    824 ------GCCT----GGA-------CCCAAGAC-----CACTCTG------    845
+
+16022036-1603    934 TTCCACCCAGGCCTCTCCCTCACCTACCTGTGCCAATGAGGGGACGTGGG    983
+                                       .||||.|  ||||                   
+c141126017-14    846 ------------------TTCACTT--CTGT-------------------    856
+
+16022036-1603    984 GGTTAGCTGCTGGGACAGCTGGGGGCACAGCAAGGGGCTGGGGCAGCCTG   1033
+                                                                    |||
+c141126017-14    857 -----------------------------------------------CTG    859
+
+16022036-1603   1034 CACTTGGCACCCTTCCTTGGAGCCCCATGTGCCTTGTTCACTTTGAGACC   1083
+                                |.|||.|.||.|||                     ||||
+c141126017-14    860 -----------CCTCCATAGAACCC---------------------GACC    877
+
+16022036-1603   1084 TGACTGTCCCCTCAGCTACGGGGCAGAGCAAGTAGGGACCACAGAAGGAG   1133
+                     |.|.|||             .|||||||.|||.|||||||.|||||.|.|
+c141126017-14    878 TCATTGT-------------TGGCAGAGAAAGCAGGGACCCCAGAAAGTG    914
+
+16022036-1603   1134 ACTAAGTGCAGTGCC--AGTGGCTGGTGCCCACAGCCAGTGAGGGCCAGC   1181
+                     .|..||..||| |||  ||| ||||.||||.||||||||.||||||||||
+c141126017-14    915 GCAGAGCACAG-GCCCAAGT-GCTGATGCCTACAGCCAGAGAGGGCCAGC    962
+
+16022036-1603   1182 TCCCAGGCTGGGCT-GCAGCCAGCGGGCCAGGGGCATTGCTGGGGACC--   1228
+                     |.|.|||||||||| |||||||| .|||.|.|||.||.|||||||.||  
+c141126017-14    963 TTCTAGGCTGGGCTGGCAGCCAG-TGGCTAAGGGGATAGCTGGGGGCCTG   1011
+
+16022036-1603   1229 -----CAGA-GGATACCTGGCGCCACAGGCCCTGG----GACACGCAGAA   1268
+                          |||| ||   ||||      .|||||||||    ||||.|     
+c141126017-14   1012 AAGCGCAGATGG---CCTG------TAGGCCCTGGGGGTGACAGG-----   1047
+
+16022036-1603   1269 GTC---TGCTAGACCCT-----GGTGCTCTCTAAGCTATGGATCCTGCAG   1310
+                     |||   ||||  .||||     |.||    |||||        |||.|  
+c141126017-14   1048 GTCCTATGCT--TCCCTTCATGGTTG----CTAAG--------CCTCC--   1081
+
+16022036-1603   1311 GGATACAGGTGA---------AAGCTATAGCTGCCAGCCCCCTTCACACT   1351
+                      ||..|   |||         |||       |.|||||||||.|||..||
+c141126017-14   1082 -GACTC---TGAGATTTCATTAAG-------TACCAGCCCCCCTCATCCT   1120
+
+16022036-1603   1352 CC-CTGTCCCCCAGGA--ACCTCCCAGTACAGGCACGGGTG--------G   1390
+                     || ||| ||.||..||  |.||..|.||| ||||.|..|||        .
+c141126017-14   1121 CCTCTG-CCACCTTGACCAACTTTCTGTA-AGGCTCCAGTGTGACCTGAA   1168
+
+16022036-1603   1391 GGAGAGTGGACAGGTCAAAGGCCTTCTGGCAGGGGCAGCAGTCCTGGCAT   1440
+                     |.|||| |||||         |||                 .||||| ||
+c141126017-14   1169 GTAGAG-GGACA---------CCT-----------------ACCTGG-AT   1190
+
+16022036-1603   1441 CCACTGTGCCACCACTGTCACCTGCCACAAATCCTGCCCAGCCC---CCA   1487
+                     |          ||.|| ||||.|.|.|||.||||.||.||||||   |||
+c141126017-14   1191 C----------CCTCT-TCACTTTCTACACATCCCGCTCAGCCCCTTCCA   1229
+
+16022036-1603   1488 GTGTGAGGCAAGCCAGCAGAGGGTAGCTCCAGGCTCACTCAGTGGTGGCC   1537
+                        ||||        .|||||      |||   ||| ||||         
+c141126017-14   1230 ---TGAG--------CCAGAG------TCC---CTC-CTCA---------   1249
+
+16022036-1603   1538 TGAGGTTCTGTTCAGGGCTCCTCCATCCTGAC-ACAGCCATCTGCCAGTC   1586
+                                |||        ||  ||.||| .||||  |||   ||.|
+c141126017-14   1250 -----------TCA--------CC--CCAGACTCCAGC--TCT---AGAC   1273
+
+16022036-1603   1587 CCAGTGCGAGGAACGTGGACAACTTGCATTCCTCTCTGACTCAGGCGGGG   1636
+                     ||..|               ||||       ||||.||.||         
+c141126017-14   1274 CCCCT---------------AACT-------CTCTGTGGCT---------   1292
+
+16022036-1603   1637 CCCCCTCAGGACTACCCCAGACTCAACTACCAGGGTCCTCCCTGCCTGGA   1686
+                                   .||||||                      |||||  
+c141126017-14   1293 --------------ACCCAGA----------------------GCCTG--   1304
+
+16022036-1603   1687 GCCAAGCAGACCTCCAGGGAAGGGGCTGTCTGTGCCCCTTGCCCCAACAT   1736
+                         |||||||| ||.||||                         |||  
+c141126017-14   1305 ----AGCAGACC-CCGGGGA-------------------------AAC--   1322
+
+16022036-1603   1737 AAGCTGGGACTCCGATACCCTGCCCCAGGTGGCCTGGAGTGGCT-AAAGC   1785
+                      |||||.|||.||..|..|||| .|||||.|||||.|||||||| |||| 
+c141126017-14   1323 -AGCTGTGACCCCAGTGTCCTG-TCCAGGGGGCCTAGAGTGGCTGAAAG-   1369
+
+16022036-1603   1786 AGAAGGTGTTCCGCCTGGGAGAAGACTGGTACTTCCTGATGACCCTCGGG   1835
+                     ||..|.|||||||...|.|.||.|||||||||||||||.||.|.||.|||
+c141126017-14   1370 AGCGGCTGTTCCGTGCGCGTGAGGACTGGTACTTCCTGGTGGCTCTTGGG   1419
+
+16022036-1603   1836 GTGCTCATGGCCCTGGTCAGCTATGCCATGAACTTTGCCATCGGGTGTGT   1885
+                     |||||||||||.|||.||||||||||||||||||||||.||||||.||||
+c141126017-14   1420 GTGCTCATGGCTCTGATCAGCTATGCCATGAACTTTGCTATCGGGCGTGT   1469
+
+16022036-1603   1886 GGTCCGAGGTAACTCTTCCCTGGCAGGTGC--TGCTCTGGGCCAAGGGAT   1933
+                     ||||.|||||||..|.||||.||||.|..|  .||||.||||.|.|||||
+c141126017-14   1470 GGTCAGAGGTAAGGCCTCCCCGGCACGCACAAGGCTCGGGGCGATGGGAT   1519
+
+16022036-1603   1934 TC---TAGGCACGCTCTGGGGATACCAGAT----------GGGCCACCAA   1970
+                     ||   ||  ||||  ||.||||||.|||.|          ||||     |
+c141126017-14   1520 TCCTGTA--CACG--CTTGGGATATCAGCTGGATCGCTGGGGGC-----A   1560
+
+16022036-1603   1971 GT-------GCAGCGGTGCAGGGA--CGGACCTGGGTGCGGGGAGGGCTC   2011
+                     ||       ||||.|.||..||||  |.|.||||||...||.||.|||| 
+c141126017-14   1561 GTGGGGTGGGCAGGGCTGTGGGGAGCCAGGCCTGGGGTTGGTGATGGCT-   1609
+
+16022036-1603   2012 TGGCTC-TA-CTCCTGATTTGCTCTGTGATCCTGGGCAGGCTCCTGCCCC   2059
+                         || || |||   |.|.|||.|||||||||||..|.|.||||.|.||
+c141126017-14   1610 ----TCGTATCTC---ACTAGCTTTGTGATCCTGGCAAAGTTCCTTCTCC   1652
+
+16022036-1603   2060 TCTCTGGGCCTCAGTC-TCCTCAGCCGCACAA-GGAAGAGAGA-CCTGAA   2106
+                     |.|||||||||||||| ||| .|.|.|||||| ||  |||||| ||||.|
+c141126017-14   1653 TTTCTGGGCCTCAGTCATCC-AATCTGCACAATGG--GAGAGATCCTGCA   1699
+
+16022036-1603   2107 TATTCCCAAGAGCCCTTCCTCCTCTGAG--------CTCTCTGGCTCCTC   2148
+                     |                  .||||||.|        || |.||.||.||.
+c141126017-14   1700 T------------------GCCTCTGGGAGGCTTTACT-TATGACTACTG   1730
+
+16022036-1603   2149 TTCCAGCCACCCCGTTCCTTCTCCTTCCCT-CCTCCGTGCCTTGGGGCAG   2197
+                     |     |||.|||..||.|||||||   || |||||.|||          
+c141126017-14   1731 T-----CCATCCCTGTCTTTCTCCT---CTCCCTCCATGC----------   1762
+
+16022036-1603   2198 GAGTGGGGACACTTGCCTAGATCACCAAACTTGGAGTCTTCCCCCTGCTC   2247
+                                  |||||          ||||  |||             
+c141126017-14   1763 -------------TGCCT----------ACTT--AGT-------------   1774
+
+16022036-1603   2248 CCTCAGCAGCCTGCCTCCACCCTGAGGCCTCCCTGGAAGAGGGGGTGTGG   2297
+                                                        |||.|          
+c141126017-14   1775 -----------------------------------GAACA----------   1779
+
+16022036-1603   2298 GCAGGAAGGGTCTAAGACACTTTCTCTGGAGACCCTCAGCTGCCAGAAGC   2347
+                                ||    |||||||||||||.|||                
+c141126017-14   1780 -----------CT----CACTTTCTCTGGACACC----------------   1798
+
+16022036-1603   2348 AGCACCTACTATGGTGTTACGGTGTTTGG-TGCTTCACACCTGTGTCATG   2396
+                                               ||| |||.||||            
+c141126017-14   1799 --------------------------TGGCTGCCTCAC------------   1810
+
+16022036-1603   2397 TAGTTCTCAGTGGCCCTTTAGTCTTTAATGTCTTT-AGTCTTCAATGAGC   2445
+                     |||      ||..||||||.|        |||||| ||        |.||
+c141126017-14   1811 TAG------GTCCCCCTTTGG--------GTCTTTCAG--------GGGC   1838
+
+16022036-1603   2446 C-------------TGTGAGGAAGAGCCAATCACTAGCCCACTTGGCAGA   2482
+                     |             |.||.|||.|.||| |||||| |.|.|||...||||
+c141126017-14   1839 CCAGGGTTGGGGAATTTGGGGAGGTGCC-ATCACT-GGCTACTGCACAGA   1886
+
+16022036-1603   2483 TGGGGAAACTGAGGC----TCAGAGAGGCTGAGTGGCTTG----CCCA-A   2523
+                     | |||||||||||||    |||   ||  |.|.||.|.||    |||| |
+c141126017-14   1887 T-GGGAAACTGAGGCACAATCA---AG--TCACTGACCTGAAGTCCCACA   1930
+
+16022036-1603   2524 GGTCACTCAGCTAGGCAGTGGTAAACCTGGGATATGGACCCAGGGTCGTA   2573
+                     .|| ||..|||||||        |||||               ||||  |
+c141126017-14   1931 AGT-ACAAAGCTAGG--------AACCT---------------GGTC--A   1954
+
+16022036-1603   2574 C--TCCTGCCTTTTCTTGGGGGTCTGCACCTCACTCTGTGGCCTGGTCCT   2621
+                     |  ||||                      ||||.|..|||||||||    
+c141126017-14   1955 CCGTCCT----------------------CTCAGTGGGTGGCCTGG----   1978
+
+16022036-1603   2622 CCCCTCTTCGTGACTCCATTTCCTGGTCAGTAAGTGGGCACCACAGTGTC   2671
+                                    ||.|||.||||||..|||.|||||||||.||||||
+c141126017-14   1979 ---------------CCCTTTTCTGGTCTATAAATGGGCACCATAGTGTC   2013
+
+16022036-1603   2672 TGGCCCTGAGGGCTGCA--GAGGCTGTGGGTGCCTCCCTGATACGCGGCT   2719
+                     ||.|||      |||||  ||||||.||||||.|| |||||    |.|||
+c141126017-14   2014 TGCCCC------CTGCACTGAGGCTCTGGGTGGCT-CCTGA----CTGCT   2052
+
+16022036-1603   2720 G----TCCCCAGCACACCAGTGGCTGTACAGGGAGATTGGGGACAGCCAC   2765
+                     |    ||.|||||||||.|||||||||||||.||..||||||||.|||||
+c141126017-14   2053 GGTCATCTCCAGCACACAAGTGGCTGTACAGAGAAGTTGGGGACGGCCAC   2102
+
+16022036-1603   2766 CTGCTCCGGTATCTTTCCTGGACTGTGTACCCTGTGGCCCTCGTCTCTTT   2815
+                     |||||||||||.||.||||||||.||||||||.||.||.||..|.||.||
+c141126017-14   2103 CTGCTCCGGTACCTCTCCTGGACCGTGTACCCCGTAGCTCTTCTGTCCTT   2152
+
+16022036-1603   2816 CTCCTCAGGCTTCTCCCAGAGCATCACGCCCTCCTCTGGAGGTGAGTCCA   2865
+                     ||||||.||||||||.||||||||.|||||||.|||||||||||||| ||
+c141126017-14   2153 CTCCTCCGGCTTCTCACAGAGCATTACGCCCTTCTCTGGAGGTGAGT-CA   2201
+
+16022036-1603   2866 CGGTC------------GCCA---TGC---------CAGTCCCCAGTG--   2889
+                     .||||            ||||   |||         ||.|||||| ||  
+c141126017-14   2202 TGGTCACCTCCTCCCTAGCCAACCTGCCTTGTCCTGCACTCCCCA-TGGG   2250
+
+16022036-1603   2890 -CCAAAACCTTCTCAGATCCCA-GGGGGCTTCTGATGGGGG---------   2928
+                      |||||.|.|||| |.|||||| ||||||||||.|||.|||         
+c141126017-14   2251 TCCAAATCTTTCT-ACATCCCATGGGGGCTTCTCATGAGGGTGGCAGGAA   2299
+
+16022036-1603   2929 ----------GAATCGGGAAGCTGCAGCCTCATTTCTCAAGCCCAGAAGA   2968
+                               ||.|.|||||                .||.||...|||||
+c141126017-14   2300 AGAGTGACATGAGTAGGGAA----------------CCAGGCTTGGAAGA   2333
+
+16022036-1603   2969 G-----TTATGTGGCTTGCCTGAAGGCACACAGCAAGAAGGCCAGATCTT   3013
+                     |     ..|||     |.||..|||.||||.||..|||.||.|||     
+c141126017-14   2334 GACAAACCATG-----TACCCAAAGTCACAAAGGGAGAGGGGCAG-----   2373
+
+16022036-1603   3014 GACTCTTGGGTCACTGCTGGCCCTA--CTCGCTTTCCAAGGGCTCCTTGG   3061
+                         |..|||  |||    .|||.|  ||| ||.|    |||||      
+c141126017-14   2374 ----CAGGGG--ACT----TCCCCAGCCTC-CTCT----GGGCT------   2402
+
+16022036-1603   3062 AAGGA----GATTGCCCTGTGGGGCCTG------TGCTGG----------   3091
+                      ||.|    .||||    ||||   |||      |||.||          
+c141126017-14   2403 -AGTAAAACAATTG----GTGG---CTGGTTACCTGCAGGAGCACAGCTC   2444
+
+16022036-1603   3092 ----TGCCAGGAAG----GGGCCCATGGAGGAGGTGCCGCTCCCTCAGGC   3133
+                         ||.||||.||    ||||..|.|||.|..|||  |||||  |||||
+c141126017-14   2445 AAAATGTCAGGCAGGGCTGGGCTGAGGGAAGCAGTG--GCTCC--CAGGC   2490
+
+16022036-1603   3134 C----ACTCAGCCCTTCCTCCAGCTCCAGGCCAGCAGAGGGGAGCT-CCA   3178
+                     |    |.| ||||.||     |||..|||.||||    |..||.|| |||
+c141126017-14   2491 CCAAGAGT-AGCCTTT-----AGCCTCAGCCCAG----GAAGATCTCCCA   2530
+
+16022036-1603   3179 GG---CTCACTCAGTGGTGG----------CCTGAGGTTCTGTTCAGAGC   3215
+                     ||   ||||   ||.|||||          |||| ||||           
+c141126017-14   2531 GGTATCTCA---AGCGGTGGTCCGATAATCCCTG-GGTT-----------   2565
+
+16022036-1603   3216 TCCCCCATCCTGACACAGCCATCTGCCAGTCCCAGTGGGAGGAACGTGGA   3265
+                        ||||.||||...|.||||.||...||.|||                 
+c141126017-14   2566 ---CCCACCCTGCTGCTGCCACCTTTGAGCCCC-----------------   2595
+
+16022036-1603   3266 CAACTCGCATTCCTCTCTGACTCTAGCATCCAAATCTGCAAAATGAGTTT   3315
+                       ||.|.||..|| |||.| ||||..| |||.|| |.||    |||..||
+c141126017-14   2596 --ACCCCCAGGCC-CTCAG-CTCTCTC-TCCTAA-CAGC----TGAAGTT   2635
+
+16022036-1603   3316 ATG-CATCCTAACCTCTGAGGGTTCTGCGTGATCATAATAGGACTAGGTG   3364
+                     ||| .|||.|  |||||.||||   ||.|||              |||  
+c141126017-14   2636 ATGAAATCTT--CCTCTCAGGG---TGTGTG--------------AGG--   2664
+
+16022036-1603   3365 CAGTGACTCAGTCTATAATCCCAGCACTTTGGGAGGTGGGTGGATCACTT   3414
+                                                 |||||.||||||.||       
+c141126017-14   2665 ----------------------------TTGGGGGGTGGGGGG-------   2679
+
+16022036-1603   3415 GATCCCAG-------GTGTTCAAGAGCAGCTTGGACAACATGGTGAAACC   3457
+                       |.||||       |||||          ||                  
+c141126017-14   2680 --TGCCAGAGAGTATGTGTT----------TT------------------   2699
+
+16022036-1603   3458 CCATCTCTACAAAAAATAAAAAACAACCACCACAACAAAAAGTTAGCCAG   3507
+                      |.|||.||                                         
+c141126017-14   2700 -CGTCTGTA-----------------------------------------   2707
+
+16022036-1603   3508 GTGTGGTGGTGCCTGCCTGTAGTCCCAGCTACTTGGAAGGCTGAGGTGGG   3557
+                                 |||..||||.||      ||||||||            
+c141126017-14   2708 ------------CTGGGTGTACTC------ACTTGGAA------------   2727
+
+16022036-1603   3558 AGGATCACTT-TTGAGCCTGAGGAAGTCGGGGTTATAATGAGCCGAGATC   3606
+                       .|.||.|| |||       ||||||          |..|||.|.|   
+c141126017-14   2728 --TAGCAGTTCTTG-------GGAAGT----------AGAAGCAGGG---   2755
+
+16022036-1603   3607 GAACCACTG-----CA-TTCCAGCCTGG------ACAATAGGGTGATACC   3644
+                         .||||     || ||||||.||||      |||     |||     
+c141126017-14   2756 ----GACTGGCTGCCAGTTCCAGTCTGGGCCCCCACA-----GTG-----   2791
+
+16022036-1603   3645 CTGTCTCAAAGGAAAAAAAAAAATCATAATGTGAAA-ACACCGTGCGGGT   3693
+                              ||||.|.|.|           |.|||| |.|..|.|.|.| 
+c141126017-14   2792 ---------AGGAGAGAGA-----------GAGAAAGAGAGAGAGAGAG-   2820
+
+16022036-1603   3694 AGAGTTATGAGAGTTTTTTTTGTTTGTTTGTTCGTTTGTTTTTGAGATGG   3743
+                     ||||..| |||||                             .||||..|
+c141126017-14   2821 AGAGAGA-GAGAG-----------------------------AGAGAGAG   2840
+
+16022036-1603   3744 AGTTTCACTCTTGTTGCCCAAGGTGGAGTGCAATGGCACAATCTTGGCTC   3793
+                     ||                  ||...|||.|.|     ||.||        
+c141126017-14   2841 AG------------------AGAGAGAGAGAA-----ACCAT--------   2859
+
+16022036-1603   3794 ACTGCA-ACCTCTGCCTCCCAGGTTCAAGCAATTCTCCTGCCTCAGCCTC   3842
+                     ||||.| |  |.|||||           |...||||     ||.|.|.|.
+c141126017-14   2860 ACTGGAGA--TGTGCCT-----------GACTTTCT-----CTGATCTTG   2891
+
+16022036-1603   3843 CCAAGTAG-CTGGGACTGCAGGCACCCGCCACCATGCCCGGCTAATTTTT   3891
+                     |.|||.|| .||||||||                                
+c141126017-14   2892 CTAAGCAGAGTGGGACTG--------------------------------   2909
+
+16022036-1603   3892 TGTATCTTTAGTAGAGATGGGGTTTCACCATGTTGGCAAGGCTGGTCTCG   3941
+                                  ||||.|||                             
+c141126017-14   2910 -------------GAGAAGGG-----------------------------   2917
+
+16022036-1603   3942 AACTCCTGACCTCGCGATCCGCCTGCCTCGGCCTCCCAAAGTGCTGGGAT   3991
+                                                            |||||    ||
+c141126017-14   2918 ---------------------------------------AGTGC----AT   2924
+
+16022036-1603   3992 TACAGGCGTGAGCCACTGCGCCTGGCAGAGAGT-TTTAATCTAGAGATTG   4040
+                     |   ||.|.|||  |.||        ||||||| |.||            
+c141126017-14   2925 T---GGGGGGAG--AATG--------AGAGAGTGTATA------------   2949
+
+16022036-1603   4041 TCCCCTGCTTGTTCCTGTCCTGTCTGGCTAAGGTTCTGGAATCCCGGAGC   4090
+                       |.||||.|.|.|||        ||.|..|||.||||||.||||.||||
+c141126017-14   2950 --CACTGCCTTTCCCT--------TGCCCCAGGGTCTGGACTCCCAGAGC   2989
+
+16022036-1603   4091 TGAAGACCATGTTGGCGGGTGTGATCTTGGAGGACTACCTGGATATCAAG   4140
+                     |||||||||||.||.|.||.||..||.|||||.|||||||.||.||||||
+c141126017-14   2990 TGAAGACCATGCTGTCTGGAGTAGTCCTGGAGAACTACCTAGACATCAAG   3039
+
+16022036-1603   4141 AACTTTGGGGCCAAGGTGGTGGGCCTCTCCTGCACCCTGGCCACCGGCAG   4190
+                     |||||.||||||||||||||||||||||||||||||||||||||.|||||
+c141126017-14   3040 AACTTCGGGGCCAAGGTGGTGGGCCTCTCCTGCACCCTGGCCACAGGCAG   3089
+
+16022036-1603   4191 CACCCTGTTCCTGGGCAAAGTGGTATGGTCAGGTGTGAGG--GCACCCCA   4238
+                     ||||.|.|||||.||||||||||||||..||      |||  |..||.||
+c141126017-14   3090 CACCATCTTCCTAGGCAAAGTGGTATGAACA------AGGCCGGTCCACA   3133
+
+16022036-1603   4239 G----CCACCCCG---CCCAC------CCTACCCTG--------------   4261
+                     |    ||.|||.|   |||||      ||| |||||              
+c141126017-14   3134 GACTTCCTCCCTGTGTCCCACGGACTTCCT-CCCTGTGTCCGAATGCTTA   3182
+
+16022036-1603   4262 -----CCCCAGCT--CTCCCCCA-------------TACCCCACCAAAGC   4291
+                          .|.|||||  .||.||.|             .|||.||..|.|||
+c141126017-14   3183 TGGAAGCACAGCTAAGTCGCCAAGTGTGACAAGATGCACCTCAGGAGAGC   3232
+
+16022036-1603   4292 ---------TGGG-------TCAGAGCA-----------------GACT-   4307
+                              ||||       |.||| ||                 |||| 
+c141126017-14   3233 CCTGGCGTTTGGGGTTGGCCTAAGA-CAAGGATGTAAATGACGTTGACTT   3281
+
+16022036-1603   4308 --------------CAGGCCAGTG-----------CCT--GCCTT-----   4325
+                                   |||||..|||           |||  |||||     
+c141126017-14   3282 TGTTGTCTTTGGGCCAGGCTTGTGGCACTCTTTACCCTGGGCCTTAAGGC   3331
+
+16022036-1603   4326 -------------CAGGGAGCTCAGTCTTAGG-GGAA-GAGCCAGGCCAG   4360
+                                  .||||||...||....||| |||| |||..||| .||
+c141126017-14   3332 GGAAGAGGAGGAGGAGGGAGAGGAGGGAGAGGAGGAAGGAGAGAGG-AAG   3380
+
+16022036-1603   4361 GTCCCCAGTGTGACAAAAGCTACCTGAGGACAGCCCTGGG------GGTT   4404
+                     .|     |.|.||.|.|||..|   |||||       |||      ||..
+c141126017-14   3381 AT-----GAGGGAGAGAAGGAA---GAGGA-------GGGAGAGGAGGAA   3415
+
+16022036-1603   4405 GGGGAGATGGAGGAGGGGGTGTGGTGGGGAAGCCGTGCTGCCTCGGGGTG   4454
+                     ||.|.||.|||.|||||||.|..|..||||            |.||||..
+c141126017-14   3416 GGAGGGAAGGAAGAGGGGGAGGAGGAGGGA------------TGGGGGAA   3453
+
+16022036-1603   4455 AGACT----GTCTCTGCTGCCCTCA-CCTGGGCC-----CA--CCCTTCC   4492
+                     .||||    .||.|||.|||.|..| |||.||||     ||  ||..|||
+c141126017-14   3454 GGACTCATATTCCCTGGTGCACAGACCCTTGGCCTGCATCATGCCTCTCC   3503
+
+16022036-1603   4493 CTCTGCAGGGCCCTTTCGTGCACCTGTCTGTAATGATCGCTGCCTACCTG   4542
+                     | |..||||||||.||||||||||||..|||.|||||..||||.||.|||
+c141126017-14   3504 C-CATCAGGGCCCGTTCGTGCACCTGAGTGTGATGATTTCTGCTTATCTG   3552
+
+16022036-1603   4543 GGCCGTGTGCGCACCACGACCATCGGGGAGCCTGAGGTTAGGGACTCGG-   4591
+                     |||||.||||||.|||...||.|||||||..|||||||.||||    || 
+c141126017-14   3553 GGCCGCGTGCGCGCCAAAGCCGTCGGGGATACTGAGGTAAGGG----GGA   3598
+
+16022036-1603   4592 -------GGGCTTCCTTGGAGAAATGGGAGTGGGGAGGGAGGGGGCTGAC   4634
+                            |.|| .||||.||| |.|.|.|| |||.||.||    |||...
+c141126017-14   3599 CAAGAAAGAGC-CCCTTTGAG-ACTAGAAG-GGGCAGTGA----GCTAGT   3641
+
+16022036-1603   4635 TCTGAGCCCTGGACTC-GGATCCCCCAGAACAAGAGCAAGCAAAACGAAA   4683
+                     |||||..||.||..|| |..|.||.||||.||||..||||.||...||||
+c141126017-14   3642 TCTGAAGCCAGGGTTCTGTTTTCCTCAGAGCAAGGCCAAGGAAGTTGAAA   3691
+
+16022036-1603   4684 TGCTGGTGGCAGCGGCGGCAGTGGGCGTGGCCACAGTCTTTGCAGCTCCC   4733
+                     |||||..|||.||.|||||.||||||||||||||||||||.||.||.|||
+c141126017-14   3692 TGCTGTCGGCGGCAGCGGCGGTGGGCGTGGCCACAGTCTTCGCCGCCCCC   3741
+
+16022036-1603   4734 TTCAGCGGTGAGACC-----CCCCTCATGCCCC------GCCCCCTGGGT   4772
+                     |||||.|||||||.|     |.||||| |||.|      ||.|||..|||
+c141126017-14   3742 TTCAGTGGTGAGAGCTCTGTCACCTCA-GCCTCCTTGTAGCTCCCACGGT   3790
+
+16022036-1603   4773 CC------CTCAAGCT-------------CCTCC-CCTCACACCCTG--G   4800
+                     ||      |.|.||||             .|||| ||.||| |||.|  |
+c141126017-14   3791 CCTGTCCTCCCCAGCTTGATCAGGTCCCCACTCCACCCCAC-CCCAGCTG   3839
+
+16022036-1603   4801 GCTCC----CTCGGCCCAGCTGAGAGCCTGGAGGAGGGGATGGGGCTCAT   4846
+                     |||||    |.|||  |||  ||||.|||                 .||.
+c141126017-14   3840 GCTCCTGATCCCGG--CAG--GAGAACCT-----------------CCAA   3868
+
+16022036-1603   4847 TCTTGTTCTCACTTCAGCCCCGCTTTGGGTATAGCCACCCCCCGGGGGCG   4896
+                     |||  ||| ||    |||.|          |.|||||..|          
+c141126017-14   3869 TCT--TTC-CA----AGCAC----------ACAGCCATTC----------   3891
+
+16022036-1603   4897 GCGGGGCGGGGCG-GGTGGTTGGGGGCGTGGTTGGGCGGT------GCTG   4939
+                                || ||||||||       ||.|||||.||      ||||
+c141126017-14   3892 -----------CGAGGTGGTTG-------GGATGGGCTGTCCAATCGCTG   3923
+
+16022036-1603   4940 AGAGGCTTCAGGATAACATTACACAGACTTGGGTTTGAAATCCACTGGCC   4989
+                                            .|||||| ..||||||.||...|||  
+c141126017-14   3924 -----------------------TAGACTT-TCTTTGAACTCATGTGG--   3947
+
+16022036-1603   4990 CCTTGGCCTCTCTGAGCGCAGCTTCCTCCTCTGTAAAA-TGG--------   5030
+                              .|||||.|...|.|||||...|||.|||| |||        
+c141126017-14   3948 ---------GTCTGATCCTGGTTTCCTGGGCTGGAAAACTGGAAATTCTC   3988
+
+16022036-1603   5031 -------GGA-----TCAAACCGTTCCCACCC----GATAGGGAGAGGGC   5064
+                            |||     |||||   .||||||||    |.|.||||..||| 
+c141126017-14   3989 ACGGTCTGGAAATCCTCAAA---GTCCCACCCCGTAGGTGGGGATTGGG-   4034
+
+16022036-1603   5065 GCACACCTGCATTCCAGGCTGGATGGATCCCTGGGCAGCG----GGGTCC   5110
+                       |||.|||  .||..||||.||          |.||..|    ||.|..
+c141126017-14   4035 --ACAGCTG--ATCTTGGCTTGA----------GTCAAGGACAAGGTTAA   4070
+
+16022036-1603   5111 TCCCCGCCCAGGGCGCAAGCCCTGCCCTCCCCTTCTGTCTGTCC--CTGT   5158
+                     |        |||          ||||               |||  ||||
+c141126017-14   4071 T--------AGG----------TGCC---------------TCCAGCTGT   4087
+
+16022036-1603   5159 CCGGGCTGTAGGACAGCAGGACAGATGGCTCAGGGAGGAGGCGAGATGGG   5208
+                     ||.|||.|.|.| |||||||         |.|.||||.|.|.||.|    
+c141126017-14   4088 CCAGGCAGCAAG-CAGCAGG---------TGAAGGAGAATGTGACA----   4123
+
+16022036-1603   5209 GGAGGGGGCCCTACAGCCACAGGTGGGTGGGGGTGGGGGCCCACCTGACA   5258
+                             |||.|||  ||||                     .||| |||
+c141126017-14   4124 --------CCCCACA--CACA---------------------TCCT-ACA   4141
+
+16022036-1603   5259 TC--------AGT---GTCGCCCCCAGGCGTCCTGTTCAGCATCGAGGTC   5297
+                     .|        |||   ||..||||.|||.|||||||||||||||||||||
+c141126017-14   4142 GCTAAGGAAAAGTCGCGTGTCCCCTAGGTGTCCTGTTCAGCATCGAGGTC   4191
+
+16022036-1603   5298 ATGTCTTCCCACTTCTCTGTCCGGGATTACTGGAGGGGCTTCTTTGCGGC   5347
+                     |||||.||.||||||||.|||.||.|||||||||||||||||||.||.||
+c141126017-14   4192 ATGTCCTCTCACTTCTCCGTCTGGAATTACTGGAGGGGCTTCTTCGCTGC   4241
+
+16022036-1603   5348 CACCTGCGGGGCCTTCATATTCCGGCTCCTGGCAGTCTTCAACAGCGAGC   5397
+                     ||||||.|||||||||||.|||||.||||||||.|||||||||||.||.|
+c141126017-14   4242 CACCTGTGGGGCCTTCATGTTCCGTCTCCTGGCGGTCTTCAACAGTGAAC   4291
+
+16022036-1603   5398 AGGGTGAGCCCC---CTGGG-----------------------CTGCCTG   5421
+                     |||||||||.||   .||||                       |||  ||
+c141126017-14   4292 AGGGTGAGCACCATTTTGGGACCTAGTCTCCACCCTCTCTCTTCTG--TG   4339
+
+16022036-1603   5422 AC-CCTGGCCC-----TGCCTGGGGGCCGGGGCGAGGGAGACCTCCCTTC   5465
+                     || |||  |||     ||.||     ||            .|||.|||||
+c141126017-14   4340 ACTCCT--CCCCACATTGTCT-----CC------------TCCTTCCTTC   4370
+
+16022036-1603   5466 TCCTCTGTGTACA----TCTCTTGCT---------CTTCCCTTC------   5496
+                     .|||||...|.||    ||||||.||         |.|||||||      
+c141126017-14   4371 CCCTCTCCATTCACCTCTCTCTTCCTTCTTTCCTCCCTCCCTTCCTCCCT   4420
+
+16022036-1603   5497 -----CCTCTCTC-------------------------------------   5504
+                          ||||.|||                                     
+c141126017-14   4421 CCCTTCCTCCCTCCCTTCTTTCCTTCCTTTTTCCTTCCTTCCTTCCTTTC   4470
+
+16022036-1603   5505 -----------------TCCCTCTTTTCCCTCCTCCGTGTTCCCACCT--   5535
+                                      |||||||||| ||||||||     |||||||  
+c141126017-14   4471 TTCCTTCCTTCCTTCCTTCCCTCTTTT-CCTCCTCC-----CCCACCTTG   4514
+
+16022036-1603   5536 --------------------------------------------------   5535
+                                                                       
+c141126017-14   4515 GTTTCTGGAGCATCTAGTCAGAAGGTCCAGCTCTGGGTCTGAGTAAAAGA   4564
+
+16022036-1603   5536 --------------------------------------------------   5535
+                                                                       
+c141126017-14   4565 AAAATCTATACTAAAAGAAAATTCATGTGTGTGTGTGTGTGTGTGTGTGT   4614
+
+16022036-1603   5536 -------------------------------CCT-------------TCA   5541
+                                                    |||             |||
+c141126017-14   4615 GTGTGTGTGTGTGTGTGTGTAGATGTGCACACCTATATGTGTGTGAATCA   4664
+
+16022036-1603   5542 G-------------------------GGAGG-------------------   5547
+                     |                         |||||                   
+c141126017-14   4665 GTTGGTTTATGGCATTGGGTGACACTGGAGGGATGTTCTGTCTGCATCTT   4714
+
+16022036-1603   5548 --------------------------------------------------   5547
+                                                                       
+c141126017-14   4715 GGTCACTATAGCGTCACGGAGAAGGTTAAACAAAATCCAGAAAACATGTG   4764
+
+16022036-1603   5548 --------------------------------------------------   5547
+                                                                       
+c141126017-14   4765 TTTGAGGACAGTACAGTCCTGTGTCCGGGGTCAGGACTTCCAAGGGCGCA   4814
+
+16022036-1603   5548 ----------------ATGGAA----------------------------   5553
+                                     ||||||                            
+c141126017-14   4815 CATCTTCCAGCCCAGCATGGAACTTTCCTATAGGAATCTTCATTGCTATC   4864
+
+16022036-1603   5554 -------------------------------------------GGGGCTG   5560
+                                                                ||.||||
+c141126017-14   4865 ACCCTCACTACAATTCCCCATTCCTCAATCGTGAGGGCCTGGGGGTGCTG   4914
+
+16022036-1603   5561 ACCT----------------------------------------------   5564
+                     |.||                                              
+c141126017-14   4915 AACTATCTCTGAACCAGTGAGTAGACTCCACCGAGATCAGCTAAGCATCC   4964
+
+16022036-1603   5565 -------GTGTTGAGCCCCT-GACCTGTG-TTGAG---------------   5590
+                            |.|.||||||.|| |.|||||| .||||               
+c141126017-14   4965 AGGATAAGAGATGAGCCACTGGCCCTGTGCCTGAGAACAGAATACACACA   5014
+
+16022036-1603   5591 --GGGCAAGG------GGCCCTGA-----------GGGTAGA--------   5613
+                       .|.|||||      |.|.||||           |||||.|        
+c141126017-14   5015 GCAGTCAAGGTTGGAAGACACTGAAAATCTCCTCTGGGTACAATGCTGTG   5064
+
+16022036-1603   5614 -------------------------------------------AGGGA--   5618
+                                                                |||||  
+c141126017-14   5065 TAATATGATTGGACACCTCTAGGTTTTCCACATGGTCTTTGAGAGGGACA   5114
+
+16022036-1603   5619 ------------------------------------TGAGGCTGG-----   5627
+                                                         ||||.|.||     
+c141126017-14   5115 CTACACGTGACTCCTTTTTTTTTTTTTTTTGATTTTTGAGACAGGGCTTC   5164
+
+16022036-1603   5628 --------------------------------------------------   5627
+                                                                       
+c141126017-14   5165 TCTATGTAGCCCTGGAACTCACTCTGTAGACCAGGCTGACCTCGAACTCA   5214
+
+16022036-1603   5628 ----------------------------GCAGGGA---------------   5634
+                                                 ||.||||               
+c141126017-14   5215 GAAATCTGCCTGCCTCTGCCTCCCAAGTGCTGGGATTAAAGGCGTGTGCC   5264
+
+16022036-1603   5635 ----------GGCA------------------------------------   5638
+                               ||||                                    
+c141126017-14   5265 ACCACTGCCCGGCACAAGTGACTCCTTTGACTTTGACGTCTCTCCTGTCC   5314
+
+16022036-1603   5639 ---------------------------------AGAGCCTGGT-------   5648
+                                                      |||.||||||       
+c141126017-14   5315 TGCTCCTCCCAAGCACAGTGGGTAAATCACGTTAGACCCTGGTCAGTTCT   5364
+
+16022036-1603   5649 -----------------------------------------TGTG-----   5652
+                                                              ||||     
+c141126017-14   5365 TGATTGCCAAATTGTTGCCAGAGCAGCATGCAGTCATAAGGTGTGCTCTG   5414
+
+16022036-1603   5653 ------------------------GGGG----------------------   5656
+                                             |.||                      
+c141126017-14   5415 CTTCCAAACGCTCACCCGCTTCAAGAGGAAATGATTTGGTAGATACAGAA   5464
+
+16022036-1603   5657 ----------------------------------CCTGGAA-TGCC----   5667
+                                                       .|||||| ||||    
+c141126017-14   5465 ATGGAATGATGAATTTAGTTATATTTTGGTCAAAACTGGAAGTGCCACAA   5514
+
+16022036-1603   5668 ----------------------AGGACACAG-------------------   5676
+                                           |||||||||                   
+c141126017-14   5515 CTTGGGGAGTAGCTGAGACGAGAGGACACAGGCAGATATAGAAAATCTGA   5564
+
+16022036-1603   5677 -AT-TCCGAGTC---------------------------AGGACCTG---   5694
+                      || ||.|||||                           .||||.||   
+c141126017-14   5565 CATGTCAGAGTCCCTGTGGTACCTACCGAAGCTTCCTGTCGGACATGGAG   5614
+
+16022036-1603   5695 -----------------------------------GCA--------CCCC   5701
+                                                        |||        |||.
+c141126017-14   5615 TTTTCTTGGGGGACGTCTTAGTTGCTAACACCTTAGCATCTAGTTGCCCA   5664
+
+16022036-1603   5702 CTCC-----------------------------ACC----CTGGGCTGTT   5718
+                     ||||                             |||    ||||||||..
+c141126017-14   5665 CTCCTTAAGTATCTAGGTAGACAGAAGGGAGTTACCCGTGCTGGGCTGAG   5714
+
+16022036-1603   5719 AG------TCT--GGGACTT-----GAG-TTTGGGTCGGGTG--------   5746
+                     ||      |||  |||   |     ||| |.|||.| ||.||        
+c141126017-14   5715 AGAAAGGCTCTAAGGG---TGGAAAGAGCTATGGCT-GGCTGAATGGCAG   5760
+
+16022036-1603   5747 -----GG---------AGCGCCATCT------------TGG------CTC   5764
+                          ||         |||||.||||            |||      |||
+c141126017-14   5761 GCCCAGGTTCAGAGCCAGCGCTATCTGGTCTCAGGGCATGGTGCTACCTC   5810
+
+16022036-1603   5765 CC------------------------------------------------   5766
+                     ||                                                
+c141126017-14   5811 CCTGGCACAGATTATCCGGGAGATGCTTTGGGTGTGGGTGACCTCAGACC   5860
+
+16022036-1603   5767 --CACTGCCCTCCTTCCCCAGAGACCATCACCTCCCTCTACAAGACCAGT   5814
+                       ||||.||..|||.||||||||||||||||||||.|||||||||||||.
+c141126017-14   5861 CTCACTCCCACCCTCCCCCAGAGACCATCACCTCCATCTACAAGACCAGA   5910
+
+16022036-1603   5815 TTCCGGGTGGACGTTCCCTTCGACCTGCCTGAGATCTTCTTTTTTGTGGC   5864
+                     |||||.|||||.||.|||||.|||||||||||.||||||||.||||||||
+c141126017-14   5911 TTCCGAGTGGATGTGCCCTTTGACCTGCCTGAAATCTTCTTCTTTGTGGC   5960
+
+16022036-1603   5865 GCTGGGGTGAGTGGGTGCCTTGGGCCCCTGAGAGTCCAAAAGG---CATT   5911
+                     .|||||||.|||||| |.||..|| ||||||.||.||||..||   |.||
+c141126017-14   5961 TCTGGGGTAAGTGGG-GTCTCAGG-CCCTGACAGCCCAACCGGGCTCCTT   6008
+
+16022036-1603   5912 CCCCCCAAGGCCTGGACTGCGGCCCCTGGTACTGGGGT------------   5949
+                     ||     ||||.||.||||.||   .|||    |||||            
+c141126017-14   6009 CC-----AGGCATGAACTGGGG---GTGG----GGGGTGGAGGGCGGGGA   6046
+
+16022036-1603   5950 -CAGGCTCTGGTCTTA-CCTC-CCTTCACCCCGCAGTGGCATCTGCGGCG   5996
+                      || ||||.||..|.| |||| ||..||||.| |||...|||||||||..
+c141126017-14   6047 GCA-GCTCGGGATTCACCCTCACCGACACCTC-CAGGTTCATCTGCGGGA   6094
+
+16022036-1603   5997 TCCTGAGCTGTGCTTACCTCTTCTGTCAGCGAACCTTCCTCAGCTTCATC   6046
+                     ||||.||.||.|.||||||.|||||||||||||..||.|||.||||||||
+c141126017-14   6095 TCCTCAGTTGCGTTTACCTGTTCTGTCAGCGAAATTTTCTCCGCTTCATC   6144
+
+16022036-1603   6047 AAGACCAATCGGTACAGCTCCAAACTGCTGGCTACTAGGTAGGCTCTGGG   6096
+                     |||||||||||.||||.||||||||||||||||||.|||       ||||
+c141126017-14   6145 AAGACCAATCGCTACACCTCCAAACTGCTGGCTACAAGG-------TGGG   6187
+
+16022036-1603   6097 CTAGGG--GCTGGGGA-CATCTCAGTGAGTCCCTTGTGGACT-CCAGACC   6142
+                     ..|.||  |||.|||| ||           |||      ||| |||| ||
+c141126017-14   6188 TGAAGGCCGCTAGGGAGCA-----------CCC------ACTCCCAG-CC   6219
+
+16022036-1603   6143 TTATGTAGAAAGCCCCACCCCC---------------ATCCT--------   6169
+                     ||.|||||.||.||||||||||               ||.||        
+c141126017-14   6220 TTTTGTAGCAAACCCCACCCCCATAAGTTAATATAAGATACTAATTTAGT   6269
+
+16022036-1603   6170 ----CCCACTGAGCCCC-----------TAA-ATCCCTCCCTAGCCCGTG   6203
+                         |||||    ||||           ||| ||.|...|.|||      
+c141126017-14   6270 ATACCCCAC----CCCCATAAGTTAGTATAAGATACTAACTTAG------   6309
+
+16022036-1603   6204 GAGCAT-CTA--------------ACAACCCTCTC-----------CAAG   6227
+                         || |||              ||.|.|.|.||           .|||
+c141126017-14   6310 ----ATACTAAGTTAGTATAAGATACTAACTTATCTTAGTATAAGATAAG   6355
+
+16022036-1603   6228 TCCCCACAGTCACT---------GTCCCCCCTT------CCTTACTGGGC   6262
+                     |     .|||..||         ||    ||||      ||||      |
+c141126017-14   6356 T-----TAGTATCTTATACTAAGGT----CCTTTAGGTACCTT------C   6390
+
+16022036-1603   6263 TACGAACCCCACATTG-AACCCCCATCCCT-----CCT----TCATTC-T   6301
+                     ||.|.|    |||.|| |||.||  ||.||     |.|    |||||| |
+c141126017-14   6391 TATGTA----ACAATGTAACACC--TCACTGGGTACATTTTCTCATTCGT   6434
+
+16022036-1603   6302 ACAATCTCTCAGCGAAACCCCACCC--CC---TCACTGAGC-CTCAAACC   6345
+                     ||.|.|||..|       |||||||  ||   ||.|..||| ||      
+c141126017-14   6435 ACCACCTCGTA-------CCCACCCGGCCAAGTCCCACAGCTCT------   6471
+
+16022036-1603   6346 CTGTGCCCCTTC----AAACCTTGTGTGGCCCCTGGCGTTGGCCTTGGCA   6391
+                      ||..||.||||    |||||..||                   |||.||
+c141126017-14   6472 -TGACCCACTTCCTGGAAACCAAGT-------------------TTGTCA   6501
+
+16022036-1603   6392 TTGGCCAGCCCTCCTGCCCCGGAGATGCACATGGCCCGCCCCGGCCC---   6438
+                     |.|   ||||||    .||||| .|||||| ||.|.|.||||.|..|   
+c141126017-14   6502 TGG---AGCCCT----TCCCGG-CATGCAC-TGTCTCCCCCCTGATCTTG   6542
+
+16022036-1603   6439 --GGCCCACTGTCTCCT-------------------CCCT-----CCTAG   6462
+                       ||.||.||.||||||                   ||||     .||||
+c141126017-14   6543 GAGGTCCTCTTTCTCCTGGCCTAAGGCCAATCCCCACCCTGGCCAGCTAG   6592
+
+16022036-1603   6463 CCTG-CCT--CTGCCCCAATTCTCCTCT----CAATCTCCTGCGTGATTC   6505
+                     |||| |||  |||.|||      |||||    |||.|.|        ||.
+c141126017-14   6593 CCTGTCCTCACTGTCCC------CCTCTGTCCCAAACCC--------TTG   6628
+
+16022036-1603   6506 CTCTGCCCTC----AGTCATACCCAGT---TGAGGGGCTCACCCCACGGG   6548
+                     |||.||||||    .|.|||.|||  |   |...|||||   |||.|.|.
+c141126017-14   6629 CTCAGCCCTCCCCTTGCCATGCCC--TTCCTCCTGGGCT---CCCTCAGC   6673
+
+16022036-1603   6549 TTCTACCCGCTGGAGGGGGCCATGTTCCCTGCT--CCCGCCCTT--CCTC   6594
+                     |||  |.|.||||||||||.| |||   |.|.|  .|.||||||  ||.|
+c141126017-14   6674 TTC--CTCTCTGGAGGGGGTC-TGT---CAGTTTGTCTGCCCTTGCCCAC   6717
+
+16022036-1603   6595 CTC--ACC--AGTCCTTGCCTCGGTATCAGCCCCCAGGTGGGGAGCTCT-   6639
+                     |||  .||  |||.|||.||||..|.|.|.|||        ||.|||.| 
+c141126017-14   6718 CTCTGTCCATAGTTCTTTCCTCCCTGTAACCCC--------GGGGCTGTG   6759
+
+16022036-1603   6640 -GCTGCTGCCT-------GGA----CCAGGTCCTACTTCCCT-CTCCTCG   6676
+                      |||  |||||       |||    .||.|||     ||||| |.|    
+c141126017-14   6760 GGCT--TGCCTTTGCGAGGGAGCTGTCATGTC-----TCCCTACAC----   6798
+
+16022036-1603   6677 GGATGTAGGAAAGGGAG----GGCCAGCCCTAGAGCTCACCC-ACCCCCC   6721
+                        |||.|||.|.||||    |||.|.|...||||.||.||| ..|.|.|
+c141126017-14   6799 ---TGTGGGAGAAGGAGATGAGGCAAACGAGAGAGGTCTCCCTTTCTCTC   6845
+
+16022036-1603   6722 ACAGCAAGCCTGTGTACTCCGCTCTGGCCACCTTGCTTCTCGCCTCCATC   6771
+                     |||||||||||...|||.|.|||||||.|.|..||.|.||.||.||..||
+c141126017-14   6846 ACAGCAAGCCTTCCTACGCAGCTCTGGTCGCGCTGGTCCTGGCTTCAGTC   6895
+
+16022036-1603   6772 ACCTACCCGCCTGGTGTGGGCCACTTCCTAGCTTCTCGGGTAAGGGG---   6818
+                     |||||.||.|||||||||||||..|||.|.|||||.|||||||||||   
+c141126017-14   6896 ACCTATCCTCCTGGTGTGGGCCGTTTCATGGCTTCCCGGGTAAGGGGGGC   6945
+
+16022036-1603   6819 TCCTGAGC-----GG--GGGTGGCAGGAGTGGGAACCCCCATTTGTTTTC   6861
+                     | ||||||     ||  ||||||     ||||..|.||||||||..|..|
+c141126017-14   6946 T-CTGAGCTACTGGGATGGGTGG-----GTGGTGAGCCCCATTTACTGAC   6989
+
+16022036-1603   6862 CCCTTTGCATGT--GTCTCACGTAATAC------CCT--CAGCACCCCAC   6901
+                     .|||.||  |||  |||.||..|.||.|      |||  |.|.|.|.|.|
+c141126017-14   6990 TCCTCTG--TGTAGGTCCCATCTCATTCATCCCTCCTTCCTGAAACTCTC   7037
+
+16022036-1603   6902 CAGGGTGACACCTGGGCATCATTCTGCAGATAAGGAG-----------AC   6940
+                     |.|||.||..|..|||..||..|.|.|||||.|.|||           .|
+c141126017-14   7038 CGGGGAGATTCTAGGGGGTCCCTTTTCAGATGATGAGGTTGTATTTCAGC   7087
+
+16022036-1603   6941 CATGGCTCTGGGAG-GTCAGAGCCCTGCCCAAGGCCCCCCG---CTGGGA   6986
+                     .|||||      || ||||     || |.||.||.||.|.|   |||   
+c141126017-14   7088 AATGGC------AGCGTCA-----CT-CTCAGGGTCCTCAGAACCTG---   7122
+
+16022036-1603   6987 AGTGGCAGG--GGAGGATTCCAGGCGGGGTCAGGCGGTGCGGGGGA-GGC   7033
+                           |||  .||.||.|..||||    ||||| .|.||.|||.| .|.
+c141126017-14   7123 ------AGGATAGAAGAGTTGAGGC----TCAGG-TGAGCAGGGAACAGT   7161
+
+16022036-1603   7034 TGGGGTCTGCCGCTGGGGGGGGCCCCTCATGTCCAGTTCCCACCTGCCCC   7083
+                     |||||.|  ||||||                          ||||   ||
+c141126017-14   7162 TGGGGAC--CCGCTG--------------------------ACCT---CC   7180
+
+16022036-1603   7084 GCCACAGCTGTCCATGAAGCAGCATCTGGACTCGCTGTTCGACAACCACT   7133
+                     .|||||||||||||||..|.|.||..||.||||.|||||.||||||.|||
+c141126017-14   7181 TCCACAGCTGTCCATGGCGGAACACTTGCACTCTCTGTTTGACAACAACT   7230
+
+16022036-1603   7134 CCTGGGCGCTGATGACCCAGAACTCCAGCCCACCCTGGCCCGAGGAGCTC   7183
+                     |.||||||.|||||||.|.|||..|...||||||||||||....||||.|
+c141126017-14   7231 CGTGGGCGTTGATGACTCGGAATGCGTCCCCACCCTGGCCTTCTGAGCCC   7280
+
+16022036-1603   7184 GACCCCCAGCACCTTTGGTGGGAATGGTACCACCCGCGGTTCACCATCTT   7233
+                     |||||||||.||||.||||..||||||||||||||.||||||||||||||
+c141126017-14   7281 GACCCCCAGAACCTGTGGTTTGAATGGTACCACCCACGGTTCACCATCTT   7330
+
+16022036-1603   7234 TGGGACCCTTGCCTTCTTCCTGGTTATGAAGGTGGGCCC-----------   7272
+                     ||||||.||.||||||||||||.|.|||||||||||.||           
+c141126017-14   7331 TGGGACGCTGGCCTTCTTCCTGATCATGAAGGTGGGTCCCTCCTGTTCGC   7380
+
+16022036-1603   7273 --------------------------------------------------   7272
+                                                                       
+c141126017-14   7381 AGATCTGGGGTAGGATAGGGCTGCCTTCATGAACCAAACTGACACTGGAA   7430
+
+16022036-1603   7273 ---------------CCTGA---------------CCCCCAG----GTGT   7288
+                                    |||||               |.|||||    ||  
+c141126017-14   7431 CATTTCCACTTCCAACCTGAACCTGGCCCACTACGCTCCCAGAGAAGT--   7478
+
+16022036-1603   7289 GCACA-----------------GAGCC-----------------------   7298
+                      ||||                 |||||                       
+c141126017-14   7479 -CACAGTCGCTTCTCTGCCTCGGAGCCCTTTTTTTTTTTTCTTTTTTACT   7527
+
+16022036-1603   7299 --------------------------------------------------   7298
+                                                                       
+c141126017-14   7528 TTTAATTCAGTTTCTTCATCTTTACAACGAAATAGCTCAGCATTCTTAAA   7577
+
+16022036-1603   7299 -AGG---------------------------------------ACCAGCT   7308
+                      |||                                       .|||||.
+c141126017-14   7578 GAGGTGGGCATGGTAGCATGCTTGAAAAAAAACAAAACCCGACCCCAGCA   7627
+
+16022036-1603   7309 CTG--GTGGGGAG-GGGCGGG-GGT--------GCCTCCCTGCACCTG--   7344
+                     |||  |.||.||| ||.|||| |||        |.|||.||| |.|||  
+c141126017-14   7628 CTGTAGAGGTGAGAGGTCGGGAGGTTCCCTTAGGACTCACTG-ATCTGTC   7676
+
+16022036-1603   7345 -GT-----GGCATGG----AGCCCAGGCC--------------TCTCA--   7368
+                      ||     .|.||.|    ||.|||||.|              |||||  
+c141126017-14   7677 TGTCTAACTGAATCGGTAAAGGCCAGGTCAGTAAGAGACTCTGTCTCAAA   7726
+
+16022036-1603   7369 --------CCCACACTTC--------------------------------   7378
+                             .|.|||.|||                                
+c141126017-14   7727 GGAGGTGGACAACAGTTCTAAACATAACACCCGGGCTGGTGAGATGGCTC   7776
+
+16022036-1603   7379 -------------------CTTCTGTGCC-------------------CC   7390
+                                        ||.||.|.||                   ||
+c141126017-14   7777 AGCAGGTAAGAGCACCCGACTGCTCTTCCAAAGGTCCAGAGTTCAAATCC   7826
+
+16022036-1603   7391 CTGC--CCACTGCATGG---------------------------------   7405
+                     |.||  |||   |||||                                 
+c141126017-14   7827 CAGCAACCA---CATGGTGGCTCACAACTATCCGTAACAAGATCTGACTC   7873
+
+16022036-1603   7406 ----TCCTGGATAAGTG----------GCTTCAG----------------   7425
+                         |.||||   ||||          |||.|||                
+c141126017-14   7874 CCTCTTCTGG---AGTGTCTGAAGACAGCTACAGTGTACTTACATATAAT   7920
+
+16022036-1603   7426 ----------GTCT----------------------------CTGGACCT   7437
+                               ||||                            ||.|.|||
+c141126017-14   7921 AAATAAATAAGTCTTTAAAAAAAAAAAAGAATAACACCCGAGCTTGTCCT   7970
+
+16022036-1603   7438 CAGTC------------------------------------------TTC   7445
+                     |.|.|                                          ||.
+c141126017-14   7971 CTGACCCACACACACACATACACACACACACACACACACGTACAAATTTG   8020
+
+16022036-1603   7446 C-----CATCTTT---AAAATG-------GGGTGGTTACT----------   7470
+                     |     |||.|||   ||||||       ||||.||||||          
+c141126017-14   8021 CACATGCATTTTTTAAAAAATGAAGCAATGGGTAGTTACTCTTTCTACCC   8070
+
+16022036-1603   7471 ---GGGAAGGCAG---AGAAGGAAGAAAGGAATGT-ACCTGGCACAGTGC   7513
+                        |   ||.|||   || ||.||||||..||..| ||||..||| ||||
+c141126017-14   8071 AAAG---AGTCAGTTAAG-AGCAAGAAAACAAAATAACCTTACAC-GTGC   8115
+
+16022036-1603   7514 CAGGCATACAGTGGGCATTTCTCAGGGTGAGGACCCTCCCC---TAATGC   7560
+                     |..|||.|.||||||||   ||||||||..||...||.|||   |.|||.
+c141126017-14   8116 CCAGCACATAGTGGGCA---CTCAGGGTTTGGTTTCTTCCCGTTTGATGT   8162
+
+16022036-1603   7561 CAGACTCTG-----GCAGTGGGTGCATGGC-TGGCACCCTCTTTCTATCT   7604
+                     ||   ||||     .||||     ||  || |||.|.||| ||||  ||.
+c141126017-14   8163 CA---TCTGTGATTCCAGT-----CA--GCATGGTATCCT-TTTC--TCG   8199
+
+16022036-1603   7605 AGGA------CACTCCCCTGTCCCCTGTCCTGTCTTCTCTTGTCCACACC   7648
+                     .|||      ||  ||.|||| |||.||||      ||||||..|||.||
+c141126017-14   8200 GGGAACCCGCCA--CCTCTGT-CCCAGTCC------CTCTTGCTCACTCC   8240
+
+16022036-1603   7649 TTGCC-CAGCGGCCTCTAACCTCTGCCCTGGGCTCCCC-CTTCCTG----   7692
+                      |||| |.|.||.| ||||||||||||||..|.||||| ||||| |    
+c141126017-14   8241 -TGCCGCGGTGGTC-CTAACCTCTGCCCTCTGGTCCCCTCTTCC-GCTCC   8287
+
+16022036-1603   7693 -----CAGTTCTGGATGCTGATTCTGGCCACCACCATCCCCATGCCTGCC   7737
+                          |||||||||||||||||||||||||||||.||||||||||||||.
+c141126017-14   8288 CGGCACAGTTCTGGATGCTGATTCTGGCCACCACGATCCCCATGCCTGCA   8337
+
+16022036-1603   7738 GGGTACTTCATGCCCATCTTTATCCTTGGTGAGTCTGG---------GGT   7778
+                     ||.|||||||||||.||.||.|||.|.|||||||||||         |||
+c141126017-14   8338 GGCTACTTCATGCCTATATTCATCATCGGTGAGTCTGGATCCCAGGAGGT   8387
+
+16022036-1603   7779 CCTGAGGTTCTGAGAGTTTTGGGGTTCTTGGGGCAGGGCCATGCATCCTG   7828
+                     ||..|||                   |..|||||||..||.||..|||  
+c141126017-14   8388 CCAAAGG-------------------CACGGGGCAGAACCCTGATTCC--   8416
+
+16022036-1603   7829 GT------TCACCC-TCTTCCCGGGTGGTACT---AAGGATGGTCCTCAG   7868
+                             |||||| || ||||.||.||||||   ||.||.|     |||
+c141126017-14   8417 --CACACATCACCCATC-TCCCAGGGGGTACTGGGAATGAAG-----CAG   8458
+
+16022036-1603   7869 GGATGGAGGG-CTGTGGGGGCCGGGTCAGCCTGGCT-CCCCCTCACCCTA   7916
+                     ||.|.||||| || ||||||.|.||||.|||||.|| .|||.||||.||.
+c141126017-14   8459 GGTTCGAGGGTCT-TGGGGGTCAGGTCGGCCTGACTGGCCCTTCACTCTG   8507
+
+16022036-1603   7917 AGTCTGTGGCCAGGAGCTGCCATCGGGCGCCTCTTGGGAGAGGCTCTTGC   7966
+                     |||||.||| ||||||||||||||||||||||||||||||||||.||..|
+c141126017-14   8508 AGTCTATGG-CAGGAGCTGCCATCGGGCGCCTCTTGGGAGAGGCCCTGTC   8556
+
+16022036-1603   7967 CGTCGCCTTCCCTGAGGGCATTGTGACT---GGAGGGGTTACCAATCCCA   8013
+                     .|||||||||||.||||||||||||.||   ||||.|||   |.||||||
+c141126017-14   8557 TGTCGCCTTCCCAGAGGGCATTGTGGCTGGCGGAGAGGT---CTATCCCA   8603
+
+16022036-1603   8014 TCATGCCCGGGGGGTATGCTCTGGCAGGTGAGTGGGTCACGGCCCTGCTG   8063
+                     |||||||.|||||.|||||||||||||||||||||..|.|||||||.| .
+c141126017-14   8604 TCATGCCTGGGGGCTATGCTCTGGCAGGTGAGTGGACCCCGGCCCTTC-A   8652
+
+16022036-1603   8064 GGTGGGCAATGTCGTGGGGC----TGGGCTGGACCTGGAGAATT-----G   8104
+                     ||||||.|         |.|    ||||||.||   ..|.||||     |
+c141126017-14   8653 GGTGGGAA---------GACCCCGTGGGCTAGA---ATATAATTAAAGGG   8690
+
+16022036-1603   8105 GCTGGTGGTTCCCCAGGGCACGGAG---------CAGT------------   8133
+                     ||.|.||.||....|.||||.||||         ||||            
+c141126017-14   8691 GCCGATGCTTGTGTATGGCATGGAGTGAACTGTACAGTATGCCTCCCAAC   8740
+
+16022036-1603   8134 ---------------CACT--------GAGTCCTCCAGTGAACC------   8154
+                                    ||||        ..|||.|||..||||||      
+c141126017-14   8741 TCTTAAAGCCCCGCCCACTCCCAAAGCCCGTCATCCTCTGAACCTCCAAT   8790
+
+16022036-1603   8155 --------------------------------------------------   8154
+                                                                       
+c141126017-14   8791 CTCTCTCTTCCTCCCCCTCCCTCTTCCCCTCCCCCTCCCTCCTCCCCCCT   8840
+
+16022036-1603   8155 -----------------------CCCTACC--------------------   8161
+                                            |||||.|                    
+c141126017-14   8841 CTCTCTCTGGTTTCTCTGTTTAGCCCTAGCTGTTCTGGAAGTCATTCTGT   8890
+
+16022036-1603   8162 -------CCTCATGGGGGTC---TGTCC------------CTCCTGAGCC   8189
+                            ||||||.|.|.||   |.|||            ||||||||..
+c141126017-14   8891 AAGCCAGCCTCATTGAGCTCAGATATCCACCTGCCTCTGTCTCCTGAGTG   8940
+
+16022036-1603   8190 C----------------CACCATTC-------CCCGGGGCCCATCACTTC   8216
+                     |                |||||.||       |||.|..||||.|.||| 
+c141126017-14   8941 CTGGGATTAAAGGCGTGCACCAGTCACCTCCACCCAGCTCCCAGCTCTT-   8989
+
+16022036-1603   8217 CTCGTGGCTC---CTGT--------CCCCAGCCCTGCGGCCTCCCT-TAT   8254
+                      ||.|.||||   ||||        |||||.|||        |.|| |.|
+c141126017-14   8990 -TCTTAGCTCTTTCTGTTTCCCATCCCCCATCCC--------CTCTGTGT   9030
+
+16022036-1603   8255 CCCTCTCCTCTCACCAAGCCCAGGCCTTGGGGCACTTCCCACAGTGCCCA   8304
+                     ||.|.|.||||..|||.|||        .||.|||||...| |.|.||||
+c141126017-14   9031 CCGTTTTCTCTTGCCATGCC--------TGGACACTTTAGA-AATTCCCA   9071
+
+16022036-1603   8305 GGCTGTGGCCT-CTTACAATTCCCACCCTAGCCCCCGGCAGCAGCCAGGC   8353
+                     |..||||.||| |..|||.|||..|||||||||.|.|..| ||.||    
+c141126017-14   9072 GTATGTGCCCTCCGGACATTTCTGACCCTAGCCACTGTTA-CACCC----   9116
+
+16022036-1603   8354 TAGTTATTCCCTCACATCAGGCTGGCC---CCTGCCTCCTGGCCTGAG--   8398
+                          .|.||||         ||||.|   |.||.| ||||||..|||  
+c141126017-14   9117 -----GTGCCCT---------CTGGGCGAGCTTGGC-CCTGGCTGGAGTT   9151
+
+16022036-1603   8399 -CCGACCTGTGTGGCTCTGCCCCGGCAGGGGCTGCAGCCTTCTCAGGGGC   8447
+                      ||  |.|| ||||.|||||.||.|||||.|||||.||||||||.||.||
+c141126017-14   9152 ACC--CATG-GTGGTTCTGCTCCTGCAGGTGCTGCTGCCTTCTCCGGAGC   9198
+
+16022036-1603   8448 TGTGACCCACACCATCTCCACGGCGCTGCTGGCCTTTGAGCTGACCGGCC   8497
+                     .||||||||||||||||||||.|||||||||||||||||||||||.||||
+c141126017-14   9199 AGTGACCCACACCATCTCCACAGCGCTGCTGGCCTTTGAGCTGACTGGCC   9248
+
+16022036-1603   8498 AGATAGTGCATGCACTGCCCGTGCTGATGGCGGTGCTGGCAGCCAACGCC   8547
+                     ||||.||.||.||||||||.|||||||||||.||||||||.|||||.|.|
+c141126017-14   9249 AGATCGTTCACGCACTGCCTGTGCTGATGGCTGTGCTGGCGGCCAATGTC   9298
+
+16022036-1603   8548 ATTGCACAGAGCTGCCAGCCCTCCTTCTATGATGGCACCATCATTGTCAA   8597
+                     ||..|.||.|.||..||||||||.|||||.||||||||||||||.|.|||
+c141126017-14   9299 ATCTCCCAAAACTTACAGCCCTCTTTCTACGATGGCACCATCATGGCCAA   9348
+
+16022036-1603   8598 GAAGCTGCCATACCTGCCACGGATTCTGGGCCGCAACATCGGGTGAGTGG   8647
+                     |||.|||||.||||||||..||||.|..|||||..|.||.|||||||   
+c141126017-14   9349 GAAACTGCCGTACCTGCCGTGGATCCGTGGCCGACAGATTGGGTGAG---   9395
+
+16022036-1603   8648 TGCCCACCTCAGGCTGACTGAAGGGGGTCACAGTGTTTGGGCTTGGCTGG   8697
+                           |||..|.|||| .|||.|||.|           |||..||.| |
+c141126017-14   9396 ------CCTGGGACTGA-GGAATGGGAT-----------GGCCAGGGT-G   9426
+
+16022036-1603   8698 GGGTGGA-------GGGCACCTCCAAAAAGAAACACCACCGCAGCTGACC   8740
+                     |.|||||       ||.||||          .||||            ||
+c141126017-14   9427 GTGTGGAAGTTTAGGGACACC----------CACAC------------CC   9454
+
+16022036-1603   8741 TCCGACATGGGGGCTGGGAGGGGCTGACACACAGCTGTGCTCTCATCTCC   8790
+                     .||.|||                  .|||||||       .|.||.|.||
+c141126017-14   9455 ACCCACA------------------CACACACA-------CCCCAACACC   9479
+
+16022036-1603   8791 ACTCTCCCCAGTGCCCTGGGTGACCTTGGGCAAGTCC-TTGGCCTTGAGG   8839
+                     |||   .|.|.||||||              .||.|| ||.||  || |.
+c141126017-14   9480 ACT---GCAATTGCCCT--------------CAGCCCATTAGC--TG-GC   9509
+
+16022036-1603   8840 CCTCAGTGTCTGTCTAGGGGTCAGCT-----GGGCTTCACAGCAGGAGGA   8884
+                     |||||                 |.||     |.||||||      |.||.
+c141126017-14   9510 CCTCA-----------------ACCTCCCGGGAGCTTCA------GGGGC   9536
+
+16022036-1603   8885 TGAGTATTGCCCCGTGTACAGATTGAGGAAA-CCAGAGCTCAGAGAGGTG   8933
+                     ||.|               |||     |||| ||||||||..||      
+c141126017-14   9537 TGGG---------------AGA-----GAAAGCCAGAGCTTGGA------   9560
+
+16022036-1603   8934 CCGTGTCTTGCTCCAGGTGACACAGAGAGTCAGCACCAGATCCGA-GAGG   8982
+                      |..|||||.||.|||||.||...|||..|.|.||.|||.|   | ||||
+c141126017-14   9561 -CAAGTCTTACTTCAGGTCACGAGGAGGTTGAACATCAGTT---AGGAGG   9606
+
+16022036-1603   8983 TC-TCCTCCCCTCTCCCCACTCCTGCTGTCCTTGCTGGGACTTTGGGAGC   9031
+                     .| |.||||.||||     |||.||||   |||.|   |||.|    |.|
+c141126017-14   9607 CCTTTCTCCTCTCT-----CTCTTGCT---CTTCC---GACCT----AAC   9641
+
+16022036-1603   9032 -AGGAGGT--GGAACGAGAATGGAAATGGGCTTTGAAGTCCTCACTCAAC   9078
+                      |||.|||  |||.|.||.|||.|.|||.|.|.|||..||||..||||||
+c141126017-14   9642 TAGGTGGTCAGGAGCTAGGATGCAGATGCGGTCTGAGATCCTTCCTCAAC   9691
+
+16022036-1603   9079 CAGATAGGACCAGAGCAGCTTCTGGCGCCAGAAAAGC--------AGACC   9120
+                     ||||..|.||| .|||||.|||||...|||||..|||        ||.||
+c141126017-14   9692 CAGAATGCACC-CAGCAGTTTCTGTTTCCAGAGCAGCCGTGACTGAGGCC   9740
+
+16022036-1603   9121 A----AAGAGGCTCTGAGAGTCCGAATCGGAGGCCCCGCTCCAAAC---A   9163
+                     |    ||.||.|.||||.|||...|.||..|      .||.| |||   |
+c141126017-14   9741 ATCTCAACAGCCCCTGATAGTTTAATTCTTA------CCTTC-AACTTAA   9783
+
+16022036-1603   9164 CAA-----ACAAGCTGCTGCCTTGCTCTGA-ACCTGTTTCCCCATCGGGA   9207
+                     |||     |.||               ||| |||          |.||.|
+c141126017-14   9784 CAAGATATATAA---------------TGAGACC----------TTGGCA   9808
+
+16022036-1603   9208 AAATGGGGCTGTTTATA-CCAGTGATTTTCAACCTTCC--AAGTTTTTCC   9254
+                     ||||     .||||.|| .|.|||    |||.|..|||  ||||.|    
+c141126017-14   9809 AAAT-----AGTTTCTAGGCGGTG----TCAGCTGTCCCTAAGTGT----   9845
+
+16022036-1603   9255 TTGGGG--GTGACATAC-----------------ACTTTTATAATCAAAT   9285
+                        |||  |||.|||.|                 ||||..|||.|.||  
+c141126017-14   9846 ---GGGCAGTGCCATCCCATGAGCTTTGTCCTGAACTTAAATACTAAA--   9890
+
+16022036-1603   9286 GGAATTATCCAGGGAAGGCT---------GCT----GGGT----------   9312
+                      |||    |.||.||.||||         |||    ||||          
+c141126017-14   9891 -GAA----CAAGCGAGGGCTGGAGAGATGGCTCAGCGGGTAAGAGCACTG   9935
+
+16022036-1603   9313 -CTGTAC-TCCA-ATCTCATTA-TTCATTAATGGATGGCCAGTCACTGAC   9358
+                      ||||.| |||| |..||.|.| ||||  |||     .|||| ||   ||
+c141126017-14   9936 ACTGTTCTTCCAGAGGTCCTGAGTTCA--AAT-----CCCAG-CA---AC   9974
+
+16022036-1603   9359 CACCTGGCAGATACTGGTTTTCCGTCATCTCAC----------ACTCAGC   9398
+                     |||||||       |||           |||||          |.|.||.
+c141126017-14   9975 CACCTGG-------TGG-----------CTCACAACCACCTGTAATGAGA  10006
+
+16022036-1603   9399 TCTG---------TCCAAGGTGGGAC--AAGAC--CCA-AGTG-------   9427
+                     ||||         ||||  |||.|.|  |||||  |.| ||||       
+c141126017-14  10007 TCTGACGCCCTCTTCCA--GTGTGTCTGAAGACAGCTACAGTGTACTTAT  10054
+
+16022036-1603   9428 ----------------------------AAGC-TGGTCTGGGGGACATG-   9447
+                                                 |||| .||.|||.||||..|| 
+c141126017-14  10055 GTTAATAAATACATCTTTGGGCCGGAGCAAGCAGGGACTGAGGGAGTTGA  10104
+
+16022036-1603   9448 --GGGGACCAGGGGGTTGGGGATTTGGAACTGGGCCATCAGTAATGTGGT   9495
+                       ||.|....|||||.|||.|       |||||      |||||      
+c141126017-14  10105 CTGGAGTGAGGGGGGGTGGTG-------ACTGG------AGTAA------  10135
+
+16022036-1603   9496 CCCCAGGTTTCCT-CCCACTGTG------GGTTCTAGGAGTCCCTCATTC   9538
+                       .||||  ..|| .|||..|||      |||.|||..|.||   .||||
+c141126017-14  10136 --GCAGG--GGCTGACCAGAGTGATTAGAGGTCCTAAAATTC---AATTC  10178
+
+16022036-1603   9539 C--------------AGG-----AAC---CTCTCCAGCC---CTG--CTC   9561
+                     |              |||     |||   ||.|.|||||   |||  |||
+c141126017-14  10179 CCAACAACCACATGAAGGTTCACAACCATCTGTACAGCCACACTGTACTC  10228
+
+16022036-1603   9562 ACACTCCAGA-------------GCCGT------GGGTCCCTG-------   9585
+                     |.| |.||.|             |||.|      |.||..|||       
+c141126017-14  10229 ATA-TACATAAAATACATTTGATGCCCTCTTCTGGAGTGTCTGAAGACAG  10277
+
+16022036-1603   9586 -------GT-----------------------------------------   9587
+                            ||                                         
+c141126017-14  10278 CTACAGTGTACTCACATATAATAAATAAATAAATAAATCTTTTTAAAAAA  10327
+
+16022036-1603   9588 ---------------TCAAGCA---AAGCTCCCCTCA-----GATCCCCT   9614
+                                    |||..||   ||||||.|| ||     |.|.||..
+c141126017-14  10328 TTAAACTATCAGCTATCACACATGGAAGCTCTCC-CAGCAAGGTTTCCTG  10376
+
+16022036-1603   9615 TGCTGGCCTGGGTCTGACA--TCCCCGACTCCGGGACCTG----ATGGGA   9658
+                     |..||.||||||...|.||  .||||.||..|.||.||||    |||   
+c141126017-14  10377 TCTTGTCCTGGGGGGGCCAGCACCCCCACCGCAGGGCCTGCTACATG---  10423
+
+16022036-1603   9659 GCC--CCTCTGCCTGCAGCTCCCACCATGTGAGGGTGGAGCACTTCATGA   9706
+                       |  ||||||.|..|||||||.|||.|||.|.||||||.||.|||||||
+c141126017-14  10424 --CTTCCTCTGTCCACAGCTCCTACCCTGTAACGGTGGAACATTTCATGA  10471
+
+16022036-1603   9707 ACCACAGCATCACCACACTGGCCAAGGACACGCCGCTGGAGGAGGTGGTC   9756
+                     ||...|.|.|||||||||||||||||||||.|||.|||||||||||||||
+c141126017-14  10472 ACTCTAACCTCACCACACTGGCCAAGGACATGCCCCTGGAGGAGGTGGTC  10521
+
+16022036-1603   9757 AAGGTTGTGACCTCCACAGACGTGACCGAGTATCCCCTGGTGGAGAGCAC   9806
+                     |||||.||||||||||||||.|||.|..||||||||.|||||||||.||.
+c141126017-14  10522 AAGGTGGTGACCTCCACAGATGTGTCTCAGTATCCCTTGGTGGAGACCAG  10571
+
+16022036-1603   9807 AGGTGCCCAGCTGGAAGGGAGGAGGAAGTCGGGGGTAGGGGATGCCCTCT   9856
+                     ||||.|.|.|||   ||||          .||||||.|||||.|..|.||
+c141126017-14  10572 AGGTACTCGGCT---AGGG----------TGGGGGTGGGGGAGGGGCACT  10608
+
+16022036-1603   9857 GC-------CTCCTTCTTGAACCTGTCA----------GGCAGACA----   9885
+                     ||       .|||.|||   |..|||.|          |||||.||    
+c141126017-14  10609 GCGTGTAAATTCCCTCT---AAGTGTAAGGGCGGCAAGGGCAGGCAGGGT  10655
+
+16022036-1603   9886 ---GGATCTGCATCCAGGCTCTGTGACTTAGCAACCAACCGTGTGACCTT   9932
+                        ||||.|||       |||||.|.|    ||..|..|.|||||||||.
+c141126017-14  10656 GTTGGATGTGC-------CTCTGAGTC----CAGACTGCTGTGTGACCTG  10694
+
+16022036-1603   9933 GAGCAAGTC----ACTTCACCTGAGCCTCAGTTT----------------   9962
+                     |..||||||    .|||| .|||.||.|..||||                
+c141126017-14  10695 GGACAAGTCCTTAGCTTC-TCTGTGCTTTGGTTTATTGTGAATGAAATGG  10743
+
+16022036-1603   9963 -CCTCATCAGCA---------------------AAATGGAAA-TCATGGC   9989
+                      |.|.||.||||                     |.||||||| ||||.|.
+c141126017-14  10744 ACATAATAAGCATGCTAACTTCCAGAGGTTTGGAGATGGAAAGTCATTGT  10793
+
+16022036-1603   9990 TACCCTCCCTTGGGGTGG---TTG--------------------------  10010
+                     .|..|..|||.|||||||   |||                          
+c141126017-14  10794 AAAGCAGCCTGGGGGTGGCTCTTGGGATGCTAGTCAAGGATGATATGGCC  10843
+
+16022036-1603  10011 ---------------ACA----TGTCTAAA---GAG----AGTCGGCTGG  10034
+                                    |||    ||||||||   |||    ||..|.|.||
+c141126017-14  10844 ATCCACAGCTGTCAAACATCTGTGTCTAAAACTGAGTTCCAGGAGACAGG  10893
+
+16022036-1603  10035 -------------GTGCTTGTAAG---GCAGTCCCTGGGCAGCTG----C  10064
+                                  ||||...|.||   ||..|||||   ||||||    |
+c141126017-14  10894 ACAGTTACCCACTGTGCCCCTCAGCCTGCGTTCCCT---CAGCTGTAAAC  10940
+
+16022036-1603  10065 TGG------GG-----TAGGAG----------------------------  10075
+                     |||      ||     ||||||                            
+c141126017-14  10941 TGGATGAAAGGTGTCCTAGGAGACTGAAAAATCTGTAATTTTCTCTGACA  10990
+
+16022036-1603  10076 CATGGGGACACC----------------------------------ACCA  10091
+                     |.|..|.|||||                                  |.||
+c141126017-14  10991 CTTAAGAACACCCAGCATGAATGAGGCTGGAGAGAGATTGGTTAAGATCA  11040
+
+16022036-1603  10092 AGG----TCTT-CCGGAAGCTTGGCC---------------CTCA-----  10116
+                     |||    |||| |.|||  |.|||||               ||||     
+c141126017-14  11041 AGGCTGTTCTTACAGGA--CCTGGCCTTTGTTTCCTGCACTCTCATGGCA  11088
+
+16022036-1603  10117 -----------------------GGCCTGTT------------------T  10125
+                                            |||..|||                  |
+c141126017-14  11089 GCTTACAACTGTCCTTAACTCTTGGCTCGTTCGGAGGACTCTGGCACCCT  11138
+
+16022036-1603  10126 CTT---------------------CATAA---------TGCACCT-----  10140
+                     |||                     |||||         |||||.|     
+c141126017-14  11139 CTTCTGGCCTCTGTGGGCACTGCACATAATATGTGTAGTGCACATATGCA  11188
+
+16022036-1603  10141 --------------------------------------------------  10140
+                                                                       
+c141126017-14  11189 GGCAAAATATTCATACACATAAAATAAAAATAATAATCAAATCTTTAAAA  11238
+
+16022036-1603  10141 --------CC--------------------------CTC-----------  10145
+                             ||                          |||           
+c141126017-14  11239 AGAAGCGACCAGCATGTTCATGGCACATAGTAGGGACTCAGATAATGTGA  11288
+
+16022036-1603  10146 --------------------CCTCTCCCTCTCTACTTGCCAGAGTCCCAG  10175
+                                         || ||.|||||.|||||.|.||||||.|||
+c141126017-14  11289 CTTTTATTTTTATAACAAGTCC-CTTCCTCTGTACTTCCTAGAGTCTCAG  11337
+
+16022036-1603  10176 ATCCTGGTAGGCATCGTGCAGAGGGCCCAGCTGGTGCAGGCCCTCCAGGC  10225
+                     |.||||||.|||||.|||.|.|||.||||..|||||||.|||||.|||.|
+c141126017-14  11338 ACCCTGGTGGGCATTGTGGAAAGGACCCACTTGGTGCAAGCCCTTCAGAC  11387
+
+16022036-1603  10226 TGAGCCTCCTTCCAGGGCTCCAGGACACCAGGTGGTTACTCCTGAGGGGC  10275
+                     ..||||..|||||.||||||||||.||..||||||...|.||||...||.
+c141126017-14  11388 CCAGCCAGCTTCCTGGGCTCCAGGCCAAGAGGTGGGCTCCCCTGCCAGGT  11437
+
+16022036-1603  10276 GTGGGGATGGGGCGGGGGTGGGTCAGCAGGGATGGGAGGGGAGGGACCCG  10325
+                     |||||||..|.|.||..||  ||.|.|||||.|..||.|||||.||    
+c141126017-14  11438 GTGGGGACAGAGTGGCCGT--GTGATCAGGGCTCTGAAGGGAGAGA----  11481
+
+16022036-1603  10326 CTGATCTCCTGAGGGAG----AGGTGGTCTGAGAGAGGCATCCTGGG---  10368
+                                  ||||    ||  ||||      ||| |..|||||   
+c141126017-14  11482 -------------GGAGTTCAAG--GGTC------AGG-AGTCTGGGAAC  11509
+
+16022036-1603  10369 --GAGGCCGGCCCTGCACCCATAACTC-TTCCCCACTCCCAGCAGTGTCT  10415
+                       .||||.|||.|.|..||||| ..|| |||.|||.|||||||..|.|||
+c141126017-14  11510 TATAGGCTGGCTCAGACCCCAT-TTTCTTTCTCCAATCCCAGCGATTTCT  11558
+
+16022036-1603  10416 CCAGGACATCTTGGCCAGGGGCTGCCCCACGGAACCAGTGACCCTGACGC  10465
+                     |||||||||||||||..|.|||||||||||..|.||||||||||||..||
+c141126017-14  11559 CCAGGACATCTTGGCTGGTGGCTGCCCCACACAGCCAGTGACCCTGCAGC  11608
+
+16022036-1603  10466 TATTCTCAGAGACCACCTTGCACCAGGTAACAAGTATTGGGG-----AGT  10510
+                     |.|.|.||||||||.||.|..|.|||||||        ||||     ||.
+c141126017-14  11609 TGTCCCCAGAGACCTCCCTATATCAGGTAA--------GGGGGAAAAAGG  11650
+
+16022036-1603  10511 GTGACACACGCAGCCCCCGGGGCAGGGCAAGAGCTGATGAGGAGCTCAGG  10560
+                     |||                           ||.||||||.||| |.||||
+c141126017-14  11651 GTG---------------------------GAACTGATGGGGA-CACAGG  11672
+
+16022036-1603  10561 CTCC--AGCCTCCC----------GT-----------------CCCA---  10578
+                     ||||  |.||||||          ||                 ||||   
+c141126017-14  11673 CTCCATATCCTCCCTCTGTGAGGTGTTACACACATATACACACCCCATAT  11722
+
+16022036-1603  10579 ------------------------------------------------AC  10580
+                                                                     ||
+c141126017-14  11723 ATACACACATACCATACACAATATACACAATACAACATATACATACATAC  11772
+
+16022036-1603  10581 CCCGCC--------------------------------------------  10586
+                     ||| ||                                            
+c141126017-14  11773 CCC-CCACACACACACCATATATACACACATACCATACACAATATACACA  11821
+
+16022036-1603  10587 --------------------------------------------------  10586
+                                                                       
+c141126017-14  11822 CACACAACATATACATACACACACACACACCACTCACACCACATATACAA  11871
+
+16022036-1603  10587 -----------------------------CCGCCCAT-------------  10594
+                                                  |.||.|||             
+c141126017-14  11872 ACATACCACACATACCACATATACACACACAGCACATATAACACACACAC  11921
+
+16022036-1603  10595 ----------------------------------CTTAT-CCTGCTT---  10606
+                                                       |.||| |.|||.|   
+c141126017-14  11922 ATACAAACAACACACAATATATACACACACAACACATATACTTGCATACC  11971
+
+16022036-1603  10607 ----------------CCTGC-TCCTCCTGGGCCTGGACA-------GGG  10632
+                                     |.||| |.|.|.|  ||.|..|||       |.|
+c141126017-14  11972 ACACACAATATACACACATGCATACACAT--GCATACACACATACATGCG  12019
+
+16022036-1603  10633 --------------------------------------------------  10632
+                                                                       
+c141126017-14  12020 CAACACATATACATATACACACATACAACACACACTATATACACACAGAT  12069
+
+16022036-1603  10633 -----------------------------------------CAGCTCCTG  10641
+                                                              ||.||.|.|
+c141126017-14  12070 ACACACACAACACATATACACACATACAACACACACACATTCATCTACAG  12119
+
+16022036-1603  10642 CCGTCGCCCCTCA--------CTG--------CCAGGGTTGCGGGGATGA  10675
+                     .||| ||||..||        |||        ||||||||.|.|||..||
+c141126017-14  12120 ACGT-GCCCAGCAGCCACAGCCTGGGTCATCACCAGGGTTCCTGGGGCGA  12168
+
+16022036-1603  10676 TGCAGA-GAGATGAGGGAATTG-GGGGGCTTGGCAAA-------------  10710
+                     |||||| ||||| |||||.||| |.|.||||||.|||             
+c141126017-14  12169 TGCAGAGGAGAT-AGGGACTTGAGCGAGCTTGGGAAACACATGCTTTTGG  12217
+
+16022036-1603  10711 ----------------------TGGAAGTCTC----TGGGTGG-------  10727
+                                           |.||||..||    |||.|||       
+c141126017-14  12218 ATAGAAACCGGTGCTTGTTAGTTAGAAGCATCCATGTGGCTGGAGCGATG  12267
+
+16022036-1603  10728 ----------AGAAAGAC---------------AGTG---GAGTT-----  10744
+                               ||.||.||               ||||   |.|||     
+c141126017-14  12268 CCTTAGCTTTAGCAACACTGGCTGCTCTTCCAGAGTGTCAGGGTTCAATT  12317
+
+16022036-1603  10745 ---------------------------------------GCACC------  10749
+                                                            |||||      
+c141126017-14  12318 CTCAGCAAGCACATGGCAGCTCCAGCCCTTAAGGATTCAGCACCCTCTGC  12367
+
+16022036-1603  10750 ---------AAGGCAC-----ACGTGCGTTTCA-----------------  10768
+                              .||||||     ||.||.|.||||                 
+c141126017-14  12368 TGGTCCCTAGAGGCACGTCATACATGTGGTTCACAGTCACGCATGCAGGC  12417
+
+16022036-1603  10769 ---------------ATT------------TCAGGTC-----------CA  10780
+                                    |||            ||.||.|           ||
+c141126017-14  12418 AAAACACCCATGCACATTAAAAAAAAAAAATCTGGGCATGGCGGTAAACA  12467
+
+16022036-1603  10781 CCCCATTT--TGCC----TGTGTGATCTTGG--------ACAAATTATGT  10816
+                     ||   |||  |.||    ||||.||    ||        |.|||.|.|||
+c141126017-14  12468 CC---TTTAATCCCAACATGTGGGA----GGCAGAGGCAAGAAAATCTGT  12510
+
+16022036-1603  10817 AGCCAGT-TGAGACAGAGCCTG----ACACA---------AGGATGGGGC  10852
+                      |..||| |||||| .||||||    |||||         ||||  ..||
+c141126017-14  12511 -GTGAGTCTGAGAC-CAGCCTGGTCTACACAGTGAGTCCCAGGA--CAGC  12556
+
+16022036-1603  10853 AAGGGC-------GGAGGCT------------------------------  10865
+                     .|||||       .||||||                              
+c141126017-14  12557 CAGGGCTACATAGAGAGGCTCTGTCTAAAAAAACTAAACAAACAAACAAA  12606
+
+16022036-1603  10866 --------------------------------GACAGGG-----------  10872
+                                                     |||||||           
+c141126017-14  12607 AAAACTTTTTTGGGGGGTGGGGGATGTGTTGAGACAGGGTTTCTCTGTAT  12656
+
+16022036-1603  10873 ----------GACCTGGA------------------GATGGCCCCG----  10890
+                               |.||||||                  |.|||||.||    
+c141126017-14  12657 AACCCTGGCAGTCCTGGAACTCACTCTGTAGACCAGGCTGGCCTCGAACT  12706
+
+16022036-1603  10891 -------CCCCCTCT---------GTGCTG--------------------  10904
+                            |..|||||         ||||||                    
+c141126017-14  12707 CAGAAATCTGCCTCTGTCTCCCAAGTGCTGGGATTAAAGGCGTACATCAC  12756
+
+16022036-1603  10905 --------------------------------------------------  10904
+                                                                       
+c141126017-14  12757 CACTGCCCAGCCACAAAAAAAAAAAAAAAAAAAAAAAACCTTAAAAAAAG  12806
+
+16022036-1603  10905 --------------------------------CTG---------------  10907
+                                                     |||               
+c141126017-14  12807 ATTTATTTACTTACTTTATGTATATGAGTACACTGTAGTATCTTCAGACC  12856
+
+16022036-1603  10908 --------GAGGG-------------------------------------  10912
+                             |||||                                     
+c141126017-14  12857 CAGAAGAAGAGGGCATCAGATCCCATTACGGATGGTTGTGAGCCACCATG  12906
+
+16022036-1603  10913 ----TGCT-GGATGTTG------GGTCCT---------------GT----  10932
+                         |||| |||| |||      ||.|||               ||    
+c141126017-14  12907 TGGTTGCTGGGAT-TTGAACTCAGGACCTTCAGAAGAGCAGTCAGTACTC  12955
+
+16022036-1603  10933 ----CCACT-------------TGCAGCCCCGC---CCAGACCCTT---G  10959
+                         |||||             |.|||||||.|   ..|.||..||   |
+c141126017-14  12956 TTAACCACTGAACCATCATCTCTCCAGCCCCACAAAAAAAACTTTTAAAG  13005
+
+16022036-1603  10960 AGTGGCCTCTGGCATC---------CCCCAGTGG----CCCACACTGGAC  10996
+                     | .||..|.|.|||||         |||||.|.|    |||||||   ||
+c141126017-14  13006 A-AGGTTTTTAGCATCACACAGGGACCCCAATTGAGCCCCCACAC---AC  13051
+
+16022036-1603  10997 ATTGCAGGCCTG----------GGTCTGTT-----GCCTCCCA-------  11024
+                     |   ||..||||          |.|..|||     |||||.||       
+c141126017-14  13052 A---CACTCCTGTGAGAAAACTGCTAGGTTACTCAGCCTCTCAAAGCAGG  13098
+
+16022036-1603  11025 CACAT-----------------ATCA------------------GGCCCC  11039
+                     |||.|                 .|||                  ||||||
+c141126017-14  13099 CACTTGGGGTGGGGATGACAGACTCAGTCTAGGAACCTGGCTATGGCCCC  13148
+
+16022036-1603  11040 ---------GCC-----CC-----TCTT-------------CCTGGCTCA  11057
+                              |||     ||     .|||             |||||..||
+c141126017-14  13149 AAACTTTCTGCCAGGGACCGATGTCCTTGAGACCCAGGGAACCTGGACCA  13198
+
+16022036-1603  11058 GAGGC------------GTGGCAG-------------AGTG---------  11073
+                     .||||            |||| ||             ||||         
+c141126017-14  13199 AAGGCCTTGCTTCTTATGTGG-AGTCTGGCTCCCCCTAGTGGTTAGACTA  13247
+
+16022036-1603  11074 ---------------------------GGCCAG---AGGGTGGGCTGGGC  11093
+                                                ||||||   ||||||.| |||||
+c141126017-14  13248 GACACTGACGGCTGGACTCACTCACCTGGCCAGAGAAGGGTGTG-TGGGC  13296
+
+16022036-1603  11094 ---GCCATCTACCCT----CCAGTGTTTCCTAACAATCCCCCATCCAGGC  11136
+                        |...|.|.||||    |||..|.|||||..||| |||||.|.|||||
+c141126017-14  13297 AGAGGGGTGTTCCCTAACCCCATCGGTTCCTGTCAA-CCCCCCTGCAGGC  13345
+
+16022036-1603  11137 ACAAAACCTCTTTAAGCTGTTGAACCTTCAGTCCCTCTTCGTGACATCGC  11186
+                     |||.|..||||||.|||||.|||.|||||||.|.||.||||||||.||.|
+c141126017-14  13346 ACACAGGCTCTTTGAGCTGCTGACCCTTCAGGCGCTGTTCGTGACGTCAC  13395
+
+16022036-1603  11187 GGGGCAGAGCTGTGGGCTGCGTGTCCTGGGTGGAGGTAC--------CAG  11228
+                     ||||||||||||||||||..|||||||||||||||||||        .||
+c141126017-14  13396 GGGGCAGAGCTGTGGGCTCTGTGTCCTGGGTGGAGGTACTGGGTCTTAAG  13445
+
+16022036-1603  11229 GGTCCCGGGGGCAGAGCAAAGCAGGGGACCCATGCCTGAGAAGGCTGGGG  11278
+                     |||     ||.||.||| |.|||||||               ||  ||||
+c141126017-14  13446 GGT-----GGACATAGC-AGGCAGGGG---------------GG--GGGG  13472
+
+16022036-1603  11279 AGATGGGGAGGTGGGGGGACA--------------CCAGCATGCTCCCAT  11314
+                     || .||||.||.|..||||||              |||.|.|.| |||.|
+c141126017-14  13473 AG-CGGGGGGGGGACGGGACAGGGGTGTGTGTGTGCCAACGTTC-CCCTT  13520
+
+16022036-1603  11315 CCAAACCT-GGGGGGATTCAGAGGATACTTATGAGTCCCTCTTTC-TGGC  11362
+                     .||||.|| ...||.|.||.||.| |||||         |.||.| |||.
+c141126017-14  13521 TCAAAACTCCACGGAACTCTGATG-TACTT---------TATTCCTTGGA  13560
+
+16022036-1603  11363 CCAGATTGGCCACTGGGCCTGGCTCCCCTACCTTGTTTTCTGGCCAGTGG  11412
+                     |.|.|.||.||||||||            ||.|           ||||..
+c141126017-14  13561 CTAAAATGACCACTGGG------------ACAT-----------CAGTTA  13587
+
+16022036-1603  11413 CCAGCCTGC--CCTTCTCGGCCTCAGTGATCCC--ATCTGTGCAATGGGG  11458
+                     |||||||||  ||||||..|..||||.| ||||  ||||..||.|.|||.
+c141126017-14  13588 CCAGCCTGCCACCTTCTGAGTTTCAGAG-TCCCTTATCTAAGCCACGGGA  13636
+
+16022036-1603  11459 T----GGCACAG------GCTCTACTATT---CAGCCTGGA-----AATG  11490
+                     |    ||.|.||      |||.||  |.|   |||.||.||     ..||
+c141126017-14  13637 TAGACGGGATAGATGGCAGCTGTA--AATCCACAGACTCGATGTGGGGTG  13684
+
+16022036-1603  11491 AACCT--TAGGGGACTAAAAATGCTGGAGCCCCCCTCACAACCTCCTCTA  11538
+                     .||.|  |||.|| |.|.|.|||                       |||.
+c141126017-14  13685 CACTTGATAGAGG-CCAGAGATG-----------------------TCTC  13710
+
+16022036-1603  11539 CATCCCCCCCCACCTCCACCCCC-----------TTTCTCTGTTCTAGAT  11577
+                     |||||||||...|||||..||||           ||||||||||.|||.|
+c141126017-14  13711 CATCCCCCCAACCCTCCCTCCCCCTCGATCCTTTTTTCTCTGTTGTAGCT  13760
+
+16022036-1603  11578 GAAGAAAGCAATTTCCAACCTGACAAATCCGCCAGCTCCAAAGTGAGCC-  11626
+                     |||||||||.|||||||.|.|||..||.||.|||||.||.||||||||| 
+c141126017-14  13761 GAAGAAAGCCATTTCCACCTTGATCAACCCACCAGCCCCCAAGTGAGCCG  13810
+
+16022036-1603  11627 ------GGCCCAGCAAGATGAAACAGGGCACCCCAGCTGACCTGG--TAC  11668
+                           ||.|         |.||||||  |.|||||||||   ||  |.|
+c141126017-14  13811 TGTGGGGGTC---------GGAACAGG--AACCCAGCTGA---GGGCTCC  13846
+
+16022036-1603  11669 TGAGGTTGGGCTGAGACCCTGCTTCTCTTCCC-CCATCACCACCTGCCCC  11717
+                     .||.|.||..|.||| ||||||..||.||||| ||.||    |||||.| 
+c141126017-14  13847 AGATGCTGCACAGAG-CCCTGCCCCTTTTCCCTCCCTC----CCTGCAC-  13890
+
+16022036-1603  11718 TCCCTCCAGCCCAGCTCCA--TTCTTTG-GCATAACAGGCAACTCTAACC  11764
+                      .||||||||||||| |||  |.||..| ||||  |||.||.|||||   
+c141126017-14  13891 -TCCTCCAGCCCAGC-CCAGCTACTCAGTGCAT--CAGCCAGCTCTA---  13933
+
+16022036-1603  11765 TAGCCCAGAAGAGGATGGCTC-------ATCCTGGGTGGGACGATGGCTC  11807
+                        |||||..||..|.|||||       |||            |.|||.|
+c141126017-14  13934 ---CCCAGCTGAACAGGGCTCCACATTTATC------------ACGGCCC  13968
+
+16022036-1603  11808 CTGCCTTGA-AAGACAAAAATCCCACCT-TGGGCAGAGCTGAGTGTGAGA  11855
+                     |  ||  || |.|||||      ||.|| |        ||| ||.|| ||
+c141126017-14  13969 C--CC--GAGAGGACAA------CATCTCT--------CTG-GTCTG-GA  13998
+
+16022036-1603  11856 AGATGGAAAACCAGTATCT--GCCAGGTGCTCAGTGACTGGCCATCACAT  11903
+                     ||  |||.||     ||||  .||.|||                      
+c141126017-14  13999 AG--GGACAA-----ATCTCACCCCGGT----------------------  14019
+
+16022036-1603  11904 TAATGAATGACGAGATTGGAGTACACTGTCACCAAGGGCAGGCAAAGATG  11953
+                            |.||||||    .|||                           
+c141126017-14  14020 -------TTACGAGA----CGTA---------------------------  14031
+
+16022036-1603  11954 CCCTCTGGGGTTGTCTGGTTCCCAGTGAGAGGCTCCTGAG-----AAAAA  11998
+                     ||.||||||.||.||| .|||.|||..||..|||||||||     ||||.
+c141126017-14  14032 CCTTCTGGGATTATCT-ATTCACAGCCAGTAGCTCCTGAGAAAATAAAAC  14080
+
+16022036-1603  11999 TAAAGCTGGTTCCCAG  12014
+                     ||||||||.|||||||
+c141126017-14  14081 TAAAGCTGATTCCCAG  14096
+
+
+#---------------------------------------
+#---------------------------------------

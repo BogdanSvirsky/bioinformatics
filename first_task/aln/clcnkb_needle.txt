@@ -1,0 +1,1325 @@
+########################################
+# Program: needle
+# Rundate: Sun  5 Apr 2026 18:23:27
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20260405-182316-0405-99241311-p1m.asequence
+#    -bsequence emboss_needle-I20260405-182316-0405-99241311-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 16043782-16057326
+# 2: c141143440-141131668
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 16050
+# Identity:    7440/16050 (46.4%)
+# Similarity:  7440/16050 (46.4%)
+# Gaps:        6782/16050 (42.3%)
+# Score: 18312.5
+# 
+#
+#=======================================
+
+16043782-1605      1 --------------------------------------------------      0
+                                                                       
+c141143440-14      1 TGGTCAGTCTGTGAGTTCTGGCCAGTTTCTCAAGGACATTCTAAATGGCT     50
+
+16043782-1605      1 -----------------------GAGGATGTTGATTGTTGGAACACACAC     27
+                                            ||||.|||||||||.||||...|||||
+c141143440-14     51 TCCTTAACCCCAGGAGGGGAGGGGAGGGTGTTGATTGGTGGAGGGCACAC    100
+
+16043782-1605     28 CTGTCCAGGTGCAGGGGAGCT--------GGAGGCTCTGTGAGAGGAGGG     69
+                     |||||||||||.|..||||.|        .||.|||.|||..||||||||
+c141143440-14    101 CTGTCCAGGTGTACAGGAGTTACAAACAAAGAAGCTGTGTTGGAGGAGGG    150
+
+16043782-1605     70 CCAGCT-CAGCCACAGCAGGAGG---ACTGACAGGTGAGG----GGTCGC    111
+                     ||.|.| ..||..||||||  ||   ||||||||||||||    |||.|.
+c141143440-14    151 CCTGTTGGGGCTTCAGCAG--GGCACACTGACAGGTGAGGAGCAGGTGGG    198
+
+16043782-1605    112 TGC----AAGATGCTGGGG---------------------CCTGCCAGGG    136
+                     |||    ..||||..||||                     .|||||||||
+c141143440-14    199 TGCTCGGGGGATGGGGGGGGGGCACGGATCTCGGATAGCATCTGCCAGGG    248
+
+16043782-1605    137 CCA-GACAGGCAGGGCGG-GGGGGGGGGGGTGGTAAGGGCAGGAGCCAGC    184
+                     ||| |.|||.||   ||| |.|||.|||.|||    ||.|..|||.||  
+c141143440-14    249 CCAGGCCAGACA---CGGAGAGGGAGGGTGTG----GGACCTGAGGCA--    289
+
+16043782-1605    185 ACCTCACTTTGGCCCTGGTGG----GATCTTCTTCTGGGCCTGGGGTTTT    230
+                            ||||||||          ||.|...|||.||.|.||||||.||
+c141143440-14    290 -------TTTGGCCC------CAAAGACCACATTCAGGACTTGGGGTCTT    326
+
+16043782-1605    231 GCT-GCCTCTGTGGCCTGAG-----CTGGGGTC--AGGGGTGCTCATAG-    271
+                      || ||||      ||||||     |.|.|.||  |.||.||..||||| 
+c141143440-14    327 -CTGGCCT------CCTGAGGAACACAGAGTTCTGAAGGATGGCCATAGG    369
+
+16043782-1605    272 -----------------GTGGACAGGGAGAGTCAGA--------GCCATC    296
+                                      |.|||| ||||.|| ||.|        ||||||
+c141143440-14    370 GCATCCCAGCTGACCATGGGGAC-GGGACAG-CACAGGGCCAAGGCCATC    417
+
+16043782-1605    297 CATGGGACTCT--GCAGTG--------AGAGTGTCACAGCCCTGGGCAGA    336
+                     |.| |.|||||  ||||.|        .||.||||.|||    |||||.|
+c141143440-14    418 CCT-GCACTCTGAGCAGGGGAAATGGCTGATTGTCTCAG----GGGCATA    462
+
+16043782-1605    337 G-ACTGCTCCCAGCAGTGGAAGCGCCAAGTGACCCAGGAGGG--------    377
+                     | |.|      ||.|||            |.|.||||| |.|        
+c141143440-14    463 GCAAT------AGGAGT------------TAAACCAGG-GAGCAGTTCTG    493
+
+16043782-1605    378 --TGGGAGCGGCTGCCACCGAAGG---------GGAAGGGGCTC--TG--    412
+                       |.||||..||.|.|||.|||.|         .||||..||.|  ||  
+c141143440-14    494 CTTAGGAGATGCAGACACAGAAAGACACCACACAGAAGTAGCACCTTGCA    543
+
+16043782-1605    413 ----------AGCAG-GGCTTGGGCTCCGGCCTGTGCCCAGTCTGCTGC-    450
+                               ||.|| |.|||         ||.|...|||      ||| 
+c141143440-14    544 TGTAAGACATAGAAGAGCCTT---------CCAGATACCA------TGCA    578
+
+16043782-1605    451 TGGACACAGGGGGACA--CCTAGGAAT--------------CCCACCCCC    484
+                     ||.|||||     |.|  ||.|.||.|              |.|||||.|
+c141143440-14    579 TGCACACA-----AAATCCCCATGAGTCATGTGAGTGAGTGCTCACCCAC    623
+
+16043782-1605    485 ATCCCA--CACA-ATGACACAC----ACAGGCACAC-------ACCCTCA    520
+                     .||.||  |||| || ||||||    |||.||||||       ||||.||
+c141143440-14    624 CTCACATGCACACAT-ACACACGTGTACACGCACACACAGCTTACCCACA    672
+
+16043782-1605    521 GTGACGGAAACTCAGGGATGAAGGCACACACAGACCTAGTGTGATAACTT    570
+                     |                  .||.|||||||.|.||.| |||| |||| |.
+c141143440-14    673 G------------------CAATGCACACATACACAT-GTGT-ATAA-TA    701
+
+16043782-1605    571 CACATACACACACACACACACACACACGCACAATCTTTCC-----TCTTC    615
+                     ||||||.||||||| ||||||| |.|| ||| |.||||||     .|||.
+c141143440-14    702 CACATATACACACA-ACACACA-AGAC-CAC-AGCTTTCCCTTTTACTTA    747
+
+16043782-1605    616 ATGGGTGGGGAGAG--CACTGGAAGGGCCTAGAGGCAGTGCG----AGG-    658
+                     |      |.|||||  ||||||||.|.||||   ||||||.|    ||| 
+c141143440-14    748 A------GAGAGAGTACACTGGAATGTCCTA---GCAGTGGGGCACAGGC    788
+
+16043782-1605    659 ACGTGCAGCAGCTCACCGCGGTCCCTCCCTCTATCCGCTTCTCC----AG    704
+                     ||.|  ||..|||||||..|       |..||.|||.|.|.|||    ||
+c141143440-14    789 ACAT--AGTGGCTCACCAAG-------CAACTGTCCACCTGTCCTCAGAG    829
+
+16043782-1605    705 GGGCCTGATGGAGGAGTTTGTGGGGCTGCGTGAAGGCTCCTCAGGGAACC    754
+                     ...||  ||||||||.||.||||||||.|||||.|||.||||...|||.|
+c141143440-14    830 AAACC--ATGGAGGAATTAGTGGGGCTTCGTGAGGGCGCCTCCAAGAAGC    877
+
+16043782-1605    755 CTGTGACTCTGCAGGAGCTGTGGGGCCCCTGTCCCCGCATCCGCCGAGGC    804
+                     |.|||.|.|||||.||.||.|||||.||.||.||.|||||||||.||..|
+c141143440-14    878 CAGTGCCACTGCAAGAACTCTGGGGGCCATGCCCACGCATCCGCAGAAAC    927
+
+16043782-1605    805 ATCCGAGGTGAGA---GCCAGGTCCTCTTCCCTTCCCCCTGGAG-GACCA    850
+                     ||||..|||.|||   |||   .||| .|||||  ||||||.|| |||| 
+c141143440-14    928 ATCCAGGGTAAGAACTGCC---GCCT-ATCCCT--CCCCTGCAGAGACC-    970
+
+16043782-1605    851 CTCA--GGACATCATTCCTGCCCAGC--TCCCACCCCACCTCCCTGCCCA    896
+                       ||  |.|||.||       |||||  |.|| |||||      .|||||
+c141143440-14    971 --CATGGAACAACA-------CCAGCCTTGCC-CCCCA------GGCCCA   1004
+
+16043782-1605    897 GGAACCACCCTCCTCCTGGCATTT--GT------CCAG--GACATGACTG    936
+                     .| |.||.||||  ||||   |||  ||      ||||  ||||      
+c141143440-14   1005 AG-ATCAACCTC--CCTG---TTTTAGTTTGCTCCCAGACGACA------   1042
+
+16043782-1605    937 CCCAAAGTCTCCTGGGTGGCAGGGAGGGAAGGGGTCTGTCTGTCCAGCTG    986
+                             |.|.||||||||..||.||  |.|.||||||           
+c141143440-14   1043 --------CCCTTGGGTGGCTTGGCGG--AAGAGTCTGT-----------   1071
+
+16043782-1605    987 TCTGTGGGTCAGATGGGCCGGGCATCTGCCCTCTGCCTTTCGGGAGATAC   1036
+                                                                   ||| 
+c141143440-14   1072 ----------------------------------------------ATA-   1074
+
+16043782-1605   1037 AGCCCAAGGCCTGGTCACTGTGCCCATCTTCCACCCAGGCCTCTCCCTCA   1086
+                       ||||        |||||.||  .||||         |.||.|      
+c141143440-14   1075 --CCCA--------TCACTTTG--AATCT---------GTCTTT------   1097
+
+16043782-1605   1087 CCTACCTGTGCCAATGAGGGGACGTGGGGGTTAGCTGCTGGGACAGCTGG   1136
+                      .||     ||||..|||...|                   ||.|||.||
+c141143440-14   1098 -ATA-----GCCAGAGAGTAAA-------------------GAAAGCAGG   1122
+
+16043782-1605   1137 GGCCACAGCAAGGGGCTGGGGCAGCCTACACTTGGCACCTTTCCTTGGAG   1186
+                     ||||.|||.||      |.|||||..|||                   ||
+c141143440-14   1123 GGCCCCAGAAA------GAGGCAGAGTAC-------------------AG   1147
+
+16043782-1605   1187 CCCCATGTGCTTTGTTCACTTTGAGACCTGACTGTCCCCTCAGCTACGGG   1236
+                     .||||.|         ||||                              
+c141143440-14   1148 GCCCAGG---------CACT------------------------------   1158
+
+16043782-1605   1237 GCAGAGCAAGTAGGGACCACAGAAGGAGGCTGACTGCAACCCCAGGGGCT   1286
+                                             ||.|||||            .|||.|
+c141143440-14   1159 ------------------------GGGGGCTG------------CGGGGT   1172
+
+16043782-1605   1287 GGTGCCCACAGCCAG-TGAGG-GCCAGCTCCCAGGCTGGGCTAGCAGCCA   1334
+                     || |..||.||.||| .|||| ||  |||.|.||||.|||||.|.|||  
+c141143440-14   1173 GG-GGGCATAGTCAGAGGAGGTGC--GCTTCGAGGCAGGGCTGGAAGC--   1217
+
+16043782-1605   1335 GTGGGCCAGGAGCATTGCTGGGGACCCAGAGGATACCTGGCGCCACAGGT   1384
+                      |||           ||.|||||                           
+c141143440-14   1218 -TGG-----------TGATGGGG---------------------------   1228
+
+16043782-1605   1385 CCTGGGACACGCAGGAGTCTGCTAGATCCTGGTGCTCTCTAAGCTATGGA   1434
+                                                   |||||||||||         
+c141143440-14   1229 ------------------------------GGTGCTCTCTA---------   1239
+
+16043782-1605   1435 CTCTGCGGGGATGCAG-----------GTGAAAGCTGTAGCTGCCA-GCC   1472
+                             ||||||||           .|..|..||..|||||||| |||
+c141143440-14   1240 --------GGATGCAGCCCCTACCCAAATACACACTAGAGCTGCCATGCC   1281
+
+16043782-1605   1473 C----CCTCCAT------ACTC---CCTGTCCCCCAGGAACCTC-CCAGT   1508
+                     |    |.|||||      ||||   ..|||      ||    || |||||
+c141143440-14   1282 CAGGTCTTCCATGAAACCACTCATAAGTGT------GG----TCACCAGT   1321
+
+16043782-1605   1509 ACAGGCAGG-GATGCGGAGGGTCGGCAGGTCAACGGCTTTCTGGTAGGGG   1557
+                      ..||.||| |||| |.||    ||.|||||||.|||.||.| |.||||.
+c141143440-14   1322 -GTGGGAGGAGATG-GAAG----GGAAGGTCAAAGGCCTTGT-GCAGGGC   1364
+
+16043782-1605   1558 CAGCAGTCCTGGCACCCACTGTGTCACCAC-TGTCACCTCCCACAAATCC   1606
+                     || |||.|.|||.|.||||.|||.|||||| .|| ||||.|||||||.|.
+c141143440-14   1365 CA-CAGGCATGGTATCCACAGTGCCACCACACGT-ACCTGCCACAAACCA   1412
+
+16043782-1605   1607 TGCCCGGCCACTTATGTGAGGCAGGGCCCCCTCGGGACTAC---------   1647
+                     |||.||..| ||.||||.||||||.| .||||||..|.|||         
+c141143440-14   1413 TGCTCGATC-CTCATGTAAGGCAGAG-TCCCTCGTCATTACTTTGATCAT   1460
+
+16043782-1605   1648 ---CCCAGAGTATACCACCAAG-CTCCATCCC-------CCTGCCCCAGC   1686
+                        |||.|.|           | |||.| |||       ||||.|||..|
+c141143440-14   1461 TGGCCCTGCG-----------GTCTCTA-CCCTGTCTGGCCTGGCCCTCC   1498
+
+16043782-1605   1687 CTCTC---TGCCTGAAGCCCAGCAGGCCTCCAAGGATGGGACTGTCTGTG   1733
+                     ||.||   .|||||      |||||.|| |||.|||.|            
+c141143440-14   1499 CTGTCCAGAGCCTG------AGCAGACC-CCAGGGAAG------------   1529
+
+16043782-1605   1734 CCTCCTGCCCCACCCTGTGCCGTGACCCCA-TGCCCTGCCCCAGGTGGCC   1782
+                                     |.||.|||||..|| ||.|||| .|.|||.||||
+c141143440-14   1530 ----------------GAGCTGTGACAGCAGTGTCCTG-TCTAGGGGGCC   1562
+
+16043782-1605   1783 TGGAGTGGCTGAAGCAGAAGCTCTTCCGCCTGGGCGAGGACTGGTACTTC   1832
+                     |.|||||||||||..||..|||||||||..||||.|||||||||||||||
+c141143440-14   1563 TAGAGTGGCTGAAAGAGCGGCTCTTCCGTGTGGGTGAGGACTGGTACTTC   1612
+
+16043782-1605   1833 CTGATGACCCTCGGGGTGCTCATGGCCCTGGTCAGCTGTGCCATGGACTT   1882
+                     |||.||.|.|||||||||||||||||.|||.||||||.|||.|||.||||
+c141143440-14   1613 CTGGTGGCTCTCGGGGTGCTCATGGCTCTGATCAGCTATGCTATGAACTT   1662
+
+16043782-1605   1883 GGCTGTTGAGAGTGTGGTCCGAGGTAACCCCTCCATGGCAGGTGC----T   1928
+                     ..||.|||.|.|.||||||.|||||||..|||||.|||||  |||    .
+c141143440-14   1663 CACTATTGGGCGCGTGGTCAGAGGTAAGGCCTCCCTGGCA--TGCACAAG   1710
+
+16043782-1605   1929 GCTCTGGGCCAAGGGATTC-------TGAGCTCTCTCTGGGGATGCCAGG   1971
+                     ||||..|||.|.|||||||       || |||       |||||..||..
+c141143440-14   1711 GCTCCAGGCGATGGGATTCCTATACATG-GCT-------GGGATATCAAC   1752
+
+16043782-1605   1972 TGGATGTCGCCAGGTGCAGCGG---AGGTTGGGGGGGGTGCTCTGGGTGG   2018
+                     ||||  |.||..||.||||.||   |||.|..|      |||.||.||||
+c141143440-14   1753 TGGA--TTGCTGGGAGCAGTGGGATAGGATAAG------GCTGTGAGTGG   1794
+
+16043782-1605   2019 --------GGATCTGGTCCTGGCTTTACTCCTGACTTGCTCTGTGATCC-   2059
+                             |||.|||..|||..|||..|||.|||||||||.||||  || 
+c141143440-14   1795 CCAGGCCTGGAGCTGACCCTTACTTGGCTCTTGACTTGCTGTGTG--CCT   1842
+
+16043782-1605   2060 -TGGGCAGGCTCCTGCCCCTCTCTGG-----GCCTCA--------GTCAT   2095
+                      |.||||.||| |||..|||..||||     .||.||        |||||
+c141143440-14   1843 TTAGGCAAGCT-CTGTGCCTTGCTGGTCTACCCCCCAACCCCCATGTCAT   1891
+
+16043782-1605   2096 CTCATTTGCACAAGGGAGAGAGGCCTGAATGTTCCCAAGAGCTCTTCCTC   2145
+                     |.|||.|||||     ||||||| .||||          |.||||  |||
+c141143440-14   1892 CACATCTGCAC-----AGAGAGG-GTGAA----------ACCTCT--CTC   1923
+
+16043782-1605   2146 CTCTGAGCTCTCTGCCTCCTCTTCCAGCCACC-CTGTTTCTTCTCCTTCC   2194
+                     .|||.||||   ||            |||||| |||||.||||||  |||
+c141143440-14   1924 TTCTAAGCT---TG------------GCCACCTCTGTTCCTTCTC--TCC   1956
+
+16043782-1605   2195 CTCCTCCATGCCCTGGGGCAGAGTGGGGGCACTTCCCTATAACACTAAGC   2244
+                     |.|||                                             
+c141143440-14   1957 CACCT---------------------------------------------   1961
+
+16043782-1605   2245 TTGGTGCTTCCTCCCCATCCCACCCCATCCCTCAGCAGCCTGCCTCCACC   2294
+                         ||||                      |||||               
+c141143440-14   1962 ----TGCT----------------------CTCAG---------------   1970
+
+16043782-1605   2295 CTGAGGCCTCCCTGGAAGAGGGGGTGTGGGCAGGAAGGGTCTAAGACACT   2344
+                                                                       
+c141143440-14   1971 --------------------------------------------------   1970
+
+16043782-1605   2345 TTCTCTGGAGACCCTCAGCTGCCAGAAGCAGCACCTACTATGGTGTTACG   2394
+                                                                       
+c141143440-14   1971 --------------------------------------------------   1970
+
+16043782-1605   2395 GTGTTTGGTGCTTCACACCTGTGTCATGTAGTTCTCAGTGGCCCTTTAGT   2444
+                                                      ||||||||.||||    
+c141143440-14   1971 ---------------------------------CTCAGTGGTCCTT----   1983
+
+16043782-1605   2445 CTTTAACGTCTTTAGTCTTCAATGAGCCTGTGAGGAAGAGCCCATCACGA   2494
+                                                          ||.||||      
+c141143440-14   1984 -------------------------------------GAACCCA------   1990
+
+16043782-1605   2495 GCCCACTTGGCAGATGGGGAAACTGAGGCTCAGAGAGGCTGAGTGGCTTG   2544
+                                                                       
+c141143440-14   1991 --------------------------------------------------   1990
+
+16043782-1605   2545 CCCAAGGTCACTCAGCTAGGCAGTGGTAAACCTGGGATATGGACCCAGGG   2594
+                           ||||          ||||                          
+c141143440-14   1991 ------GTCA----------CAGT--------------------------   1998
+
+16043782-1605   2595 TCGTACTCCTGCCTCTTCTTGGGGGTCTGCAC--CTCACTGTGTGGCCT-   2641
+                        |.||||  ||                |||  .||||||.||||||| 
+c141143440-14   1999 ---TTCTCC--CC----------------CACTATTCACTGGGTGGCCTT   2027
+
+16043782-1605   2642 -GGTCCTCCCCTCTTCGTGACTCCATTTCCTGGTCAGTAAGTGGGCACCA   2690
+                      ||                   ||.||||||.|||.||||||||||||||
+c141143440-14   2028 GGG-------------------CCCTTTCCTAGTCTGTAAGTGGGCACCA   2058
+
+16043782-1605   2691 CAGCGTCTGGCCCCGAGGGCTGCAGAGGCTGTGGGTGCCTCCCTGATACC   2740
+                     .||.|||| |||||.||||||   ||||||.||||||.|| |||||    
+c141143440-14   2059 TAGTGTCT-GCCCCCAGGGCT---GAGGCTCTGGGTGGCT-CCTGA----   2099
+
+16043782-1605   2741 CGGCTG----TCCCCAGCGCACCAGTGGCTGTACAGGGAGATTGGGGACA   2786
+                     |.||||    ||.|.|||.|||.||||||||||||||||||||||.||..
+c141143440-14   2100 CTGCTGGACATCTCTAGCACACAAGTGGCTGTACAGGGAGATTGGAGATG   2149
+
+16043782-1605   2787 GCCACCTGCTCCGGTATCTCTCCTGGACTGTGTACCCTGTGGCCCTCGTC   2836
+                     ||||||||||||||||.|||||||||||.||||||||.|||||.||..|.
+c141143440-14   2150 GCCACCTGCTCCGGTACCTCTCCTGGACCGTGTACCCCGTGGCTCTTCTG   2199
+
+16043782-1605   2837 TCTTTCTCTTCAGGCTTCTCTCAGAGCATCACACCCTCCTCTGGAGGTGA   2886
+                     ||.|||||.||.||||||||.||||||||||||||.||||||||||||||
+c141143440-14   2200 TCCTTCTCCTCCGGCTTCTCACAGAGCATCACACCATCCTCTGGAGGTGA   2249
+
+16043782-1605   2887 GTC-----CAC--AGTCGCTACGCCA---------------GTCC-----   2909
+                     |||     |||  .|||.||...|||               ||||     
+c141143440-14   2250 GTCATGGTCACCTGGTCTCTGGACCATGGACAACCTGTCTTGTCCTGTAG   2299
+
+16043782-1605   2910 CCACT-----GGCCAAAACCTTCTCAGATCCCAGGGGGGAGTCGGGAAGG   2954
+                     .||||     |.|||||.|.||.| |.|| ||.|.|.||..|..||||||
+c141143440-14   2300 TCACTAAAGGGTCCAAAGCTTTAT-ACAT-CCTGTGTGGCTTGAGGAAGG   2347
+
+16043782-1605   2955 -GGCAGCCTCATTTCACAGACA--AAGGCCCA------------GGAAG-   2988
+                      |||||          ..||||  || .||||            ||||| 
+c141143440-14   2348 AGGCAG----------GGGACAGTAA-CCCCACGTTAGTGCTGGGGAAGT   2386
+
+16043782-1605   2989 ----------------AGTCATGTGGCTTGCCCAA--------AGGGACA   3014
+                                     ||.|||     ||.|||||        |||||.|
+c141143440-14   2387 GAGCTTGGGAGAGACAAGCCAT-----TTACCCAAAGCCATACAGGGAGA   2431
+
+16043782-1605   3015 CAGCAAGAAGG----CCAGATCTTGACTTTTGGGTCA-CTGCTGGCCCTA   3059
+                     |.|..||||||    || ||||           |.|| |.|||  ||.||
+c141143440-14   2432 CGGGGAGAAGGGGATCC-GATC-----------GGCACCAGCT--CCATA   2467
+
+16043782-1605   3060 CCTGCTTTCCAGGGGCTCCGCTGGGACTTGATGGGAGGCCTGGTGGGAGG   3109
+                     ||..|  |||..|||||||.|||||.|    .|..|||..||||      
+c141143440-14   2468 CCACC--TCCCTGGGCTCCCCTGGGCC----AGCAAGGATTGGT------   2505
+
+16043782-1605   3110 ATCTTCTGCGAAGCCTGTTCCAGTGGCCAGTGCCAGGGAGGGGCCAGTGG   3159
+                      ||..||.| |.|.||||                                
+c141143440-14   2506 -TCCCCTTC-AGGACTGT--------------------------------   2521
+
+16043782-1605   3160 AGGAGGCACAGCTCCCCCAGGCCGCTCAGCC-------CTGCCTCCTGCT   3202
+                        ||.||.|.||          ||||||||       ||||||||.|||
+c141143440-14   2522 ---AGCCAAATCT----------GCTCAGCCTCTAGAGCTGCCTCCAGCT   2558
+
+16043782-1605   3203 CCAGGCCAGCAGAG---GGGAGCTCAAAGCTCACTCAGTGGTGGCCTGAG   3249
+                     .|||  |||..|||   |||     |||.||       ||..||||    
+c141143440-14   2559 ACAG--CAGTGGAGTTTGGG-----AAATCT-------TGAAGGCC----   2590
+
+16043782-1605   3250 ATTTCATCCGGGCTTCCCCTATCCTGCCACAGCCTTCTGCCAGGCCTGGC   3299
+                         ||||.|    .||||          ||| .||||.||   .|||||
+c141143440-14   2591 ----CATCTG----ACCCC----------CAG-TTTCTTCC---TCTGGC   2618
+
+16043782-1605   3300 GG-------GA--------GGAACGTGA-ACAAC----TCACATTCCCT-   3328
+                     ||       ||        |||.|.||| .|..|    |.||.|||||| 
+c141143440-14   2619 GGCTGTTATGAATCCATACGGAGCATGAGGCTGCTTTGTGACTTTCCCTG   2668
+
+16043782-1605   3329 -------------CTGTG---ATGCT------------------------   3338
+                                  |||||   || ||                        
+c141143440-14   2669 AGGAGACACAAACCTGTGCTTAT-CTGCACTTATATGACATAAAGTGCCA   2717
+
+16043782-1605   3339 --CGGTGTCCAAA--------TCTGCTAA-------------------AT   3359
+                       ||..|.|||||        ||..|.||                   |.
+c141143440-14   2718 ACCGCAGACCAAAACAATGACTCCACCAAAGTCCAGGTTAATGAAGCCAC   2767
+
+16043782-1605   3360 GAGTTTAAGGACCTTACCCTAG-GC-TGG--GTGCAGTGACT-----CAT   3400
+                     |||||||..|..|||||   || || |||  |.|.|||||.|     .|.
+c141143440-14   2768 GAGTTTATTGGGCTTAC---AGAGCATGGAAGAGGAGTGAGTTACAGTAG   2814
+
+16043782-1605   3401 GCCTGT----------------AATCCCAGCACTTTAGGAGG----CTG-   3429
+                     ||||.|                .|||||||||    .|||.|    ||| 
+c141143440-14   2815 GCCTCTGAATCACCAAAAAGCCCATCCCAGCA----TGGATGGCAACTGT   2860
+
+16043782-1605   3430 ----AGGCAGG--------------AGGATCA----------CTTGTGCC   3451
+                         |||||||              ||||.||          ||||   |
+c141143440-14   2861 TGAAAGGCAGGCCTCTGCCAACTGTAGGAACATTGCCTCTTCCTTG---C   2907
+
+16043782-1605   3452 TAGAGTT-----TGAGACCAGCCTGGGCAACACAGGGAGACCCTGTCTCT   3496
+                     ||..|.|     |||.||.|.|.||||||      ||| |||.|||    
+c141143440-14   2908 TATTGCTGCTGCTGATACAACCTTGGGCA------GGA-ACCTTGT----   2946
+
+16043782-1605   3497 ACAACAAATAGAAAAAAATCAGCTG-----GGCATGA-TTGCATGTGCC-   3539
+                                    |||||  |||     ..||.|| ||.|.|||||| 
+c141143440-14   2947 ---------------AAATC--CTGTAAGTTTCAGGAGTTTCCTGTGCCT   2979
+
+16043782-1605   3540 CGTG----------------------------------------------   3543
+                     .|||                                              
+c141143440-14   2980 TGTGAGTTTCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTCCTTCC   3029
+
+16043782-1605   3544 --------------------------------------------------   3543
+                                                                       
+c141143440-14   3030 TTCCTTCCTTCCTTCCTCCTTTCCTTTCCTTTCCTTTCCTTTCCTTTCCT   3079
+
+16043782-1605   3544 --------------------------------------------------   3543
+                                                                       
+c141143440-14   3080 TTCCTTTCCTTTCCTTTCCTTTCTTTTCTTTTCTTTTCTTTTCTTTTCTT   3129
+
+16043782-1605   3544 -------------GTCCGAG------------------------------   3550
+                                  .|.||||                              
+c141143440-14   3130 TCTTTTTTCTTTTTTTCGAGACAGGGTTTCTCTGTATAACCCTGTCTATC   3179
+
+16043782-1605   3551 -------CTACTCAGGAGGCTGAGGCGGGAGGACTGCTTGACCTGGGGAA   3593
+                            .|||||.|.||..| ||||.||      .|||||.||..|.||
+c141143440-14   3180 CTAGAACTTACTCTGTAGAAT-AGGCTGG------CCTTGAACTCAGAAA   3222
+
+16043782-1605   3594 TTTGATCCTGCACTGAGCAGTGTTTGCACCACTGTACTCC--AGT-CTGG   3640
+                     |.||  ||||                  ||.|||| ||||  ||| ||  
+c141143440-14   3223 TCTG--CCTG------------------CCTCTGT-CTCCCAAGTGCT--   3249
+
+16043782-1605   3641 GGGAT----AGAGTGAG--ACCCCTG------TCTGA-------------   3665
+                     |||||    .|.|||||  |||.|||      |.|||             
+c141143440-14   3250 GGGATTAAAGGCGTGAGCCACCACTGCCCTGCTTTGAATTTTTATTTTTA   3299
+
+16043782-1605   3666 ----AACAAACAA-----ACA---AACAA---------ACAA-ACAAACA   3693
+                         |.|.|.|.|     |||   |.|.|         .||| ||     
+c141143440-14   3300 TTTTATCTATCTATCTTTACATCTATCTATTTGGTTTTTCAAGAC-----   3344
+
+16043782-1605   3694 AACAAAGGAATCCTAACCCAGCTG-------GGCACACTGGCTCATACCT   3736
+                          |||..|.||  |...||||       ||||||.|||.|.|.|.| 
+c141143440-14   3345 -----AGGTTTTCT--CTGGGCTGGAGAGATGGCACAGTGGTTAAGAGC-   3386
+
+16043782-1605   3737 ATAATCCCA--GCACTTTGGGAGG--CGGA--------------------   3762
+                         .||||  ||.|||...||||  |.||                    
+c141143440-14   3387 ----ACCCACTGCTCTTCCAGAGGTCCTGAGTTCAATTTTTAGCAACTAC   3432
+
+16043782-1605   3763 --AGTGG---ACAGATCGTTTGAGGTCAGGAGTTCTAGAGCAGCCC----   3803
+                       |||||   ||| |.|.|||   ||||.|.|.|||   |..||||    
+c141143440-14   3433 GTAGTGGCTCACA-ACCATTT---GTCATGGGATCT---GACGCCCTTTT   3475
+
+16043782-1605   3804 --GG-------GCAACATAGC-------------TAGAC----------T   3821
+                       ||       | ||||.|||             ||.||          |
+c141143440-14   3476 CTGGTGTGTCTG-AACACAGCAACTGTGTATTTGTATACATTAAATAAAT   3524
+
+16043782-1605   3822 CCATCTCTTTAGAAAAATAAGGTGGGC---GAAG--TGG-TCTCC----A   3861
+                     ..|||| |||..|||||..|||..|.|   |.||  ||| |.|||    |
+c141143440-14   3525 AAATCT-TTTTTAAAAACCAGGATGTCTTTGTAGCTTGGCTATCCTGAGA   3573
+
+16043782-1605   3862 C-CTATAGTCCCAGCTATTCAGGAGGCTGA----CGCAGGAGGATAACTT   3906
+                     | ||||||.||..|||       ||.||.|    |.|||       |.||
+c141143440-14   3574 CTCTATAGACCAGGCT-------AGCCTCAAACTCACAG-------AGTT   3609
+
+16043782-1605   3907 GAGCC-----CTGGCAACTGAG-GCT--GCTGTAAGCTATGATCCTACCA   3948
+                     ..|||     |||.|..||||| |||  |.|..|||...||..|| ||||
+c141143440-14   3610 CTGCCTGCCTCTGCCTCCTGAGCGCTGGGATTAAAGGGGTGCGCC-ACCA   3658
+
+16043782-1605   3949 CTGTACTCCAGCCTGGCCAACAGAGCAAGATCTTGTCCCCAAAGGAAAAT   3998
+                            ||.|||.|||        ..|..|||||               
+c141143440-14   3659 -------CCGGCCCGGC--------TTATTTCTTG---------------   3678
+
+16043782-1605   3999 AATCCTAA----CTTCAGAGGGTTCTGCTGATC---TGGCGAGATC---G   4038
+                     ||||.|||    |.||      |.|..|||.||   |||..||..|   |
+c141143440-14   3679 AATCTTAAGCAGCCTC------TCCCCCTGGTCCATTGGAAAGTGCCCTG   3722
+
+16043782-1605   4039 TAA-TG--TGAAAACATCACACAGG---TAGAGTGTTGAGATTTTTAACC   4082
+                     .|| ||  ||      |.|||||||   ||.|      |||  .|||||.
+c141143440-14   3723 CAAGTGCTTG------TTACACAGGCGCTAAA------AGA--ATTAACG   3758
+
+16043782-1605   4083 TAGAGATTGTCCCCCTCCTGGCC-CTGCCCACC----CCCGCCAAGGTTC   4127
+                     .|||...|.||.|||| |||.|| |||||||||    ||     |||.||
+c141143440-14   3759 CAGACTCTATCTCCCT-CTGTCCTCTGCCCACCTGGACC-----AGGGTC   3802
+
+16043782-1605   4128 TGGAATCCCGGAGGTGAAGACCATGTTGGCGGGTGTGGTCTTGGAGGACT   4177
+                     |||||||||.||||||||||||||.|||.|.||.||||||.|||||||||
+c141143440-14   3803 TGGAATCCCTGAGGTGAAGACCATCTTGACCGGAGTGGTCCTGGAGGACT   3852
+
+16043782-1605   4178 ACCTGGATATCAAGAACTTTGGGGCCAAAGTGGTGGGCCTCTCCTGCACC   4227
+                     ||||.||.|||||||||||.||||||||.|||||||||||||||||||||
+c141143440-14   3853 ACCTAGACATCAAGAACTTCGGGGCCAAGGTGGTGGGCCTCTCCTGCACC   3902
+
+16043782-1605   4228 CTGGCCTGTGGCAGCACCCTCTTCCTCGGGAAAGTGGTATGGGCAGGGGT   4277
+                     ||||||...|||||.|||.|||||||.||.|||.|||||.||.||.|   
+c141143440-14   3903 CTGGCCACAGGCAGTACCATCTTCCTGGGAAAATTGGTACGGACATG---   3949
+
+16043782-1605   4278 GAGGGCATCCCAACCACCCTACCCACCCCAGCCACCC--CAGTCTCACCC   4325
+                     ||||||...||...||.||| ..|.|||||.||..||  |.||.|    .
+c141143440-14   3950 GAGGGCCCGCCTCTCATCCT-GTCGCCCCACCCTGCCTTCTGTAT----T   3994
+
+16043782-1605   4326 CCATCACCCCACGAAAGCTGCGTCAGAGGGGACTTGGGCTGGTCCCT-GC   4374
+                     ||||   .||||   |||     |||                  ||| ||
+c141143440-14   3995 CCAT---GCCAC---AGC-----CAG------------------CCTAGC   4015
+
+16043782-1605   4375 CTTCCAGGAA-CTCAGTCTTGGGGGAAGAGGCAGGCCAGGTCCCCGGAGT   4423
+                     |||   |||| |.||||||..|||.||.|  || .|||||| ||||||.|
+c141143440-14   4016 CTT---GGAAGCCCAGTCTCAGGGAAACA--CA-TCCAGGT-CCCGGAAT   4058
+
+16043782-1605   4424 GTGACAAAAGCCATCT-------GAGGACGGC------------------   4448
+                     |||||||||...||||       |.|||.|||                  
+c141143440-14   4059 GTGACAAAAAATATCTCGGGACAGTGGAGGGCTAGGACAAGGATTTGATG   4108
+
+16043782-1605   4449 CGTGGG--------------GGCTTG------------------------   4460
+                     | ||||              ||||||                        
+c141143440-14   4109 C-TGGGCCATTCCTGCGCGAGGCTTGTACTGTTCTTTCCGAAGGCCTTAA   4157
+
+16043782-1605   4461 ------GGAGATGGAGGAGGGGGTGTT-----------------------   4481
+                           .||.|.||||||.|.||||||                       
+c141143440-14   4158 GAAGAAAGAAAAGGAGGATGTGGTGTTGCAAGAAGAGAATAGGGAAGGGG   4207
+
+16043782-1605   4482 ----GGGGGGAAGCCGTGCTGACTCTG------GGTGAG-----------   4510
+                         |.|||||||..|.|..||    |      ||.|||           
+c141143440-14   4208 GGGGGAGGGGAAGAAGAGGAGA----GGAGAAAGGGGAGGGGAAAGAGGA   4253
+
+16043782-1605   4511 -------------ACCGTCTCTGCTGCCC----TCACCTGGGCCCTGGGC   4543
+                                  |..||| |.|||.|||    .|.|||   |.|||   
+c141143440-14   4254 AGGATGGAAAGGTAGGGTC-CAGCTTCCCAGCAACGCCT---CACTG---   4296
+
+16043782-1605   4544 CCACCCTTCTCTCTGCAGGGCCCTTTCGTGCACCTGTCTGTGATGATGGC   4593
+                     ||.||     |.||||||||.||.||||||||||||...||||||||.||
+c141143440-14   4297 CCGCC-----CCCTGCAGGGTCCCTTCGTGCACCTGAGCGTGATGATCGC   4341
+
+16043782-1605   4594 TGCCTACCTGGGCCGTGTGCGCACCACGACCATCGGGGAGCCTGAGGTTA   4643
+                     |||.|||||||||||.||||||||||.||||.|||||||.||||||||.|
+c141143440-14   4342 TGCTTACCTGGGCCGCGTGCGCACCAAGACCGTCGGGGAACCTGAGGTGA   4391
+
+16043782-1605   4644 GGGACTCGGGGGCTTCCTTGGAGAAATGGGAGT------GGGGAGGGAGG   4687
+                     |||.|.|.||      |||||          ||      |||||   |.|
+c141143440-14   4392 GGGGCACAGG------CTTGG----------GTCTCCTAGGGGA---ACG   4422
+
+16043782-1605   4688 GGGCT----GACTCTGAGCCCTGGACTCGGATCC-CCCAGAACAAGAGCA   4732
+                     ||..|    || ||..|||||.|||..|.|.||| ||||||.|||||.||
+c141143440-14   4423 GGTATAAAAGA-TCAAAGCCCAGGATGCTGTTCCTCCCAGAGCAAGACCA   4471
+
+16043782-1605   4733 AGCAAAACGAAATGCTGGTGGCAGCGGCGGCAGTGGGCGTGGCCACAGTC   4782
+                     |..|||..|||.||.|||..||||..||.||||||||.||||||||.|||
+c141143440-14   4472 AAGAAATGGAACTGTTGGCCGCAGGAGCAGCAGTGGGTGTGGCCACGGTC   4521
+
+16043782-1605   4783 TTTGCAGCTCCCTTCAGCGGTGAGACCCCTTCATGCCCCGCCCCCTGGGT   4832
+                     ||.|||||||||.|||||||||||                          
+c141143440-14   4522 TTCGCAGCTCCCATCAGCGGTGAG--------------------------   4545
+
+16043782-1605   4833 CCCTCAAGCTCCTCCCCTCACACCCTGGGCTCCTTCGGCCCAGCTGAGAG   4882
+                           ||||    |||||||          |||||              
+c141143440-14   4546 ------AGCT----CCCTCAC----------CCTTC--------------   4561
+
+16043782-1605   4883 CCTGGAGGAGGGGGTGGGGCTCATTCTAGTTCTCACTTCAGCCCCGCCTT   4932
+                                                                       
+c141143440-14   4562 --------------------------------------------------   4561
+
+16043782-1605   4933 GGGCACAGCCACCGCCCCCCACCGGGGGGAGGGGGGGCGGGTGACTTGAT   4982
+                                                                       
+c141143440-14   4562 --------------------------------------------------   4561
+
+16043782-1605   4983 TGGCGGTGCTAAGAGGCTTCAGTGTAACATTATACAGACTTGGGTTTGAA   5032
+                                           |||            |||          
+c141143440-14   4562 ----------------------TGT------------ACT----------   4567
+
+16043782-1605   5033 ATCCACGTATGACCCTGGCCCGTTGGCCTCTCTGAGCCCGGCTTCCTCCT   5082
+                                       |||||                           
+c141143440-14   4568 ------------------CCCGT---------------------------   4572
+
+16043782-1605   5083 CTACAAAATGGAGATCGCAACCGTCCCCACCCGATAGCGAGAGGGCGCAC   5132
+                                           ||||                        
+c141143440-14   4573 ----------------------GTCC------------------------   4576
+
+16043782-1605   5133 ACCCGCATTCCAGGCTGGACGGGTCTCTGGGCAGCGGGCTCCTCCCCGCC   5182
+                             |.|||                                    |
+c141143440-14   4577 --------TGCAG------------------------------------C   4582
+
+16043782-1605   5183 CAGGGCGCATGCCCTGCCCTCCCCTCCTGTCTGTCCCTGTCCGGGCTGCA   5232
+                     |||||                                             
+c141143440-14   4583 CAGGG---------------------------------------------   4587
+
+16043782-1605   5233 GGAGAGCAGGACAGATGGGTCAGGGAGGAGGTGACATGGGGAGGGGGTCC   5282
+                             |||.|||                                   
+c141143440-14   4588 --------GGATAGA-----------------------------------   4594
+
+16043782-1605   5283 TACAGTCACAGGTGGGTGGGGGTGGAGGGCCCACCTGAGATCAGTGTCGC   5332
+                        |||                        ||.|||||||...||||  |
+c141143440-14   4595 ---AGT------------------------CCTCCTGAGACGCGTGT--C   4615
+
+16043782-1605   5333 CCCCAGGCGTCCTGTTCAGCATCGAGGTCATGTCTTCCCACTTCTCTGTC   5382
+                     |||.|||.||||||||||||||||||||||||||.||.||||||||.|||
+c141143440-14   4616 CCCTAGGTGTCCTGTTCAGCATCGAGGTCATGTCCTCTCACTTCTCCGTC   4665
+
+16043782-1605   5383 TGGGATTACTGGAGGGGCTTCTTTGCGGCCACCTGCGGGGCCTTCATGTT   5432
+                     |||||||||||||||||||||||.||.||||||||.||||||||.|||||
+c141143440-14   4666 TGGGATTACTGGAGGGGCTTCTTCGCTGCCACCTGTGGGGCCTTTATGTT   4715
+
+16043782-1605   5433 CCGGCTCCTGGCGGTCTTCAACAGCGAGCAGGGTGAGCCCCCTGGGCTGC   5482
+                     ||..||||||||.||||||||||..||.||||||||||            
+c141143440-14   4716 CCACCTCCTGGCAGTCTTCAACAATGAACAGGGTGAGC------------   4753
+
+16043782-1605   5483 CTGACCCT----GGCCCT-GCCTGGGGGCCGGGGCGAGGGGGCCCTCCCT   5527
+                        |||.|    ||.||| |.||                    ||.||||
+c141143440-14   4754 ---ACCATATTGGGACCTAGTCT--------------------CCACCCT   4780
+
+16043782-1605   5528 -TCTCCCCTGTGTACACC----------CCTTGC-TCTTCCTTTC---CC   5562
+                      ||||..||||| ||.||          ||||.| || |||||||   ||
+c141143440-14   4781 CTCTCTTCTGTG-ACTCCTCTCCTTTATCCTTCCATC-TCCTTTCAGACC   4828
+
+16043782-1605   5563 TCTCTCTCCCTCT-TTTTCCTCTTC----CTTGTTCCCACC--------T   5599
+                     .|.||| |||||| ||.|..|||||    .|.|||||||.|        |
+c141143440-14   4829 ACCCTC-CCCTCTCTTCTGTTCTTCTACAATGGTTCCCAACCTTCCCAAT   4877
+
+16043782-1605   5600 CCTTC---------------------------------------------   5604
+                     .||||                                             
+c141143440-14   4878 GCTTCCACCCTGAATAATAAAAATATTCGGTTGCTACTTAAAAACTGTAA   4927
+
+16043782-1605   5605 --TGG-----------------------------------------GAGG   5611
+                       |||                                         |||.
+c141143440-14   4928 TTTGGTTACTGTTTTTTTTTAAAAAAAAAGATTTATTTATGTATATGAGT   4977
+
+16043782-1605   5612 A---TG---------------------GAGGG------------------   5619
+                     |   ||                     |||||                  
+c141143440-14   4978 ACATTGTACTCTTCAGACACACTAGAAGAGGGCATCAGATCCCATTACAG   5027
+
+16043782-1605   5620 --GGCTG------ACC-TGTG-----------TTGA----------GCAA   5639
+                       ||.||      ||| ||||           ||||          .|..
+c141143440-14   5028 ATGGTTGTGAGCCACCATGTGGTTGCTGGGATTTGAACTCAGGACCTCTG   5077
+
+16043782-1605   5640 GAAGGGCAG---GGG--------CCCTGAGG--------------GTA--   5662
+                     ||||.||||   |.|        |.||||||              |||  
+c141143440-14   5078 GAAGAGCAGTCAGTGCTCTTAACCGCTGAGGCATTTCCCCAGCCCGTAAC   5127
+
+16043782-1605   5663 --------------GAAGGGA------------TGAGGCTGGGCAGGGAG   5686
+                                   |||...|            ||||.|   ||||||.|
+c141143440-14   5128 TTGGTGACTGTTATGAATCAAAATGTAAATATCTGAGAC---GCAGGGTG   5174
+
+16043782-1605   5687 GC-----------------AGGAGCC---------TGGTTGTG-------   5703
+                     .|                 ||.||.|         .|||||.|       
+c141143440-14   5175 TCTGATATGTGATTCCCAAAGAAGTCAAAATTCTTAGGTTGAGAGCCACT   5224
+
+16043782-1605   5704 --GGGGCCTGGAATGCCAGGACACAGATTCCGAGTCAGG--ACCTGGCAC   5749
+                       ||.||||.||||.|||||   .|.|||..|.||.|||  |...|.|||
+c141143440-14   5225 GCGGTGCCTAGAATTCCAGG---GAAATTTGGGGTTAGGTCAGAAGCCAC   5271
+
+16043782-1605   5750 CCCCTCCACCCTGGGC--TGTTAGTCTGGGACTTGAGTTTGGGTCGGGTG   5797
+                     ||   |||.|||.|.|  .||||.||       ||||..|||||   |||
+c141143440-14   5272 CC---CCATCCTTGCCCGAGTTATTC-------TGAGCCTGGGT---GTG   5308
+
+16043782-1605   5798 GGAGCGCCATCTTGGC------TCCCCA----CTGCCCTCCTTCCCCAGA   5837
+                     |.|| ||     ||||      ||||||    ||.||.|||||||.||||
+c141143440-14   5309 GAAG-GC-----TGGCACAGGATCCCCACTTTCTTCCTTCCTTCCTCAGA   5352
+
+16043782-1605   5838 GACCATCACCTCCCTCTACAAGACCAG-TTTCCGGGTGGACGTTCCCTTC   5886
+                     |||||||||||||.||||||||||||| ||||| .||||||.|.|||||.
+c141143440-14   5353 GACCATCACCTCCATCTACAAGACCAGCTTTCC-AGTGGACATACCCTTT   5401
+
+16043782-1605   5887 GACCTGCCTGAGATCTTCTTTTTTGTGGCGCTGGGGTGAGTGGGTGCCTT   5936
+                     |||.|.||.||||||||||||||||||||.|||||||||||||| |||||
+c141143440-14   5402 GACTTACCAGAGATCTTCTTTTTTGTGGCCCTGGGGTGAGTGGG-GCCTT   5450
+
+16043782-1605   5937 GGGCCCCTGAGAGTCCAAAAGGCATTCCCCCCAAGGCCTGGACTGCGGCC   5986
+                     ..| ||||||.|| |.|     |.|||..|                    
+c141143440-14   5451 AAG-CCCTGAAAG-CTA-----CTTTCAAC--------------------   5473
+
+16043782-1605   5987 CCTGGTACTGGGGTCGGGCTCTGGGCTCATGTCTCCA--TGCTCC----C   6030
+                            |||.|||  |||..|||.||||     |||  ..||||    |
+c141143440-14   5474 -------CTGAGGT--GGCGGTGGCCTCA-----CCAACACCTCCACTTC   5509
+
+16043782-1605   6031 CAGGGGTCTCTGTGGCATCCTGGGCAGCGCTTACCTCTTCTGTCAGCGAA   6080
+                     |||||...||||||||||||||.||.|||..|||..||.|.|.|||||.|
+c141143440-14   5510 CAGGGCCATCTGTGGCATCCTGAGCTGCGGGTACAACTACAGCCAGCGGA   5559
+
+16043782-1605   6081 ---TCTTCTTTGGCTTCATCAGGAACAATAGGTTCAGCTCCAAACTGCTG   6127
+                        ||||.|||   |||.|||.|..||||.||||||.|||||||||||||
+c141143440-14   5560 CTTTCTTATTT---TTCCTCAAGGCCAATGGGTTCACCTCCAAACTGCTG   5606
+
+16043782-1605   6128 GCCACCAGGTAGGCTCCGGGCTAAGGGCTGGGGA-CCTCTCAGCGAGCTC   6176
+                     ||.|||||||.||||                ||| ||.|||||.||||.|
+c141143440-14   5607 GCTACCAGGTGGGCT----------------GGACCCCCTCAGGGAGCAC   5640
+
+16043782-1605   6177 CCCCCTCACCGTACTCCCAACCTTATGTAGAAAGCTCTACCCGCCACCT-   6225
+                     |||         |||..|.|.|||..||  ||||..|.|||     ||| 
+c141143440-14   5641 CCC---------ACTTTCGATCTTCCGT--AAAGTCCCACC-----CCTT   5674
+
+16043782-1605   6226 -----GAGCCCCTAAAGC---CCATCCTAGCCCA------TGC-------   6254
+                          ||||||||    |   |||  |||.||||      |||       
+c141143440-14   5675 TCACAGAGCCCCT----CTTTCCA--CTAACCCACCAAAGTGCTACCTGT   5718
+
+16043782-1605   6255 -----CCCACATGTGGAGCCCCTAACACCACCT-ACAAGTCCCCA-CAGT   6297
+                          |.||||  ||.|||||||         | .||.||  ||| ||||
+c141143440-14   5719 CTGATCTCACA--TGAAGCCCCT---------TGTCAGGT--CCAGCAGT   5755
+
+16043782-1605   6298 CACTGCCCGACTACCTT---ACTGGCCTCAAACCTCCCCATTTAACCCCC   6344
+                     |||.||.|.|||.|..|   |.||      ||||||||  |.|..||   
+c141143440-14   5756 CACGGCTCCACTTCTGTGAAAATG------AACCTCCC--TGTGTCC---   5794
+
+16043782-1605   6345 ATATCTCCTGGAGTCTATACCCCCTCAGTGAACCC--CAACCCC----CT   6388
+                         ||||   |.||.|||.|||.||..|||.|||  |..||||    ||
+c141143440-14   5795 ----CTCC---AATCCATAGCCCTTCTCTGAGCCCTGCGCCCCCTCCTCT   5837
+
+16043782-1605   6389 CA-----CTG---AC---CTTTA-----------------ACCC------   6404
+                     ||     |||   ||   |||||                 .|||      
+c141143440-14   5838 CAATCTCCTGCATACTTGCTTTATTATCTAGGCCAGCAAGGCCCATCTGG   5887
+
+16043782-1605   6405 ---------------CCTGTTGGTCCCTCTCTCCCTTT------------   6427
+                                    |||..|||||.||.|||...|||            
+c141143440-14   5888 GCTTGGCTTGGCTTTCCTCCTGGTCTCTTTCTTTTTTTTTTAAAGATATA   5937
+
+16043782-1605   6428 ----------------------------------------AAACCA----   6433
+                                                             |.||||    
+c141143440-14   5938 TTTATTATTATATGTAAGTACACTGTAGCTGTCTTCAGACACACCAGAAG   5987
+
+16043782-1605   6434 ---------------------------TGTGTGC--CCA---------TG   6445
+                                                ||||.||  |||         ||
+c141143440-14   5988 AGGGAGTCAGATCTTGTTACAGATGGTTGTGAGCCACCATGTGGTTGCTG   6037
+
+16043782-1605   6446 GCATTGGCCAAGCCCTCCTGCCC--------------CAGGTGC------   6475
+                     |.|||.|  ||   |||..|.||              |.|||||      
+c141143440-14   6038 GGATTTG--AA---CTCTGGACCTTCGGAAGAGCAGTCGGGTGCTCTTAC   6082
+
+16043782-1605   6476 ---ATGAGC-------CCTGCCCTAGCCTGGCCCCACTCTGTCCTCCCTC   6515
+                        .|||||       ||.|||||  ||.||.|.|..|||| |||.|.||
+c141143440-14   6083 ACACTGAGCCATCTCACCAGCCCT--CCCGGTCTCTTTCTG-CCTTCATC   6129
+
+16043782-1605   6516 CCAGCCTGCCT-GTGCCC--CAATTCTCC---TATCAGCCTCTACCCCTA   6559
+                     .| ||||  || || |||  ||..|||||   |.|||  ||.||.|.|| 
+c141143440-14   6130 TC-GCCT--CTAGT-CCCATCAGGTCTCCAGGTCTCA--CTTTATCTCT-   6172
+
+16043782-1605   6560 AAAATACCCAGGAGTGTGGGGCTGACCCCACAGGTTCTGTCCCCTGGAG-   6608
+                         |.|       |.||.||           |||        |.|||| 
+c141143440-14   6173 ----TTC-------TTTGCGG-----------GGT--------CAGGAGC   6192
+
+16043782-1605   6609 --CTGGCCCAGTCCATGTCCCCCATTCCTGCTCTTCCTCCCCAGTCCTTG   6656
+                       ||||  .|||     ||||   ||.|||.|.|  |||     ||||| 
+c141143440-14   6193 ACCTGG--TAGT-----TCCC---TTGCTGTTGT--CTC-----TCCTT-   6224
+
+16043782-1605   6657 CCTTGCTAGGCCCTGCTTCCCTCTCCT-----TG--------GGATGTGG   6693
+                               |.||| |.||||.||.|     ||        ||.|||||
+c141143440-14   6225 ----------CTCTG-TACCCTTTCTTCAGGGTGAACTCCAAGGCTGTGG   6263
+
+16043782-1605   6694 GAAAGG----GAGGGCCAGC-CCTAGAGCCCACCCATCCCCCACAGCAAG   6738
+                     |.||||    ||||  ||.| ||.|    |..|||.||.||||||||||.
+c141143440-14   6264 GGAAGGAGAAGAGG--CAACTCCAA----CTTCCCTTCTCCCACAGCAAA   6307
+
+16043782-1605   6739 CCTGTGTACTCCGCTCTGGCCACCTTGGTTCTCGCCTCCATCACCTACCC   6788
+                     ||..|||||||.||.|||||..|..||||.||.||.||||||||.||.||
+c141143440-14   6308 CCCTTGTACTCAGCCCTGGCTGCTGTGGTCCTGGCTTCCATCACGTATCC   6357
+
+16043782-1605   6789 ACCCAGCGCCGGCCGCTTCCTAGCTTCTCGGGTAAGGGGCCTTGAGTGGG   6838
+                     .||..|.|..||||.||||.|.|||||.|||||||||||....|||..||
+c141143440-14   6358 CCCTGGTGTGGGCCACTTCATGGCTTCCCGGGTAAGGGGAACAGAGCTGG   6407
+
+16043782-1605   6839 GTGGCAGGAGTGGGGAAGCCCTATTTGTTGCCTCCTTTGCGTGTATCTCA   6888
+                     |||..||.|||||||||.|||.||||||.|.| ||..||| |||      
+c141143440-14   6408 GTGATAGCAGTGGGGAACCCCCATTTGTAGTC-CCCGTGC-TGT------   6449
+
+16043782-1605   6889 CTTAATCCCCCCAATACCCCATAAGGGAGATGCCTCA-GCATTATTTTAT   6937
+                            |||.|||.||||..|||.|.|.||||| || |..|.|||||..
+c141143440-14   6450 -------CCCTCAAAACCCACTAAAGAAAATGCC-CATGGGTCATTTTTC   6491
+
+16043782-1605   6938 AG---ATGATACTACAGCTTCGGGAGGTCAGAGCCCTGCCCAAGGCCCCC   6984
+                     ||   |.||...|..||||.|...|.|.|||||||.|.|..|.||.|||.
+c141143440-14   6492 AGCACACGAGGTTGTAGCTGCACCATGGCAGAGCCATCCTTAGGGTCCCT   6541
+
+16043782-1605   6985 CGCTGGGAAGTGGC-AGAGGAGGATTCC-AGGCGGGGTCAGGCGGTGC--   7030
+                     .||.|||.|| ||| |..|.||    || |.||    ||||..|| ||  
+c141143440-14   6542 AGCCGGGGAG-GGCTACTGTAG----CCAAAGC----TCAGATGG-GCAA   6581
+
+16043782-1605   7031 -GGG--GGAGGCTGGGGTCTGCCGCTGGGGGCCCCTCATGTCCAGTTCCC   7077
+                      |||  .|||| ||||                    ||||...|   ||.
+c141143440-14   6582 TGGGACAGAGG-TGGG--------------------CATGCTGA---CCT   6607
+
+16043782-1605   7078 ACCTGCC-------CCGCCACAGCTGTCCATGAAGCAGCATCTGGACTCG   7120
+                     |||||||       |.|||.||||||||||||..|.|||||.||||..|.
+c141143440-14   6608 ACCTGCCACTGCCTCGGCCCCAGCTGTCCATGTCGGAGCATTTGGAGACA   6657
+
+16043782-1605   7121 CTGTTCGACAACCACTCCTGGGCGCTGATGACCCAGAACTCCAGCCCACC   7170
+                     |||||.||||||.||||||||||.||||||||..|||||||....|||||
+c141143440-14   6658 CTGTTTGACAACAACTCCTGGGCACTGATGACTAAGAACTCGTCTCCACC   6707
+
+16043782-1605   7171 CTGGCCCGAGGAGCTCGACCCCCAGCACCTGTGGTGGGAATGGTACCACC   7220
+                     ||||.|.|.|||||..||.||||||.|.|||||||.|||.||||..||||
+c141143440-14   6708 CTGGGCAGCGGAGCCTGATCCCCAGAAGCTGTGGTTGGAGTGGTGTCACC   6757
+
+16043782-1605   7221 CGCGGTTCACCATCTTTGGGACCCTTGCCTTCTTCCTGGTTATGAAGGTG   7270
+                     |.|.|||.||..||||||||||.||.|.||||||||||||.|||||||||
+c141143440-14   6758 CACAGTTGACTGTCTTTGGGACACTAGTCTTCTTCCTGGTCATGAAGGTG   6807
+
+16043782-1605   7271 GGC---CCCCTGGTCCCCAGGT-------------GTGC-----------   7293
+                     |||   ..|.|||    |||||             |.||           
+c141143440-14   6808 GGCAGAGTCATGG----CAGGTCCTGGGGGAGATGGGGCTGCTTTCTGAA   6853
+
+16043782-1605   7294 ACAGAGCTGGGA----------------CCAG--CTCTGGTGGTG---GT   7322
+                     ..|.||||.|||                ||||  |||||.| .||   .|
+c141143440-14   6854 TTAAAGCTTGGAGCACCCCCTCCTATGTCCAGGTCTCTGAT-CTGACCCT   6902
+
+16043782-1605   7323 GG-----GGGGTACCTCA-------TCGCAGC------------------   7342
+                     ||     .|.||||||||       ||.||||                  
+c141143440-14   6903 GGCTCACTGTGTACCTCAGAGACCCTCCCAGCCTCAACTCTCTCCCTCCC   6952
+
+16043782-1605   7343 --------------TGGT---GGC-----ATGGAGCCCAGGC-CTTC---   7366
+                                   .|||   |||     |||.||.|||||| ||||   
+c141143440-14   6953 TGCCTTCATCCGAGAGGTTCAGGCTCACTATGCAGACCAGGCTCTTCCCT   7002
+
+16043782-1605   7367 --------------------------------------------------   7366
+                                                                       
+c141143440-14   7003 TATTCTTATAAAAATCGGTGTGTATGCGTGCATGTGCGTGCAAGTGTGTG   7052
+
+16043782-1605   7367 ----------------------CAC-------------------------   7369
+                                           |||                         
+c141143440-14   7053 TGTGTGTGTGTGTGTGTGCGCGCACGTGTGTGCATGTGTGTGTGTGTATA   7102
+
+16043782-1605   7370 ---------------------CCACATTTCCTGATGTG------------   7386
+                                          |||||.|.|  ||||||            
+c141143440-14   7103 CGTGCGCGTGTATGCAGTGTGCCACAGTGC--GATGTGGAGCTCAGAGGA   7150
+
+16043782-1605   7387 ---------------------CCCCCTGCCCATTGCATGGTCCTGGAC--   7413
+                                          ||||.||...|||.||.||.|| .|||  
+c141143440-14   7151 CAACTTGCAGAAGTTGCTTTCCCCCTTGTGGATTCCAGGGACC-AGACTG   7199
+
+16043782-1605   7414 AAGTGGCTTCAGCTCTCTGGGC---CTCAGT----------CTTCTCA--   7448
+                     ||||||  |||| .|||.|.||   ..||||          ||||..|  
+c141143440-14   7200 AAGTGG--TCAG-GCTCAGTGCAAAAGCAGTTACCCTGCCCCTTCCTACA   7246
+
+16043782-1605   7449 -TCTTTAAAATGGGGT-GT-----TTACTGGGAAGGCTAAGGAG-GAAGA   7490
+                      |||||.|.|||||.| ||     |||..|.|.|||||.| ||| |||||
+c141143440-14   7247 TTCTTTGAGATGGGATAGTTGATCTTAAAGAGCAGGCTGA-GAGAGAAGA   7295
+
+16043782-1605   7491 AA-----------GGAATGTACCTG-GCACAGTGCCAGG-GC----ATAC   7523
+                     .|           |||||||.|.|| |||||||   ||| ||    .|||
+c141143440-14   7296 GAGTGACAAACCTGGAATGTGCTTGCGCACAGT---AGGTGCTTTATTAC   7342
+
+16043782-1605   7524 AG--TGG-----GCATTTCTCAGGGTGAGGACCCTCCCCTAATGCCAGAC   7566
+                     ||  |||     .|||.|||     .||||        |.|||||     
+c141143440-14   7343 AGCTTGGTTCCTTCATCTCT-----AGAGG--------CAAATGC-----   7374
+
+16043782-1605   7567 TCTGGCAGTGGG-TGCATGGCC--GGCACCCTCTTTCTCTCTAGGACACT   7613
+                        .||.||||| |.||  |||  |||||||   ||.|||||||||..||
+c141143440-14   7375 ---TGCCGTGGGCTCCA--GCCTGGGCACCC---TTTTCTCTAGGAACCT   7416
+
+16043782-1605   7614 CCCCTGTCCCATGTCC-TGTCCTCCCTTGTCCACGCCTTGCCCAGCAGCC   7662
+                     ||||.|.|||.||.|| ||||||||..|||                .||.
+c141143440-14   7417 CCCCCGCCCCCTGCCCATGTCCTCCTGTGT----------------TGCT   7450
+
+16043782-1605   7663 TCTAAC-----CTCTGCCCTGGGCTCCCCACTCCCACAGTTCTGGATGCT   7707
+                     ||||||     ||.||   |||||.|||  |.||||.|||||||||||||
+c141143440-14   7451 TCTAACTCTTGCTGTG---TGGGCACCC--CCCCCATAGTTCTGGATGCT   7495
+
+16043782-1605   7708 GATTCTGGCCACCACCATCCCCATGCCTGCCGGGTACTTCATGCCCATCT   7757
+                     ||||.||||.||||||||||||||.|||||.||.||||||.|||||||||
+c141143440-14   7496 GATTTTGGCAACCACCATCCCCATCCCTGCTGGATACTTCTTGCCCATCT   7545
+
+16043782-1605   7758 TTGTCTATGGTGAGTCTGGGGTCCTGAGGT-TCTGAGAGTTTCGGGGTTC   7806
+                     ||.||||||||.||.||||.|||||| |.| |||||||      |||||.
+c141143440-14   7546 TTATCTATGGTAAGACTGGAGTCCTG-GATGTCTGAGA------GGGTTT   7588
+
+16043782-1605   7807 TTGGGGC--AGGACCATGGCTCCTGGT----TCACCCTCCCCAGGTTGTA   7850
+                     ..|||||  |||| ||||.||.|.|||    ||.|||||||.|.||.|||
+c141143440-14   7589 GGGGGGCATAGGA-CATGACTTCCGGTATCATCTCCCTCCCAAAGTGGTA   7637
+
+16043782-1605   7851 CTGAGGA--CGGTCCTCAGGGATGGAGGG-CTGTGGGGGCCGGGTCAGCC   7897
+                     |.|.|||  .||||    ||||| ||||| ||| .||||.|.||||||||
+c141143440-14   7638 CCGGGGATGGGGTC----GGGAT-GAGGGCCTG-AGGGGTCAGGTCAGCC   7681
+
+16043782-1605   7898 TGGCTCC--CCCTCACCCTAAGTCTGTGGCCAGGAGCTGCTATCGGGCGC   7945
+                     |||.|.|  |..|||.|||||.||||||| |||||||||..||.||||||
+c141143440-14   7682 TGGTTGCTTCATTCATCCTAAATCTGTGG-CAGGAGCTGTCATTGGGCGC   7730
+
+16043782-1605   7946 CTCTTTGGGGAGACTCTCTCTTTTATCTTCCCTGAGGGCATCGTGGCTGG   7995
+                     ||||||||||||..|||.|||.|...||||||.||||||||.||||||||
+c141143440-14   7731 CTCTTTGGGGAGGTTCTATCTGTCGCCTTCCCAGAGGGCATTGTGGCTGG   7780
+
+16043782-1605   7996 AGGGATCACCAATCCCATCATGCCAGGGGGGTATGCTCTGGCAGGTGAGT   8045
+                     |||.|....|||||||||||||||.||||..|||||||||||||||||||
+c141143440-14   7781 AGGCAGGGTCAATCCCATCATGCCCGGGGCCTATGCTCTGGCAGGTGAGT   7830
+
+16043782-1605   8046 GGGTCAGGGGCCTGCTGCGTGGGCAATGTCGTGCGGCTGGGCTGGACCTG   8095
+                     |..||.||||||                                      
+c141143440-14   7831 GTATCTGGGGCC--------------------------------------   7842
+
+16043782-1605   8096 GAGAATTGGCTGGTGGTTCCCCAGGGCACGGAGCAGTCACTGAGTCCTCC   8145
+                            .||.|||||.|||||    |.|               |||| |
+c141143440-14   7843 -------AGCAGGTGGGTCCCC----CCC---------------TCCT-C   7865
+
+16043782-1605   8146 AGTGAACCCCCTACCCCTCATGGGGGTCTGTCCCTCCTGAGCCCCACCAT   8195
+                     |||...||||               ||||.|.|  |||||||||.|||| 
+c141143440-14   7866 AGTAGGCCCC---------------GTCTATTC--CCTGAGCCCTACCA-   7897
+
+16043782-1605   8196 TCCCCGGGGCCC---ATCACTCCCTCGTGGCTCCTGTCCCCAGCCCTGCG   8242
+                      ||||...||||   .||.||   |||| ..|||| ||||...|||..||
+c141143440-14   7898 -CCCCCAAGCCCGCTTTCTCT---TCGT-TTTCCT-TCCCATCCCCCACG   7941
+
+16043782-1605   8243 GCCTCCCTTATCCCTCTCCTCTCACCAAGCCCAGGCACTGGGCACTTCCC   8292
+                     ..||  ||...|.||.|||||||..||||.|.| |.||      |||||.
+c141143440-14   7942 TGCT--CTGCACTCTTTCCTCTCGGCAAGGCTA-GAAC------CTTCCA   7982
+
+16043782-1605   8293 ACAGTGCCCAGGCTGTGG-----CCTCTTACAAAT---CACACCTTAGC-   8333
+                     |||||        |||||     .|||||     |   |||..||.||| 
+c141143440-14   7983 ACAGT--------TGTGGTGTGTGCTCTT-----TGTGCACTGCTGAGCC   8019
+
+16043782-1605   8334 ---CCCTGGTCGCAGCCGTGCCAGCCTTGCCCTAACAT----GAGGCTGG   8376
+                        ||..||||||| |.|||||..|||||||||   .|    |||.||||
+c141143440-14   8020 TAACCACGGTCGCA-CTGTGCCTACCTTGCCCT---CTGGGGGAGCCTGG   8065
+
+16043782-1605   8377 CCCCTGGCCTGAG-------CTGCCCTGCCTGACTCTGCCCTTGCAGGGG   8419
+                     |.|||||||||.|       |..|||..|.||.||.||.||.||||||.|
+c141143440-14   8066 CTCCTGGCCTGGGACACCCCCCCCCCACCTTGGCTGTGTCCCTGCAGGTG   8115
+
+16043782-1605   8420 CTGCAGCCTTCTCAGGGGCTGTGACCCACACCATCTCCACGGCGCTGCTG   8469
+                     ||||.||||||||||||||.||||||||||||.||||||||||.||||||
+c141143440-14   8116 CTGCTGCCTTCTCAGGGGCGGTGACCCACACCCTCTCCACGGCACTGCTG   8165
+
+16043782-1605   8470 GCCTTCGAGGTGACCGGCCAGATAGTGCATGCACTGCCCGTGCTGATGGC   8519
+                     |||||.|||||.||.||||||.|.||.||.||||||||.|||||||||||
+c141143440-14   8166 GCCTTTGAGGTAACGGGCCAGCTCGTTCACGCACTGCCTGTGCTGATGGC   8215
+
+16043782-1605   8520 GGTGCTGGCAGCCAACGCCATTGCACAGAGCTGCCAGCCCTCCTTCTATG   8569
+                     .||||||||.|||||||||||..|.|||||||.|||||||||.|||||.|
+c141143440-14   8216 TGTGCTGGCGGCCAACGCCATCTCTCAGAGCTTCCAGCCCTCTTTCTACG   8265
+
+16043782-1605   8570 ATGGCACCGTCATTGTCAAGAAGCTGCCATACCTGCCACGGATTCTGGGC   8619
+                     ||||||||.|||||||||||||.|||||.||||||||..||||.|..|||
+c141143440-14   8266 ATGGCACCATCATTGTCAAGAAACTGCCGTACCTGCCGTGGATCCGTGGC   8315
+
+16043782-1605   8620 CGCAACATCGGGTGAGTGGTGCCCACCTCAGGCTGACTGAAGGGGGT---   8666
+                     ||..|.||.|||||||         ||||.|||||.||| |.||.||   
+c141143440-14   8316 CGACAGATTGGGTGAG---------CCTCGGGCTGGCTG-ATGGTGTGAT   8355
+
+16043782-1605   8667 ------CACAGTGTTTGGGAAGGGCTGGGGTGAAGGG-CACCTCGAAAAA   8709
+                           ||..|||.|||         ||||||.|||| |.|||.||||| 
+c141143440-14   8356 GATGCCCAGGGTGGTTG---------GGGGTGGAGGGACTCCTGGAAAA-   8395
+
+16043782-1605   8710 GAAACG-CCACCGTAGCTGACCTCGGAC------ATG--GGGGCTGACAC   8750
+                          | |||.|..|||||||||.|.||      |||  .|||||||.||
+c141143440-14   8396 -----GCCCATCACAGCTGACCTTGAACTGTAGGATGATAGGGCTGATAC   8440
+
+16043782-1605   8751 ACAGCTGTGCTCTGTTCTCCAC----TCTCCCCAGTGCCCCGGGTGACCT   8796
+                     |||.|.|..|||||.||.||||    || |||||  ||||   .|||.||
+c141143440-14   8441 ACACCCGCCCTCTGGTCCCCACAACATC-CCCCA--GCCC---ATGAGCT   8484
+
+16043782-1605   8797 ---TGGGCAAGTCCTTGGCCTTGAGGCCTCAGTGTCTGTCTAGGGGTCAG   8843
+                        ||...|||                ||.|||.|||||| |||   || 
+c141143440-14   8485 AGATGAAGAAG----------------CTAAGTCTCTGTC-AGG---CA-   8513
+
+16043782-1605   8844 CTGGGCTTCACAGCAGGAGGATGAGTATTGCCCCGTGTACAGATTGAGGA   8893
+                                      |||.|||                     .||||
+c141143440-14   8514 -----------------AGGCTGA---------------------TAGGA   8525
+
+16043782-1605   8894 AACCGGGGCTCAGAGAGGTGCCGTGTCTTGCTCCAGGTGACACAGAGAGT   8943
+                     ||                                               |
+c141143440-14   8526 AA-----------------------------------------------T   8528
+
+16043782-1605   8944 CAGCACCAGATCCGAGAGGTCTCCTCCCCTCTC---CCCACTCCTGCTGT   8990
+                     .||||.||||...|||.||      ||||||||   |||.|.|||.||  
+c141143440-14   8529 GAGCAACAGACAGGAGGGG------CCCCTCTCTTTCCCTCCCCTTCT--   8570
+
+16043782-1605   8991 CCTTGCTGGGACTTTGGGAGCAGGAGGTGGAACGAGAATGGAAATGGGCT   9040
+                          |||                             ||       ||||
+c141143440-14   8571 -----CTG-----------------------------AT-------GGCT   8579
+
+16043782-1605   9041 TTGAGGTCTTCACTCAACCAGATAGGACCAGAGCAGCTTCTGGCACCAGA   9090
+                     |                ||.|.|||              |||.| |||  
+c141143440-14   8580 T----------------CCTGGTAG--------------CTGTC-CCA--   8596
+
+16043782-1605   9091 AAAGCAGACCAAAGAGGCTCTGAGAGTCCCTGGGTCTGAGGCCCCGCTGA   9140
+                              ||||..|||||.||||                ||||     
+c141143440-14   8597 ---------CAAATGGGCTCAGAGA----------------CCCC-----   8616
+
+16043782-1605   9141 AAACACAAGCAAGCTGCTGCCTTGCTCTGAACCCGTTT---CCCTA-TCT   9186
+                                       .|||||.||.||      ||   ||||| |.|
+c141143440-14   8617 ------------------ACCTTGATCGGA------TTGTACCCTAGTAT   8642
+
+16043782-1605   9187 GGAAAATGGGGCTGCTTACCCCAGTGGTTTCCAGACTTTCAAGTTTTTTT   9236
+                                   |||       ||| |.|||       ||||      
+c141143440-14   8643 --------------CTT-------TGG-TCCCA-------AAGT------   8657
+
+16043782-1605   9237 CCCTGGGGGAGGCATATACTTTTTTTTTTTTGAGATGGAATCTCACTCTG   9286
+                               ||||.|                                  
+c141143440-14   8658 ----------GGCACA----------------------------------   8663
+
+16043782-1605   9287 TTTCACAGGCTGGAGTGCAGTGGCACAATCTCAGTCACTGCAACCTCAAC   9336
+                     |.|||.|||||..|    |||            |||||||  |.|.|||.
+c141143440-14   8664 TCTCAAAGGCTCCA----AGT------------GTCACTG--AACACAAG   8695
+
+16043782-1605   9337 CTCCCAGGTTCAAGCAATTCTTCTGCCTCAGCCTCCCA------AG-TAG   9379
+                     .| ||||.|.|||.||||       ||||||..|||||      || |||
+c141143440-14   8696 GT-CCAGCTCCAAACAAT-------CCTCAGTTTCCCAGTCTTTAGATAG   8737
+
+16043782-1605   9380 CTCAGACCAGGCATGTGCCACCATGCCCA--GATTATTTTTGTAATTTTA   9427
+                     |            ||||     .|.||||  |.||.|||||.||      
+c141143440-14   8738 C------------TGTG-----GTTCCCATCGCTTCTTTTTTTA------   8764
+
+16043782-1605   9428 GTGGAGACGGGGTTTCACCACGTCAGCCAGGCTAGTCTTGAATTCCTGGC   9477
+                                                            |||  |||   
+c141143440-14   8765 ---------------------------------------GAA--CCT---   8770
+
+16043782-1605   9478 ATCAAGTGATCCACCTGGCTTGGCCTC----CCAAAGTGCTGGGATTACA   9523
+                                   .|||.||  ||||    |||||              
+c141143440-14   8771 --------------ATGGGTT--CCTCTGAACCAAA--------------   8790
+
+16043782-1605   9524 GGCGTGAGCCACCGTGCCCAGCCGCATATACTTTTTACTCAAATTAAATC   9573
+                                     |||                            |||
+c141143440-14   8791 ----------------CCC----------------------------ATC   8796
+
+16043782-1605   9574 CTCCAGGGAAGGCTGCTGGGTAAAACAGGCTAAAGTGGAGCTGGTCTGGG   9623
+                     ||              ||||                              
+c141143440-14   8797 CT--------------TGGG------------------------------   8802
+
+16043782-1605   9624 GGACACGGGGGTCCAGGGGGCTGGGAATTCGCAACTGGGTCATCGGCGAT   9673
+                                               |.||.||    ||||.||      
+c141143440-14   8803 --------------------------ACTCACA----GGTCTTC------   8816
+
+16043782-1605   9674 GTGGTCCC--CAGGTTTCCTCTCACCGTGGGTTCTAGGAGTCCCTCATTC   9721
+                         ||||  ||.|..||||       ||||                   
+c141143440-14   8817 ----TCCCAGCAAGGCTCCT-------TGGG-------------------   8836
+
+16043782-1605   9722 CAGGAACCTCTCCGGCCCTGCCCACACTCCAGAGCCGTGGGTCCCCGGT-   9770
+                      |.||.|||.||..|||           ||||           .||||| 
+c141143440-14   8837 -ATGACCCTGTCTTGCC-----------CCAG-----------GCCGGTA   8863
+
+16043782-1605   9771 TCAAGCAAAGCTCCCCACAGATCCCCCTGCCAGCCTGGGTCTCACATCCC   9820
+                     ||                  |||||..|.||||              .||
+c141143440-14   8864 TC------------------ATCCCATTTCCAG--------------GCC   8881
+
+16043782-1605   9821 TGACTGTGGGGCCTGATGGGAGC-CCCTCTGCCTGCAGTTCCCACCGCGT   9869
+                     |||         ||||||   .| |||||||||..||||||||||...||
+c141143440-14   8882 TGA---------CTGATG---TCTCCCTCTGCCCACAGTTCCCACTCTGT   8919
+
+16043782-1605   9870 GAGGGTGGAGCACTTCATGAACCACAGCATCACCACACTGGCCAAGGACA   9919
+                     .|..||||..||||||||||||..|..|.||||.||||||||||||||||
+c141143440-14   8920 AACTGTGGGTCACTTCATGAACTGCGCCCTCACTACACTGGCCAAGGACA   8969
+
+16043782-1605   9920 TGCCACTGGAGGAGGTGGTCAAGGTTGTGACCTCCACAGACGTGGCCAAG   9969
+                     ||||.||||||.|.|||.||.|.||.||||.|||||||||.|||.||.||
+c141143440-14   8970 TGCCCCTGGAGCAAGTGATCCAAGTCGTGATCTCCACAGATGTGACCCAG   9019
+
+16043782-1605   9970 TATCCCCTGGTGGAGAGCACAGG---TGCCCAGCCGGAAGGGAGGAGGAA  10016
+                     ||.|||||||||||||..|||||   |.|.|||||   |..||||||.||
+c141143440-14   9020 TACCCCCTGGTGGAGACTACAGGTATTCCACAGCC---ATTGAGGAGAAA   9066
+
+16043782-1605  10017 GT-------CGGGGGTAG-----GGGATGCCCTCTGCCTCCTTCTTGAA-  10053
+                     ||       .|||.|.||     |||.|.|||.||||.|||  |||.|| 
+c141143440-14   9067 GTGGCTGTCTGGGAGGAGGCTTTGGGCTTCCCCCTGCTTCC--CTTTAAG   9114
+
+16043782-1605  10054 -------CCTGTCA-GGCAGACAG----------------GATCTG----  10075
+                            |.||||| |||||..||                ||||||    
+c141143440-14   9115 GGCCCCGCGTGTCAGGGCAGCAAGGGCAAGCAGGGTGTTAGATCTGTCCC   9164
+
+16043782-1605  10076 --CATCCAGGCTCTGTGACTTAGCAACCAACCGTGTGACCTTGGGCAAGT  10123
+                       .|||.||.|||||..||||.|    .|.|.||||||||..||||||||
+c141143440-14   9165 TTAATCGAGACTCTGCAACTTGG----TAGCTGTGTGACCCAGGGCAAGT   9210
+
+16043782-1605  10124 CACATCA----CCTGAGCCTCAGTTTCCTCATCAGT----AAAATGGAAA  10165
+                     |.|.|.|    .||||||..|||||||.||    ||    ||||||||..
+c141143440-14   9211 CTCCTAATTTCTCTGAGCTCCAGTTTCTTC----GTGGAGAAAATGGACC   9256
+
+16043782-1605  10166 TCATGGCCACCCTCCCTT-------------------GGGGTGGTTGACA  10196
+                     ..||.||||      |||                   ||||||      |
+c141143440-14   9257 CAATAGCCA------CTTCTGGAGAAAGTAGAAAGTAGGGGTG------A   9294
+
+16043782-1605  10197 TGT-CT-------AAAGA-GAGTCGGCCGGGTGCTTGTAAGGCAGTCCCT  10237
+                     ||| ||       ||||| |||      .||||||||||||  |.|.|||
+c141143440-14   9295 TGTGCTTAATGAAAAAGATGAG------AGGTGCTTGTAAG--ACTGCCT   9336
+
+16043782-1605  10238 GGGCA---GCTGCTGGGGT-----------AGGAGCATGGG--GACAC--  10269
+                     ||| |   |||..|.||.|           ||...||||||  |||.|  
+c141143440-14   9337 GGG-ACTGGCTCTTTGGATTCCTGGACCCAAGCCTCATGGGCTGACTCTT   9385
+
+16043782-1605  10270 CA----CCAGGGTCTTCCGGAAGCTTCCCTTCAGGCCTCCCTTTAAGCAT  10315
+                     ||    ||.|.||.||||       ||||  |.|.||.|||         
+c141143440-14   9386 CACATTCCTGAGTGTTCC-------TCCC--CCGCCCCCCC---------   9417
+
+16043782-1605  10316 TCCCCAGATGAGTCCCCTCCTCCAAATCCTTGTTGCCACAAGGAAAACAT  10365
+                      |||         ||.||..||||       .||||||..|.||...|||
+c141143440-14   9418 -CCC---------CCGCTGTTCCA-------TTTGCCAAGATGAGCTCAT   9450
+
+16043782-1605  10366 CTCTTTAGAGACAAAAGCATGGTGGCTCTTGTTAAAAGGCATGGAACTCA  10415
+                     |..||||.||.||.|||.||||| |||        |||       .||||
+c141143440-14   9451 CCTTTTAAAGGCAGAAGGATGGT-GCT--------AAG-------TCTCA   9484
+
+16043782-1605  10416 CTTCTTG-CAGAAACCTTAACTAGAGCGTCATTTCCTGTGGGTACAAGTC  10464
+                           | .|||.||  ||||  |||||.|    |||          .||
+c141143440-14   9485 ------GAGAGAGAC--TAAC--GAGCGCC----CCT----------CTC   9510
+
+16043782-1605  10465 CAGTATC----TGCAT-----TTA------GAAGATAAGGCGGGGTTGGG  10499
+                     |||| ||    .||.|     |||      |.|||| ||.|..|||.|||
+c141143440-14   9511 CAGT-TCACAGAGCGTGGTCCTTATGGGAGGGAGAT-AGCCCAGGTAGGG   9558
+
+16043782-1605  10500 GGGTAACCCTGCTCACTCAAG--------GCTGCTGTCAGCCCATGTGTC  10541
+                     |.|.|     |||..||.|||        ||..|||||...||.||||||
+c141143440-14   9559 GAGGA-----GCTACCTGAAGCTCCCGGAGCACCTGTCCATCCGTGTGTC   9603
+
+16043782-1605  10542 CCC-CTGTGCAAGTGAGACAAGCTGCACAC-----CTGGCAAGCACACCA  10585
+                     ||| ||||||.|...||.||.|.|||||||     |.||..||||     
+c141143440-14   9604 CCCTCTGTGCCAACAAGGCAGGGTGCACACTCAGTCAGGGTAGCA-----   9648
+
+16043782-1605  10586 CAGCTGGATTTTGGTCT-----CCACTTGCACTTTGGGCAGGCACCTTGT  10630
+                        |||  ||..||.||     |||.|||| |.||||||||.|..||||.
+c141143440-14   9649 ---CTG--TTGGGGCCTGTGACCCATTTGC-CCTTGGGCAGACCACTTGA   9692
+
+16043782-1605  10631 GCAGTGAGCAACCTGTACAACCATATGGGTCACCCCTATG-CCCACCCCA  10679
+                     ||.|||||||||.||.|||||||   .||||||||.|||| |||||..|.
+c141143440-14   9693 GCCGTGAGCAACATGAACAACCA---AGGTCACCCATATGCCCCACAGCG   9739
+
+16043782-1605  10680 AGAGGGATAAGGCCATTTATGAGCTAAAGAAC--TGTGAGTATACCACTT  10727
+                     ||..|.||||...||..||||||..|||||||  ||||..|    |.|||
+c141143440-14   9740 AGCAGAATAAACTCACCTATGAGGGAAAGAACCTTGTGGTT----CTCTT   9785
+
+16043782-1605  10728 AAGCTCTATGTACTGCATTTTCATCATCTTGAAAGTAGGGATCAAGAG--  10775
+                     ..||||||||..|.|||.|.||.|..|.|.|||||||||    |||.|  
+c141143440-14   9786 GGGCTCTATGACCGGCAGTGTCCTTGTGTGGAAAGTAGG----AAGGGCC   9831
+
+16043782-1605  10776 AGTATAGGATTGCCAGACGTTCTCACTCCAAATGCTAGGCCCTTCTTTCC  10825
+                     |..||||| ||||||           .|||||.|..|||..||||  .|.
+c141143440-14   9832 ATCATAGG-TTGCCA-----------CCCAAACGTCAGGGACTTC--GCT   9867
+
+16043782-1605  10826 CCCACTAACTGGAAGACCGTT---AGCATTATGCTGTGGAATATGCCAAA  10872
+                     |.|||.|| |||.|||  |.|   ||||           ||     ||.|
+c141143440-14   9868 CTCACCAA-TGGGAGA--GATCACAGCA-----------AA-----CACA   9898
+
+16043782-1605  10873 TAT----CTCATCTGAAAATGTTTGCATTCGGATGACCCCACCAAGAGCC  10918
+                     |.|    ||.||         |||.|||...||||.|||..|||||||.|
+c141143440-14   9899 TTTTCTACTTAT---------TTTACATAGCGATGGCCCTTCCAAGAGGC   9939
+
+16043782-1605  10919 TTCACTTCCTGGATCAAAGAA------AGAACTAGCCTCAAA-------G  10955
+                     |||||.||||.||.|.|||||      .|.|||  ||.||.|       |
+c141143440-14   9940 TTCACCTCCTAGAACCAAGAATGGCTTTGGACT--CCGCACATCTCCCTG   9987
+
+16043782-1605  10956 ACAAAGA---CAAAGTCCTCTTTTACCCTCAGAGCCACAGCAAAGTGCTC  11002
+                     || .|||   ||.||.|      |||||| |||     |.||||     |
+c141143440-14   9988 AC-TAGATTCCACAGCC------TACCCT-AGA-----AACAAA-----C  10019
+
+16043782-1605  11003 CA-------ACCAACACAGGCCCAGGCTGTGGGACCCCACTGCT------  11039
+                     ||       |..||   |||   |||  |.||||   ||||.||      
+c141143440-14  10020 CACTGGTTTATTAA---AGG---AGG--GAGGGA---CACTTCTATTGTA  10058
+
+16043782-1605  11040 -CA-------CCCAAGAAATAGCCT---TCAGTGTTCATTTAAAAGGGAA  11078
+                      ||       .|||||        |   ||.|||.|         ||.||
+c141143440-14  10059 GCATTTGGTTACCAAG--------TGTGTCTGTGGT---------GGCAA  10091
+
+16043782-1605  11079 GG----------GGG-----ACAT-------------------------T  11088
+                     ||          |||     ||||                         |
+c141143440-14  10092 GGACTGAATTCAGGGCCAGCACATGCTAAGCAAGCCCTCCGCTACTGAGT  10141
+
+16043782-1605  11089 TAT----ATGTCTAGGTGTC---AAGTTTTTATTCCACTCAA--CAGAAA  11129
+                     .||    |||.|||   |||   ..|.||||||     |.||  .|||||
+c141143440-14  10142 GATAGCCATGCCTA---GTCCCTGGGGTTTTAT-----TTAATGGAGAAA  10183
+
+16043782-1605  11130 GCAAAAACACCAAGCTGGGCCCTCA---AAACTAAATATCCG---ACAAT  11173
+                     |  |.||.|.||||||||..|||.|   ||   .|||    |   |.|||
+c141143440-14  10184 G--AGAATATCAAGCTGGATCCTTAGTGAA---GAAT----GGGAAGAAT  10224
+
+16043782-1605  11174 GCC----ATT-----GATGCCCCAGGG---------CCAGAGTGAA----  11201
+                     |||    |.|     |||||||   ||         |||   ||.|    
+c141143440-14  10225 GCCTACGACTCTCAAGATGCCC---GGAAACTCCCTCCA---TGCATCCA  10268
+
+16043782-1605  11202 -----------GTTGCCAAG---GCCCCAGCACACAGTAGGACCTCAGAA  11237
+                                ||..|||.|   |||||.|||||||||||||.||||||.
+c141143440-14  10269 GGCTATTCCCTGTATCCACGCTAGCCCCGGCACACAGTAGGATCTCAGAT  10318
+
+16043782-1605  11238 CACAGTGT-CCTCCTGGGTTCACACCTT----CACTGTGCTGCGCCAAAT  11282
+                     ...||||| ||| |||||.|||    ||    ||.||..|||...||.||
+c141143440-14  10319 TGGAGTGTACCT-CTGGGATCA----TTTTTCCATTGACCTGACTCAGAT  10363
+
+16043782-1605  11283 GTGAAGCCTCT---TGGGAAATGAAGGAGAA----AGCCCAGCCCTGACA  11325
+                     .|.||.|..||   .||||||...||.||||    ||||||||..|||||
+c141143440-14  10364 TTTAAACAACTGCAAGGGAAACAGAGAAGAAGGACAGCCCAGCTGTGACA  10413
+
+16043782-1605  11326 CACAGACTTCATCGTGCTGGCGTCCCTAGCTTGCTCCTGTCTTGAGGCCT  11375
+                     |..|.|..|||....|||...||||.||||||.|.|||          ||
+c141143440-14  10414 CCGATATGTCAAGAGGCTAATGTCCATAGCTTCCACCT----------CT  10453
+
+16043782-1605  11376 TGCAATGTGG-GGGATCTCAGTGGTGGCCAGGG----------TCCCTCC  11414
+                     |..||||||| |||      ||.|.||..||||          |..||.|
+c141143440-14  10454 TAAAATGTGGTGGG------GTTGGGGGTAGGGTGTCTTAGAATATCTGC  10497
+
+16043782-1605  11415 TGGCTCCCTGGCAGCCTCACTCAGC--CATCCTCAGCTACCA--------  11454
+                     ||||.|.|||||.||||.||.||||  ||  |||||||..||        
+c141143440-14  10498 TGGCCCACTGGCTGCCTTACCCAGCTGCA--CTCAGCTGGCATGTCATTA  10545
+
+16043782-1605  11455 ---CACCTGAATGACCTTGGGCAAGACAATTAGCCTCTCTGTGCCTCTGA  11501
+                        .|.|||||||...|.|.|.|  |||||||.||...|          |
+c141143440-14  10546 TGGAAGCTGAATGGTATAGAGTA--ACAATTAACCCACC----------A  10583
+
+16043782-1605  11502 GCCAA--AGTTTCCTGTCCTTTATAATGGGTGACAATAGT----------  11539
+                     |..||  ||||||||.|.||.||...||||||..||.|.|          
+c141143440-14  10584 GATAACCAGTTTCCTCTTCTGTAAGCTGGGTGGTAAGAATTCTAACAGAT  10633
+
+16043782-1605  11540 ----CACAA-TAG--------CCCCATAGGAACACCAGAAC--------A  11568
+                         ||||| |||        ||.||    .||||||||.|        .
+c141143440-14  10634 CACACACAAGTAGTGTAGTTTCCTCA----GACACCAGAGCGCCTAGCAT  10679
+
+16043782-1605  11569 GTTCTTGGCTA---AGTAGGTGCTAAGTAAATGTGA--------------  11601
+                     ||||||||| |   ||||||||||.|||.|||.|||              
+c141143440-14  10680 GTTCTTGGC-ACATAGTAGGTGCTCAGTGAATATGACTTACATTTATAAT  10728
+
+16043782-1605  11602 -GTCCCTGTTTCCTCCTAATGTGCCTCCCTCTGGCTGTCTCTCCACT---  11647
+                      .||..|||    ||.|||  |||.||||||      |||||    |   
+c141143440-14  10729 GATCTATGT----TCATAA--TGCGTCCCTC------TCTCT----TTGA  10762
+
+16043782-1605  11648 -TGCCAGAGTCCCAGATCCTGGTGGGCATAGTGCGAAGGGCCCAGCTGGT  11696
+                      ||..||||||.||||.||||||||||.|.||...||||.||||..||||
+c141143440-14  10763 ATGTTAGAGTCTCAGACCCTGGTGGGCGTTGTAAAAAGGACCCACTTGGT  10812
+
+16043782-1605  11697 GCAGGCCCTGAAGGCTGAGCCTCCTTCCTGGGCTCCTGGACACCAGGTGG  11746
+                     |||.|||||..||.|||||||..|||||||||||||.||.||.|||||||
+c141143440-14  10813 GCAAGCCCTCCAGACTGAGCCAGCTTCCTGGGCTCCAGGCCAGCAGGTGG  10862
+
+16043782-1605  11747 GTACTCCT----GAGGGG--CATGGGGATGGGGCGGGGGTGGGTCAGCAG  11790
+                     ||.|||||    ||||||  ||   ||||      ||.||.|||.|||.|
+c141143440-14  10863 GTCCTCCTGCCAGAGGGGGACA---GGAT------GGAGTTGGTGAGCTG  10903
+
+16043782-1605  11791 GAATGGGAGGAGAGGGGCCCGCTGATATCCTGAGGGAGAGGTGGTCAGAG  11840
+                     |..||.||           .|||||   |||     |||||.|.||||||
+c141143440-14  10904 GGCTGTGA-----------AGCTGA---CCT-----AGAGGAGTTCAGAG  10934
+
+16043782-1605  11841 A--GAGGCATC------CTGGGGAGGCCAGCCCTG----CACCTGTAACC  11878
+                     |  .|||  ||      ||  ||.|||..||||.|    ||..|||   |
+c141143440-14  10935 ACCAAGG--TCTAGAAGCT--GGTGGCTGGCCCAGGTCCCAATTGT---C  10977
+
+16043782-1605  11879 CTT--CCCCACCCCCAGCAGTGTCTCCAGGACATCTTGGCTGCAGGCTGC  11926
+                     |||  |||.|||||||||..|||||||||||.|||||||||...||||||
+c141143440-14  10978 CTTTGCCCTACCCCCAGCCCTGTCTCCAGGATATCTTGGCTAATGGCTGC  11027
+
+16043782-1605  11927 CCCACAGAACCAGTGACCCTGAAGCTGTCCCCAGAGACTTCCCTGCATGA  11976
+                     |||||..|.||||||||.|||.|||||||||..|||||.|||.|||||||
+c141143440-14  11028 CCCACCCAGCCAGTGACACTGCAGCTGTCCCTGGAGACCTCCTTGCATGA  11077
+
+16043782-1605  11977 GGTAACGGGGAGAACTGGGGAGTGTGACACATGAGGCCTCTGGGTGGGGG  12026
+                     ||||| .|.|||||||.|.|||.|||               |||||    
+c141143440-14  11078 GGTAA-AGAGAGAACTAGAGAGAGTG---------------GGGTG----  11107
+
+16043782-1605  12027 AAGAGCTGATGAGGAGCTCACGCTCCAGCCTCCCCTCCCAACCCCGCCCT  12076
+                       |||.||  ||||                                    
+c141143440-14  11108 --GAGGTG--GAGG------------------------------------  11117
+
+16043782-1605  12077 GCCCGTCTTATGCTGCTTCCTGCTCCTCCTGGGCCAGTGTCCTCATCAGC  12126
+                        ||||                                           
+c141143440-14  11118 ---CGTC-------------------------------------------  11121
+
+16043782-1605  12127 AGACTGGGCAAAGAAGCTCCTGCCCTGTTGCCCCTCACTGCCAGGGTTGT  12176
+                                                                       
+c141143440-14  11122 --------------------------------------------------  11121
+
+16043782-1605  12177 GGGGATGATGCAGAGAGATGAGGGAAGTGGGAGAGTGGCAAATGTAAATC  12226
+                                      ||||||                           
+c141143440-14  11122 -----------------ATGAGG---------------------------  11127
+
+16043782-1605  12227 TCTGGGTGGAGAAAGACAGTGGAGTTGCACCAAGGCACACGTGCGCTTCA  12276
+                                                    ||||               
+c141143440-14  11128 -------------------------------AAGG---------------  11131
+
+16043782-1605  12277 ATTTCAGGTCCACCGCATTCTCCCTGTGTGATCTTGGACAAACGACTTAA  12326
+                                            ||||.|||||           .|||  
+c141143440-14  11132 -----------------------CTGTATGATC-----------CCTT--  11145
+
+16043782-1605  12327 CCACTCAGGACAGAGCCTGGCACACGGGTTGGGGAGGGGCAGAGGCTGAC  12376
+                                     ||.|||                            
+c141143440-14  11146 ----------------CTAGCA----------------------------  11151
+
+16043782-1605  12377 AGGGGACCTGGAGATGGCCCCGCCCCCTCTGTGCTGCTGGAGGGTGCTGG  12426
+                               ||||           ||||                     
+c141143440-14  11152 ----------GAGA-----------CCTC---------------------  11159
+
+16043782-1605  12427 ATATTAGGTCCTGTTTACCTGCGGCCCCGCCCAGACCCTTGCATGGACTC  12476
+                       |||                          |||...||..|.|||||||
+c141143440-14  11160 --ATT--------------------------CAGCATCTCACGTGGACTC  11181
+
+16043782-1605  12477 TGGCATCCCCC-AGTGGCCACATTGGACATTGCAGGCCTGGGTCTCTTGT  12525
+                     |||| |||||| .||||.||.|||..|||||.||                
+c141143440-14  11182 TGGC-TCCCCCTCGTGGTCATATTTCACATTACA----------------  11214
+
+16043782-1605  12526 CTCCCACACACATCAGGCCCCGCCCCTCTTCCTGGCTCA--GAGGCGTGG  12573
+                      ||||.|.|||  ||||                    ||  |||||    
+c141143440-14  11215 -TCCCGCTCAC--CAGG--------------------CAAGGAGGC----  11237
+
+16043782-1605  12574 T--GGAGTG-GGCTAGAGGG---TGGGCTGGGCACCTTCTACCCTCCAGT  12617
+                     |  ||..|| |||.||||||   ||           ||         ||.
+c141143440-14  11238 TACGGTATGCGGCCAGAGGGGTTTG-----------TT---------AGC  11267
+
+16043782-1605  12618 GTTTCCTAACATCCCCCATCCAGGCACACAACCTCTTTGAGCTGTTGAAC  12667
+                     .||||||..||.||||..|.|||.||||||||||.|||||||||.|||||
+c141143440-14  11268 ATTTCCTCTCAACCCCTCTGCAGACACACAACCTTTTTGAGCTGCTGAAC  11317
+
+16043782-1605  12668 CTTCATTCCCTCTTTGTGACGTCGCGGGGCAGAGCTGTGGGCTGCGTGTC  12717
+                     |||||..|.||.||.||||||||.||.||||||||||||||||..||.||
+c141143440-14  11318 CTTCAGACGCTGTTCGTGACGTCACGAGGCAGAGCTGTGGGCTCTGTATC  11367
+
+16043782-1605  12718 CTGGGTGGAGGTACCAGGGTCCCGGGGGCAGAGCAAAGCAGGGAACCTAT  12767
+                     .|||||||||||||..|||||..|.||||.|.||||.|            
+c141143440-14  11368 GTGGGTGGAGGTACTGGGGTCTTGAGGGCTGGGCAACG------------  11405
+
+16043782-1605  12768 GCCTGAGAAGACTGGGGAGGTGGGGAGGTGGGGTGGGGGGGACACCAGCA  12817
+                                .||.||||.|||||                         
+c141143440-14  11406 -----------TTGAGGAGTTGGGG-------------------------  11419
+
+16043782-1605  12818 TGCTCCCATCCAAACCTGGGGGGATTCAGAGGATACTGATGAGTCCCTCT  12867
+                      ||.||.|                                 |.|||||  
+c141143440-14  11420 -GCACCGA---------------------------------ATTCCCT--  11433
+
+16043782-1605  12868 TCTTGGCCCAGATTGGCCACTGGGCCTGGCTCCCCTACCTTGTTTTCTGG  12917
+                                                                       
+c141143440-14  11434 --------------------------------------------------  11433
+
+16043782-1605  12918 CCAGTGGCCAGCCTGCCCCTCTCGGCCTCAGTGATCCCATCTGTGCAATG  12967
+                            ||||||| |.||||                             
+c141143440-14  11434 -------CCAGCCT-CGCCTC-----------------------------  11446
+
+16043782-1605  12968 GGGTGGCACAGGCTCTACTATTTACCCAGAAACCACCCTTAGGGGAACCA  13017
+                                 |||||  |..|.||     |||.|||            
+c141143440-14  11447 ------------CTCTA--ACCTTCC-----ACCTCCC------------  11465
+
+16043782-1605  13018 AAAATGCTGGAGCCCCCCTCACAACCTCCTCTACATCCCCCCGCACCTCC  13067
+                               ||||||   |||.|  ||||||                  
+c141143440-14  11466 ----------AGCCCC---CACTA--TCCTCT------------------  11482
+
+16043782-1605  13068 ACCCCCTTTCTCTGTTCTAGATGAAGAAAGCAATTTCCAACCTGACAAAT  13117
+                          .|||||||||..|||.||||||||||||||||.|.||||||.|||
+c141143440-14  11483 -----GTTTCTCTGTCATAGCTGAAGAAAGCAATTTCAACCCTGACCAAT  11527
+
+16043782-1605  13118 CCGCCAGCCCCAAAGTGAGCCGGCCCAGCAAGATGAAACAGGGCACCCCA  13167
+                     ||.||.|||||.|||||||.|.|||        ||     |||       
+c141143440-14  11528 CCTCCTGCCCCCAAGTGAGTCAGCC--------TG-----GGG-------  11557
+
+16043782-1605  13168 GCTGACCTGGTACTGAGGTTG---GGCTGAGACCCTGCTTCTCTTCCCCC  13214
+                                   |.|||.|   |.|||..||||.|||           
+c141143440-14  11558 --------------GGGGTCGGCAGCCTGGCACCCAGCT-----------  11582
+
+16043782-1605  13215 ATCACCACCTGCCCCTCCCTCCAGCCCAGCT-CCATTCTTTGGCATAACA  13263
+                                            ||.||||| ||||              
+c141143440-14  11583 -----------------------GCTCAGCTGCCAT--------------  11595
+
+16043782-1605  13264 GGCAACTTTAACCTAGCCCAGAAGAGGATGGCTCATCCTGGGTGGGACGA  13313
+                                              ||||        ||||       ||
+c141143440-14  11596 -------------------------GGAT--------CTGG-------GA  11605
+
+16043782-1605  13314 TGGCTC-CTGCCTTGAAAGACAAAAATC-CCACCTTGGGCAGAGCTGAGT  13361
+                     |  ||| |.|||..|.|||||    ||| ||||  |..|||         
+c141143440-14  11606 T--CTCTCAGCCCGGCAAGAC----ATCTCCAC--TCAGCA---------  11638
+
+16043782-1605  13362 GTGAGAAGATGGAAAA----CCAGTATCTGCCAGTTGCTCAGTGACTGGC  13407
+                       ||||||      ||    ||| |||           |||  .|||  |
+c141143440-14  11639 --GAGAAG------AACGCTCCA-TAT-----------TCA--CACT--C  11664
+
+16043782-1605  13408 C-ATCACATTAATGAATGA--TGAG----ATTGGAGTACACTGTCACCAA  13450
+                     | |||.|     ||||.||  ||||    |.||.|| |||.|||.|||  
+c141143440-14  11665 CGATCCC-----TGAAGGAGCTGAGAGTAAATGAAG-ACATTGTGACC--  11706
+
+16043782-1605  13451 GGGCAGGCACAGATGCCTTCTGGGGTTGTCTGGTTC---CCAGTGAGAGG  13497
+                              |...||.||||||||||||.|||.|.|   |||| ||   |
+c141143440-14  11707 ---------CTTGTGACTTCTGGGGTTGCCTGCTGCTAACCAG-GA---G  11743
+
+16043782-1605  13498 CTCCTGAGAAAAATAAAGCTG--GTTCCCAGAGCTGGTGTCCATCCCTCA  13545
+                     ||.||||||||||||||.|||  ||        ||||.            
+c141143440-14  11744 CTTCTGAGAAAAATAAAACTGATGT--------CTGGA------------  11773
+
+
+#---------------------------------------
+#---------------------------------------
